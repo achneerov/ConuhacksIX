@@ -38,7 +38,7 @@ const Header = () => {
             </button>
             <a href="/" className="flex items-center">
               <img
-                src="/images/suunlifeicon_large_trans.png"
+                src="./images/suunlifeicon_large_trans.png"
                 alt="Sun Life logo"
                 className="h-10"
               />
