@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from "react";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // Initialize Gemini
@@ -11,101 +11,104 @@ interface Message {
 
 const Chatbot: React.FC = () => {
   const [messages, setMessages] = useState<Message[]>([
-    { text: "Hello! How can I help you today?", isBot: true }
+    { text: "Hello! How can I help you today?", isBot: true },
   ]);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const chatContainerRef = useRef<HTMLDivElement>(null); // Ref for chat container
 
   const generateResponse = async (userInput: string) => {
     try {
-      // Get the model
       const model = genAI.getGenerativeModel({ model: "gemini-pro" });
       console.log("model found");
-  
-      // Start a chat
+
       const chat = model.startChat({
         history: [
-          { role: "user", parts: [{ text: userInput }] },  // Add the user's current message here
-          ...messages.map(msg => ({
+          { role: "user", parts: [{ text: userInput }] },
+          ...messages.map((msg) => ({
             role: msg.isBot ? "model" : "user",
             parts: [{ text: msg.text }],
           })),
         ],
       });
-  
-      // Send message and get response
+
       const result = await chat.sendMessage(userInput);
       const response = await result.response;
-      const text = response.text();
-  
-      return text;
+      return response.text();
     } catch (error) {
-      console.error('Error generating response:', error);
+      console.error("Error generating response:", error);
       return "I apologize, but I'm having trouble processing your request right now.";
     }
   };
-  
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!input.trim()) return;
-    
-    // Add user message
+
     const userMessage = { text: input, isBot: false };
-    setMessages(prev => [...prev, userMessage]);
+    setMessages((prev) => [...prev, userMessage]);
     setInput("");
-    
-    // Generate and add bot response
+
     setIsLoading(true);
     try {
       const response = await generateResponse(input);
-      setMessages(prev => [...prev, { text: response, isBot: true }]);
+      setMessages((prev) => [...prev, { text: response, isBot: true }]);
     } catch (error) {
-      console.error('Error:', error);
+      console.error("Error:", error);
     } finally {
       setIsLoading(false);
     }
   };
 
+  // Auto-scroll to the bottom when messages update
+  useEffect(() => {
+    if (chatContainerRef.current) {
+      chatContainerRef.current.scrollTop = chatContainerRef.current.scrollHeight;
+    }
+  }, [messages]);
+
   return (
     <div className="bg-gray-100 p-6 rounded-lg flex flex-col h-full max-h-[500px]">
-      {/* Chatbot header with icon */}
       <div className="flex items-center gap-2 mb-4">
-        <img src="./images/sunlifeIcon.png" alt=":(" className="w-8 h-8 rounded-full bg-gray-300" />
+        <img
+          src="./images/sunlifeIcon.png"
+          alt=":("
+          className="w-8 h-8 rounded-full bg-gray-300"
+        />
         <h2 className="text-xl font-bold">SunBot</h2>
       </div>
 
-      {/* Chat messages */}
-      <div className="h-64 space-y-4 overflow-y-auto mb-4">
+      {/* Chat messages container */}
+      <div
+        ref={chatContainerRef}
+        className="h-64 space-y-4 overflow-y-auto mb-4"
+      >
         {messages.map((msg, idx) => (
           <div
             key={idx}
             className={`p-3 rounded-lg ${
-              msg.isBot ? 'bg-[#ffcb4d] mr-8' : 'bg-blue-200 ml-8'
+              msg.isBot ? "bg-[#ffcb4d] mr-8" : "bg-blue-200 ml-8"
             }`}
           >
             {msg.text}
           </div>
         ))}
         {isLoading && (
-          <div className="p-3 rounded-lg bg-[#ffcb4d] mr-8">
-            Thinking...
-          </div>
+          <div className="p-3 rounded-lg bg-[#ffcb4d] mr-8">Thinking...</div>
         )}
       </div>
 
-      {/* Input form */}
       <form onSubmit={handleSubmit} className="flex gap-2">
         <input
           type="text"
           value={input}
-          onChange={(e: React.ChangeEvent<HTMLInputElement>) => setInput(e.target.value)}
+          onChange={(e) => setInput(e.target.value)}
           className="flex-grow p-2 rounded border"
           placeholder="Type a message..."
           disabled={isLoading}
         />
-        <button 
-          type="submit" 
+        <button
+          type="submit"
           className="bg-blue-500 text-white px-4 py-2 rounded disabled:bg-blue-300"
           disabled={isLoading}
         >
