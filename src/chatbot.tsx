@@ -21,14 +21,22 @@ const Chatbot: React.FC = () => {
 
   return (
     <div className="bg-gray-100 p-6 rounded-lg flex flex-col h-full max-h-[500px]">
-      <h2 className="text-xl font-bold mb-4">Chatbot</h2>
-      <div className="h-64 flex-grow space-y-4 overflow-y-auto mb-4">
+      {/* Chatbot header with icon */}
+      <div className="flex items-center gap-2 mb-4">
+        <img src="./images/sunlifeIcon.png" alt=":(" className="w-8 h-8 rounded-full bg-gray-300" />
+        <h2 className="text-xl font-bold">SunBot</h2>
+      </div>
+
+      {/* Chat messages */}
+      <div className="h-64 space-y-4 overflow-y-auto mb-4">
         {messages.map((msg, idx) => (
           <div key={idx} className={`p-3 rounded-lg ${msg.isBot ? 'bg-blue-200 mr-8' : 'bg-green-200 ml-8'}`}>
             {msg.text}
           </div>
         ))}
       </div>
+
+      {/* Input form */}
       <form onSubmit={handleSubmit} className="flex gap-2">
         <input
           type="text"
