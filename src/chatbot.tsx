@@ -30,7 +30,7 @@ const Chatbot: React.FC = () => {
       {/* Chat messages */}
       <div className="h-64 space-y-4 overflow-y-auto mb-4">
         {messages.map((msg, idx) => (
-          <div key={idx} className={`p-3 rounded-lg ${msg.isBot ? 'bg-blue-200 mr-8' : 'bg-green-200 ml-8'}`}>
+          <div key={idx} className={`p-3 rounded-lg ${msg.isBot ? 'bg-yellow-200 mr-8' : 'bg-blue-200 ml-8'}`}>
             {msg.text}
           </div>
         ))}
