@@ -1,333 +1,366 @@
 time,description,amount,category,transaction_type
-2023-09-01 01:33:17,Misc Income,139.96,Income,Deposit
-2023-09-01 03:19:07,Utilities,-33.57,Utilities,Expense
-2023-09-01 04:05:29,Online Subscription,-12.5,Online Subscription,Expense
-2023-09-01 09:00:00,Pension,2000.0,Income,Deposit
-2023-09-01 09:00:00,Local Diner,-3.44,Coffee,Expense
-2023-09-01 10:48:46,Medical,-31.41,Medical,Expense
-2023-09-01 12:20:40,Misc Income,51.11,Income,Deposit
-2023-09-01 12:31:12,Medical,-82.07,Medical,Expense
-2023-09-01 13:22:36,Transportation,-26.27,Transportation,Expense
-2023-09-01 14:04:19,Dining Out,-33.84,Dining Out,Expense
-2023-09-01 18:51:13,Medical,-119.08,Medical,Expense
-2023-09-01 19:29:04,Transportation,-16.1,Transportation,Expense
-2023-09-02 00:57:16,Utilities,-35.7,Utilities,Expense
-2023-09-02 05:59:33,Medical,-91.57,Medical,Expense
-2023-09-02 09:00:00,Local Diner,-5.97,Coffee,Expense
-2023-09-02 13:02:35,Groceries,-34.7,Groceries,Expense
-2023-09-02 14:46:32,Medical,-103.05,Medical,Expense
-2023-09-02 15:20:33,Misc Income,159.22,Income,Deposit
-2023-09-02 16:38:37,Dining Out,-39.51,Dining Out,Expense
-2023-09-02 18:46:02,Online Subscription,-9.7,Online Subscription,Expense
-2023-09-02 22:29:14,Online Subscription,-9.16,Online Subscription,Expense
-2023-09-02 22:29:19,Utilities,-34.26,Utilities,Expense
-2023-09-02 23:20:37,Misc Income,281.06,Income,Deposit
-2023-09-03 01:17:16,Dining Out,-22.42,Dining Out,Expense
-2023-09-03 01:23:18,Utilities,-40.01,Utilities,Expense
-2023-09-03 02:33:00,Groceries,-65.21,Groceries,Expense
-2023-09-03 03:56:08,Transportation,-20.67,Transportation,Expense
-2023-09-03 09:00:00,Local Diner,-3.09,Coffee,Expense
-2023-09-03 11:39:49,Transportation,-6.34,Transportation,Expense
-2023-09-03 14:04:55,Misc Income,113.52,Income,Deposit
-2023-09-03 14:33:37,Transportation,-7.25,Transportation,Expense
-2023-09-03 14:49:36,Utilities,-42.74,Utilities,Expense
-2023-09-03 18:30:56,Misc Income,124.16,Income,Deposit
-2023-09-03 22:33:02,Online Subscription,-11.86,Online Subscription,Expense
-2023-09-04 02:59:55,Utilities,-57.26,Utilities,Expense
-2023-09-04 04:33:13,Misc Income,264.43,Income,Deposit
-2023-09-04 06:20:18,Transportation,-25.64,Transportation,Expense
-2023-09-04 07:34:50,Online Subscription,-15.71,Online Subscription,Expense
-2023-09-04 08:47:28,Utilities,-65.13,Utilities,Expense
-2023-09-04 09:00:00,Local Diner,-5.54,Coffee,Expense
-2023-09-04 09:02:02,Online Subscription,-9.8,Online Subscription,Expense
-2023-09-04 09:37:19,Medical,-84.22,Medical,Expense
-2023-09-04 11:24:17,Utilities,-54.37,Utilities,Expense
-2023-09-04 14:37:17,Groceries,-83.88,Groceries,Expense
-2023-09-04 16:11:54,Misc Income,237.52,Income,Deposit
-2023-09-05 00:34:57,Online Subscription,-11.0,Online Subscription,Expense
-2023-09-05 06:07:37,Transportation,-25.83,Transportation,Expense
-2023-09-05 06:47:41,Medical,-111.72,Medical,Expense
-2023-09-05 09:00:00,Local Diner,-5.05,Coffee,Expense
-2023-09-05 09:57:03,Misc Income,221.25,Income,Deposit
-2023-09-05 11:42:00,Medical,-42.13,Medical,Expense
-2023-09-05 13:37:08,Dining Out,-19.2,Dining Out,Expense
-2023-09-05 13:55:38,Online Subscription,-12.83,Online Subscription,Expense
-2023-09-05 17:22:26,Medical,-82.0,Medical,Expense
-2023-09-05 18:55:13,Utilities,-36.34,Utilities,Expense
-2023-09-05 22:54:14,Utilities,-43.38,Utilities,Expense
-2023-09-06 03:39:53,Medical,-106.77,Medical,Expense
-2023-09-06 03:40:01,Transportation,-10.55,Transportation,Expense
-2023-09-06 06:49:11,Online Subscription,-14.69,Online Subscription,Expense
-2023-09-06 07:45:09,Online Subscription,-15.84,Online Subscription,Expense
-2023-09-06 09:00:00,Local Diner,-4.95,Coffee,Expense
-2023-09-06 11:01:24,Medical,-88.78,Medical,Expense
-2023-09-06 16:59:30,Dining Out,-18.3,Dining Out,Expense
-2023-09-06 17:12:30,Medical,-68.2,Medical,Expense
-2023-09-06 18:18:15,Dining Out,-31.53,Dining Out,Expense
-2023-09-06 20:01:12,Transportation,-23.69,Transportation,Expense
-2023-09-06 21:38:53,Medical,-113.07,Medical,Expense
-2023-09-07 02:28:14,Transportation,-29.72,Transportation,Expense
-2023-09-07 03:46:30,Utilities,-47.21,Utilities,Expense
-2023-09-07 09:00:00,Local Diner,-5.91,Coffee,Expense
-2023-09-07 09:58:11,Online Subscription,-13.05,Online Subscription,Expense
-2023-09-07 11:26:08,Medical,-120.18,Medical,Expense
-2023-09-07 13:34:09,Dining Out,-35.94,Dining Out,Expense
-2023-09-07 14:11:37,Medical,-70.55,Medical,Expense
-2023-09-07 16:00:20,Utilities,-34.6,Utilities,Expense
-2023-09-07 18:33:19,Dining Out,-29.06,Dining Out,Expense
-2023-09-07 20:46:32,Dining Out,-31.4,Dining Out,Expense
-2023-09-07 21:35:33,Transportation,-25.3,Transportation,Expense
-2023-09-08 00:38:32,Transportation,-18.26,Transportation,Expense
-2023-09-08 01:11:58,Medical,-50.85,Medical,Expense
-2023-09-08 01:19:20,Groceries,-56.11,Groceries,Expense
-2023-09-08 03:22:14,Transportation,-22.65,Transportation,Expense
-2023-09-08 05:01:00,Online Subscription,-17.21,Online Subscription,Expense
-2023-09-08 07:59:32,Medical,-148.63,Medical,Expense
-2023-09-08 09:00:00,Local Diner,-3.65,Coffee,Expense
-2023-09-08 11:21:20,Utilities,-43.52,Utilities,Expense
-2023-09-08 16:52:47,Misc Income,291.98,Income,Deposit
-2023-09-08 18:51:40,Groceries,-82.21,Groceries,Expense
-2023-09-08 19:56:12,Medical,-54.86,Medical,Expense
-2023-09-09 00:40:48,Online Subscription,-13.21,Online Subscription,Expense
-2023-09-09 01:18:52,Groceries,-92.64,Groceries,Expense
-2023-09-09 05:46:38,Medical,-69.09,Medical,Expense
-2023-09-09 05:55:08,Dining Out,-32.97,Dining Out,Expense
-2023-09-09 07:48:52,Utilities,-63.59,Utilities,Expense
-2023-09-09 09:00:00,Local Diner,-5.68,Coffee,Expense
-2023-09-09 09:01:20,Utilities,-64.13,Utilities,Expense
-2023-09-09 15:16:26,Transportation,-8.81,Transportation,Expense
-2023-09-09 18:05:40,Online Subscription,-14.63,Online Subscription,Expense
-2023-09-09 21:06:59,Transportation,-13.39,Transportation,Expense
-2023-09-09 22:03:14,Transportation,-29.85,Transportation,Expense
-2023-09-10 08:16:39,Groceries,-53.25,Groceries,Expense
-2023-09-10 09:00:00,Local Diner,-5.56,Coffee,Expense
-2023-09-10 09:42:44,Transportation,-15.32,Transportation,Expense
-2023-09-10 10:28:21,Medical,-148.97,Medical,Expense
-2023-09-10 12:02:12,Online Subscription,-15.01,Online Subscription,Expense
-2023-09-10 12:11:55,Transportation,-29.84,Transportation,Expense
-2023-09-10 17:39:00,Medical,-110.31,Medical,Expense
-2023-09-10 18:30:05,Medical,-121.95,Medical,Expense
-2023-09-10 18:39:54,Dining Out,-23.95,Dining Out,Expense
-2023-09-10 21:25:54,Utilities,-46.18,Utilities,Expense
-2023-09-10 22:37:31,Utilities,-39.39,Utilities,Expense
-2023-09-11 00:19:11,Medical,-105.28,Medical,Expense
-2023-09-11 00:48:02,Misc Income,252.52,Income,Deposit
-2023-09-11 05:56:00,Transportation,-16.34,Transportation,Expense
-2023-09-11 06:32:04,Groceries,-69.22,Groceries,Expense
-2023-09-11 06:32:39,Transportation,-20.46,Transportation,Expense
-2023-09-11 08:25:49,Online Subscription,-14.44,Online Subscription,Expense
-2023-09-11 09:00:00,Local Diner,-5.95,Coffee,Expense
-2023-09-11 11:01:55,Groceries,-90.21,Groceries,Expense
-2023-09-11 14:24:55,Online Subscription,-15.73,Online Subscription,Expense
-2023-09-11 16:31:18,Online Subscription,-10.21,Online Subscription,Expense
-2023-09-11 17:56:06,Misc Income,85.1,Income,Deposit
-2023-09-12 01:09:14,Misc Income,145.57,Income,Deposit
-2023-09-12 01:24:56,Misc Income,252.44,Income,Deposit
-2023-09-12 02:17:49,Dining Out,-19.23,Dining Out,Expense
-2023-09-12 02:25:38,Groceries,-45.42,Groceries,Expense
-2023-09-12 03:49:45,Misc Income,196.69,Income,Deposit
-2023-09-12 09:00:00,Local Diner,-4.85,Coffee,Expense
-2023-09-12 13:27:05,Groceries,-37.92,Groceries,Expense
-2023-09-12 20:02:15,Misc Income,163.73,Income,Deposit
-2023-09-12 21:11:52,Groceries,-40.33,Groceries,Expense
-2023-09-12 21:52:17,Utilities,-52.01,Utilities,Expense
-2023-09-12 23:44:38,Transportation,-16.91,Transportation,Expense
-2023-09-13 03:34:23,Medical,-42.98,Medical,Expense
-2023-09-13 08:18:12,Groceries,-32.94,Groceries,Expense
-2023-09-13 09:00:00,Local Diner,-5.8,Coffee,Expense
-2023-09-13 09:40:16,Medical,-61.57,Medical,Expense
-2023-09-13 10:17:02,Groceries,-71.23,Groceries,Expense
-2023-09-13 13:10:00,Dining Out,-13.28,Dining Out,Expense
-2023-09-13 14:18:51,Misc Income,90.51,Income,Deposit
-2023-09-13 18:10:59,Dining Out,-37.96,Dining Out,Expense
-2023-09-13 19:03:34,Medical,-99.51,Medical,Expense
-2023-09-13 19:28:17,Groceries,-80.17,Groceries,Expense
-2023-09-13 22:31:28,Medical,-121.5,Medical,Expense
-2023-09-14 00:49:39,Medical,-83.81,Medical,Expense
-2023-09-14 04:05:57,Misc Income,116.88,Income,Deposit
-2023-09-14 04:08:17,Medical,-23.87,Medical,Expense
-2023-09-14 06:54:38,Medical,-135.53,Medical,Expense
-2023-09-14 08:50:20,Groceries,-26.85,Groceries,Expense
-2023-09-14 09:00:00,Local Diner,-5.37,Coffee,Expense
-2023-09-14 11:26:35,Transportation,-27.69,Transportation,Expense
-2023-09-14 13:53:46,Misc Income,283.09,Income,Deposit
-2023-09-14 14:21:48,Utilities,-60.28,Utilities,Expense
-2023-09-14 21:01:17,Online Subscription,-11.79,Online Subscription,Expense
-2023-09-14 21:08:35,Utilities,-63.33,Utilities,Expense
-2023-09-15 03:21:35,Misc Income,111.43,Income,Deposit
-2023-09-15 03:55:04,Dining Out,-10.6,Dining Out,Expense
-2023-09-15 05:30:27,Dining Out,-31.13,Dining Out,Expense
-2023-09-15 06:55:08,Online Subscription,-10.84,Online Subscription,Expense
-2023-09-15 07:43:50,Utilities,-55.09,Utilities,Expense
-2023-09-15 08:01:04,Groceries,-75.24,Groceries,Expense
-2023-09-15 09:00:00,Local Diner,-3.49,Coffee,Expense
-2023-09-15 10:11:01,Dining Out,-32.5,Dining Out,Expense
-2023-09-15 16:05:44,Dining Out,-38.86,Dining Out,Expense
-2023-09-15 16:45:03,Transportation,-27.91,Transportation,Expense
-2023-09-15 20:16:28,Medical,-142.68,Medical,Expense
-2023-09-16 00:52:32,Transportation,-14.83,Transportation,Expense
-2023-09-16 02:56:39,Medical,-91.84,Medical,Expense
-2023-09-16 04:38:29,Transportation,-14.83,Transportation,Expense
-2023-09-16 05:19:31,Misc Income,245.97,Income,Deposit
-2023-09-16 05:45:47,Medical,-53.5,Medical,Expense
-2023-09-16 06:10:40,Medical,-93.25,Medical,Expense
-2023-09-16 07:06:37,Dining Out,-19.22,Dining Out,Expense
-2023-09-16 07:48:11,Medical,-52.57,Medical,Expense
-2023-09-16 09:00:00,Local Diner,-4.15,Coffee,Expense
-2023-09-16 10:03:11,Misc Income,179.02,Income,Deposit
-2023-09-16 10:15:41,Medical,-76.06,Medical,Expense
-2023-09-17 02:38:11,Utilities,-69.86,Utilities,Expense
-2023-09-17 04:25:36,Groceries,-25.25,Groceries,Expense
-2023-09-17 04:40:54,Utilities,-57.5,Utilities,Expense
-2023-09-17 05:39:28,Online Subscription,-11.93,Online Subscription,Expense
-2023-09-17 07:37:45,Medical,-126.94,Medical,Expense
-2023-09-17 07:49:12,Medical,-71.66,Medical,Expense
-2023-09-17 09:00:00,Local Diner,-5.96,Coffee,Expense
-2023-09-17 12:27:35,Misc Income,224.25,Income,Deposit
-2023-09-17 18:53:05,Misc Income,287.95,Income,Deposit
-2023-09-17 18:58:23,Groceries,-93.67,Groceries,Expense
-2023-09-17 19:02:53,Utilities,-63.15,Utilities,Expense
-2023-09-18 01:51:00,Groceries,-83.94,Groceries,Expense
-2023-09-18 03:26:50,Groceries,-73.66,Groceries,Expense
-2023-09-18 04:20:56,Online Subscription,-19.15,Online Subscription,Expense
-2023-09-18 06:28:36,Medical,-145.49,Medical,Expense
-2023-09-18 08:52:45,Misc Income,261.45,Income,Deposit
-2023-09-18 09:00:00,Local Diner,-3.65,Coffee,Expense
-2023-09-18 09:02:02,Dining Out,-17.86,Dining Out,Expense
-2023-09-18 12:32:34,Dining Out,-33.48,Dining Out,Expense
-2023-09-18 12:46:08,Medical,-129.95,Medical,Expense
-2023-09-18 16:40:04,Dining Out,-21.09,Dining Out,Expense
-2023-09-18 22:26:34,Medical,-88.81,Medical,Expense
-2023-09-19 00:04:01,Online Subscription,-13.09,Online Subscription,Expense
-2023-09-19 02:08:38,Online Subscription,-15.39,Online Subscription,Expense
-2023-09-19 03:25:36,Online Subscription,-11.1,Online Subscription,Expense
-2023-09-19 07:14:01,Transportation,-27.24,Transportation,Expense
-2023-09-19 08:14:54,Groceries,-68.76,Groceries,Expense
-2023-09-19 09:00:00,Local Diner,-5.21,Coffee,Expense
-2023-09-19 09:26:02,Utilities,-60.78,Utilities,Expense
-2023-09-19 09:34:24,Misc Income,116.74,Income,Deposit
-2023-09-19 11:01:06,Groceries,-51.67,Groceries,Expense
-2023-09-19 17:11:53,Transportation,-14.46,Transportation,Expense
-2023-09-19 17:33:03,Transportation,-19.79,Transportation,Expense
-2023-09-20 03:09:54,Online Subscription,-8.63,Online Subscription,Expense
-2023-09-20 06:20:22,Utilities,-38.13,Utilities,Expense
-2023-09-20 07:09:20,Medical,-149.48,Medical,Expense
-2023-09-20 07:44:21,Medical,-137.95,Medical,Expense
-2023-09-20 09:00:00,Local Diner,-5.31,Coffee,Expense
-2023-09-20 12:00:00,Vacation,-1500.0,Vacation,Expense
-2023-09-20 15:19:03,Utilities,-58.42,Utilities,Expense
-2023-09-20 15:44:39,Groceries,-36.31,Groceries,Expense
-2023-09-20 18:06:43,Misc Income,176.12,Income,Deposit
-2023-09-20 19:03:38,Dining Out,-14.34,Dining Out,Expense
-2023-09-20 19:20:17,Medical,-81.12,Medical,Expense
-2023-09-20 20:11:33,Groceries,-97.89,Groceries,Expense
-2023-09-21 05:54:05,Dining Out,-27.6,Dining Out,Expense
-2023-09-21 06:16:00,Misc Income,67.02,Income,Deposit
-2023-09-21 09:00:00,Local Diner,-4.03,Coffee,Expense
-2023-09-21 10:35:18,Misc Income,149.21,Income,Deposit
-2023-09-21 10:42:39,Online Subscription,-13.67,Online Subscription,Expense
-2023-09-21 11:55:45,Transportation,-24.02,Transportation,Expense
-2023-09-21 13:11:21,Medical,-122.0,Medical,Expense
-2023-09-21 14:44:15,Online Subscription,-11.63,Online Subscription,Expense
-2023-09-21 15:45:12,Utilities,-54.81,Utilities,Expense
-2023-09-21 17:25:52,Dining Out,-37.07,Dining Out,Expense
-2023-09-21 21:26:58,Utilities,-62.35,Utilities,Expense
-2023-09-22 02:34:01,Online Subscription,-18.82,Online Subscription,Expense
-2023-09-22 04:21:40,Groceries,-55.91,Groceries,Expense
-2023-09-22 04:54:59,Online Subscription,-17.38,Online Subscription,Expense
-2023-09-22 09:00:00,Local Diner,-4.05,Coffee,Expense
-2023-09-22 10:40:16,Groceries,-28.13,Groceries,Expense
-2023-09-22 11:44:55,Utilities,-31.56,Utilities,Expense
-2023-09-22 16:24:16,Groceries,-96.94,Groceries,Expense
-2023-09-22 18:52:01,Utilities,-44.26,Utilities,Expense
-2023-09-22 20:01:37,Utilities,-32.77,Utilities,Expense
-2023-09-22 21:19:20,Groceries,-46.31,Groceries,Expense
-2023-09-22 22:31:21,Dining Out,-15.97,Dining Out,Expense
-2023-09-23 01:51:31,Transportation,-8.01,Transportation,Expense
-2023-09-23 02:14:11,Transportation,-28.83,Transportation,Expense
-2023-09-23 03:26:08,Online Subscription,-15.61,Online Subscription,Expense
-2023-09-23 04:53:58,Transportation,-28.62,Transportation,Expense
-2023-09-23 06:39:30,Transportation,-25.05,Transportation,Expense
-2023-09-23 08:02:52,Medical,-143.78,Medical,Expense
-2023-09-23 08:40:15,Medical,-112.42,Medical,Expense
-2023-09-23 09:00:00,Local Diner,-3.75,Coffee,Expense
-2023-09-23 15:49:00,Utilities,-66.29,Utilities,Expense
-2023-09-23 20:23:39,Transportation,-13.54,Transportation,Expense
-2023-09-23 20:59:59,Utilities,-32.02,Utilities,Expense
-2023-09-24 00:35:07,Medical,-116.22,Medical,Expense
-2023-09-24 03:25:08,Transportation,-18.57,Transportation,Expense
-2023-09-24 03:49:11,Groceries,-70.02,Groceries,Expense
-2023-09-24 04:54:44,Groceries,-30.46,Groceries,Expense
-2023-09-24 09:00:00,Local Diner,-4.24,Coffee,Expense
-2023-09-24 09:07:15,Transportation,-14.93,Transportation,Expense
-2023-09-24 10:08:22,Utilities,-65.65,Utilities,Expense
-2023-09-24 10:23:38,Groceries,-57.67,Groceries,Expense
-2023-09-24 20:11:08,Misc Income,162.79,Income,Deposit
-2023-09-24 22:04:21,Groceries,-43.1,Groceries,Expense
-2023-09-24 22:12:21,Dining Out,-33.53,Dining Out,Expense
-2023-09-25 01:26:00,Medical,-110.03,Medical,Expense
-2023-09-25 01:26:11,Medical,-22.68,Medical,Expense
-2023-09-25 05:16:08,Transportation,-25.35,Transportation,Expense
-2023-09-25 07:17:54,Online Subscription,-13.34,Online Subscription,Expense
-2023-09-25 08:16:31,Utilities,-48.7,Utilities,Expense
-2023-09-25 09:00:00,Local Diner,-5.92,Coffee,Expense
-2023-09-25 09:10:48,Online Subscription,-18.09,Online Subscription,Expense
-2023-09-25 16:09:22,Transportation,-8.95,Transportation,Expense
-2023-09-25 16:15:45,Dining Out,-31.19,Dining Out,Expense
-2023-09-25 16:56:28,Dining Out,-30.12,Dining Out,Expense
-2023-09-25 17:29:14,Groceries,-34.39,Groceries,Expense
-2023-09-26 01:07:21,Transportation,-25.79,Transportation,Expense
-2023-09-26 02:09:24,Groceries,-54.75,Groceries,Expense
-2023-09-26 03:54:57,Transportation,-19.08,Transportation,Expense
-2023-09-26 05:07:55,Transportation,-7.8,Transportation,Expense
-2023-09-26 09:00:00,Local Diner,-5.06,Coffee,Expense
-2023-09-26 09:28:46,Utilities,-43.14,Utilities,Expense
-2023-09-26 13:58:32,Dining Out,-10.91,Dining Out,Expense
-2023-09-26 18:28:55,Online Subscription,-17.2,Online Subscription,Expense
-2023-09-26 19:24:19,Transportation,-16.01,Transportation,Expense
-2023-09-26 20:15:56,Medical,-144.97,Medical,Expense
-2023-09-26 20:46:43,Misc Income,53.45,Income,Deposit
-2023-09-27 00:19:57,Utilities,-50.89,Utilities,Expense
-2023-09-27 00:37:13,Utilities,-55.77,Utilities,Expense
-2023-09-27 01:02:29,Utilities,-64.89,Utilities,Expense
-2023-09-27 06:36:48,Utilities,-56.39,Utilities,Expense
-2023-09-27 07:02:18,Groceries,-52.39,Groceries,Expense
-2023-09-27 09:00:00,Local Diner,-4.79,Coffee,Expense
-2023-09-27 09:13:55,Dining Out,-15.88,Dining Out,Expense
-2023-09-27 12:44:02,Misc Income,135.05,Income,Deposit
-2023-09-27 13:02:23,Misc Income,106.5,Income,Deposit
-2023-09-27 17:11:57,Dining Out,-28.28,Dining Out,Expense
-2023-09-27 17:50:16,Online Subscription,-11.36,Online Subscription,Expense
-2023-09-28 02:38:00,Transportation,-26.26,Transportation,Expense
-2023-09-28 03:04:22,Online Subscription,-14.73,Online Subscription,Expense
-2023-09-28 03:16:49,Utilities,-56.24,Utilities,Expense
-2023-09-28 05:21:42,Groceries,-89.85,Groceries,Expense
-2023-09-28 07:21:15,Transportation,-9.61,Transportation,Expense
-2023-09-28 09:00:00,Local Diner,-5.28,Coffee,Expense
-2023-09-28 10:00:51,Medical,-106.98,Medical,Expense
-2023-09-28 14:53:54,Medical,-103.08,Medical,Expense
-2023-09-28 15:54:19,Online Subscription,-17.91,Online Subscription,Expense
-2023-09-28 18:09:00,Misc Income,118.23,Income,Deposit
-2023-09-28 22:47:06,Utilities,-41.18,Utilities,Expense
-2023-09-29 01:22:03,Groceries,-62.55,Groceries,Expense
-2023-09-29 02:09:07,Dining Out,-30.63,Dining Out,Expense
-2023-09-29 09:00:00,Local Diner,-3.22,Coffee,Expense
-2023-09-29 10:48:01,Dining Out,-28.59,Dining Out,Expense
-2023-09-29 12:20:09,Dining Out,-37.42,Dining Out,Expense
-2023-09-29 14:04:56,Misc Income,130.59,Income,Deposit
-2023-09-29 15:59:04,Medical,-54.07,Medical,Expense
-2023-09-29 16:24:41,Utilities,-50.57,Utilities,Expense
-2023-09-29 18:50:33,Dining Out,-29.06,Dining Out,Expense
-2023-09-29 20:35:41,Utilities,-49.21,Utilities,Expense
-2023-09-29 21:52:13,Medical,-111.28,Medical,Expense
-2023-09-30 01:52:42,Groceries,-97.09,Groceries,Expense
-2023-09-30 02:13:56,Groceries,-43.52,Groceries,Expense
-2023-09-30 02:54:36,Utilities,-64.96,Utilities,Expense
-2023-09-30 06:10:14,Online Subscription,-13.66,Online Subscription,Expense
-2023-09-30 07:19:04,Dining Out,-32.89,Dining Out,Expense
-2023-09-30 07:32:28,Online Subscription,-13.83,Online Subscription,Expense
-2023-09-30 09:00:00,Local Diner,-5.63,Coffee,Expense
-2023-09-30 14:51:58,Transportation,-26.17,Transportation,Expense
-2023-09-30 17:20:20,Transportation,-29.44,Transportation,Expense
-2023-09-30 17:26:38,Dining Out,-13.71,Dining Out,Expense
-2023-09-30 19:15:55,Transportation,-21.68,Transportation,Expense
+2025-01-01 01:46:11,Groceries,-35.6,Groceries,Expense
+2025-01-01 03:51:38,Misc Income,178.53,Income,Deposit
+2025-01-01 09:00:00,Pension,2000.0,Income,Deposit
+2025-01-01 09:00:00,Local Diner,-5.2,Coffee,Expense
+2025-01-01 10:22:17,Medical,-71.29,Medical,Expense
+2025-01-01 12:27:25,Misc Income,135.05,Income,Deposit
+2025-01-01 14:17:02,Transportation,-27.79,Transportation,Expense
+2025-01-01 15:35:27,Medical,-95.77,Medical,Expense
+2025-01-01 17:46:53,Groceries,-51.79,Groceries,Expense
+2025-01-01 19:35:09,Utilities,-30.73,Utilities,Expense
+2025-01-01 21:17:38,Utilities,-33.93,Utilities,Expense
+2025-01-01 22:17:33,Online Subscription,-16.14,Online Subscription,Expense
+2025-01-02 03:22:45,Dining Out,-36.11,Dining Out,Expense
+2025-01-02 07:57:23,Medical,-114.8,Medical,Expense
+2025-01-02 08:47:32,Transportation,-16.15,Transportation,Expense
+2025-01-02 09:00:00,Local Diner,-3.84,Coffee,Expense
+2025-01-02 09:05:21,Dining Out,-17.38,Dining Out,Expense
+2025-01-02 12:11:46,Medical,-95.41,Medical,Expense
+2025-01-02 14:51:23,Online Subscription,-17.61,Online Subscription,Expense
+2025-01-02 18:43:18,Medical,-124.73,Medical,Expense
+2025-01-02 18:57:34,Online Subscription,-18.93,Online Subscription,Expense
+2025-01-02 21:45:45,Transportation,-11.11,Transportation,Expense
+2025-01-02 23:47:41,Dining Out,-13.19,Dining Out,Expense
+2025-01-03 02:59:25,Dining Out,-34.3,Dining Out,Expense
+2025-01-03 06:08:57,Groceries,-78.53,Groceries,Expense
+2025-01-03 06:24:28,Dining Out,-17.31,Dining Out,Expense
+2025-01-03 06:25:27,Utilities,-62.41,Utilities,Expense
+2025-01-03 06:56:53,Dining Out,-29.05,Dining Out,Expense
+2025-01-03 07:05:36,Utilities,-54.5,Utilities,Expense
+2025-01-03 09:00:00,Local Diner,-3.48,Coffee,Expense
+2025-01-03 13:05:14,Online Subscription,-15.5,Online Subscription,Expense
+2025-01-03 14:27:17,Misc Income,132.0,Income,Deposit
+2025-01-03 18:39:31,Misc Income,256.39,Income,Deposit
+2025-01-03 22:13:36,Misc Income,136.49,Income,Deposit
+2025-01-04 02:05:09,Groceries,-86.62,Groceries,Expense
+2025-01-04 07:25:57,Utilities,-56.29,Utilities,Expense
+2025-01-04 07:49:47,Dining Out,-25.3,Dining Out,Expense
+2025-01-04 09:00:00,Local Diner,-3.78,Coffee,Expense
+2025-01-04 09:47:47,Utilities,-52.04,Utilities,Expense
+2025-01-04 14:03:15,Medical,-120.12,Medical,Expense
+2025-01-04 15:57:42,Medical,-74.96,Medical,Expense
+2025-01-04 16:41:11,Online Subscription,-11.05,Online Subscription,Expense
+2025-01-04 16:54:41,Misc Income,136.79,Income,Deposit
+2025-01-04 20:17:23,Utilities,-38.97,Utilities,Expense
+2025-01-04 23:24:48,Misc Income,57.95,Income,Deposit
+2025-01-05 00:26:07,Online Subscription,-9.15,Online Subscription,Expense
+2025-01-05 02:01:59,Transportation,-12.3,Transportation,Expense
+2025-01-05 02:31:15,Medical,-113.83,Medical,Expense
+2025-01-05 07:31:45,Utilities,-44.4,Utilities,Expense
+2025-01-05 09:00:00,Local Diner,-5.61,Coffee,Expense
+2025-01-05 09:36:04,Medical,-76.54,Medical,Expense
+2025-01-05 18:37:47,Misc Income,258.06,Income,Deposit
+2025-01-05 19:39:15,Dining Out,-11.6,Dining Out,Expense
+2025-01-05 19:42:00,Utilities,-31.51,Utilities,Expense
+2025-01-05 21:13:12,Medical,-27.5,Medical,Expense
+2025-01-05 22:22:25,Misc Income,219.36,Income,Deposit
+2025-01-06 00:27:42,Online Subscription,-11.55,Online Subscription,Expense
+2025-01-06 05:34:43,Transportation,-21.13,Transportation,Expense
+2025-01-06 08:11:17,Online Subscription,-19.29,Online Subscription,Expense
+2025-01-06 09:00:00,Local Diner,-5.04,Coffee,Expense
+2025-01-06 09:40:55,Transportation,-20.24,Transportation,Expense
+2025-01-06 12:26:33,Dining Out,-24.08,Dining Out,Expense
+2025-01-06 16:02:44,Utilities,-66.5,Utilities,Expense
+2025-01-06 20:47:04,Online Subscription,-10.48,Online Subscription,Expense
+2025-01-06 20:56:50,Dining Out,-17.53,Dining Out,Expense
+2025-01-06 22:38:37,Groceries,-63.6,Groceries,Expense
+2025-01-06 23:56:16,Misc Income,99.58,Income,Deposit
+2025-01-07 03:40:17,Medical,-131.27,Medical,Expense
+2025-01-07 09:00:00,Local Diner,-5.14,Coffee,Expense
+2025-01-07 10:18:16,Medical,-127.41,Medical,Expense
+2025-01-07 10:27:16,Groceries,-51.51,Groceries,Expense
+2025-01-07 11:18:06,Medical,-68.65,Medical,Expense
+2025-01-07 13:41:01,Groceries,-26.3,Groceries,Expense
+2025-01-07 14:40:35,Medical,-123.59,Medical,Expense
+2025-01-07 17:12:27,Groceries,-30.27,Groceries,Expense
+2025-01-07 22:43:15,Dining Out,-39.14,Dining Out,Expense
+2025-01-07 23:08:28,Medical,-103.31,Medical,Expense
+2025-01-07 23:25:33,Dining Out,-11.02,Dining Out,Expense
+2025-01-08 00:22:06,Utilities,-50.16,Utilities,Expense
+2025-01-08 04:47:16,Transportation,-18.44,Transportation,Expense
+2025-01-08 06:10:30,Medical,-139.41,Medical,Expense
+2025-01-08 08:08:18,Groceries,-52.08,Groceries,Expense
+2025-01-08 08:21:18,Utilities,-56.08,Utilities,Expense
+2025-01-08 09:00:00,Local Diner,-4.33,Coffee,Expense
+2025-01-08 10:25:19,Dining Out,-36.87,Dining Out,Expense
+2025-01-08 13:06:52,Utilities,-67.73,Utilities,Expense
+2025-01-08 13:28:46,Dining Out,-18.39,Dining Out,Expense
+2025-01-08 17:33:47,Groceries,-66.53,Groceries,Expense
+2025-01-08 21:01:23,Utilities,-35.7,Utilities,Expense
+2025-01-09 00:43:29,Medical,-73.86,Medical,Expense
+2025-01-09 01:50:26,Medical,-67.67,Medical,Expense
+2025-01-09 03:52:12,Medical,-83.37,Medical,Expense
+2025-01-09 04:59:57,Groceries,-61.32,Groceries,Expense
+2025-01-09 09:00:00,Local Diner,-4.88,Coffee,Expense
+2025-01-09 09:54:30,Misc Income,294.13,Income,Deposit
+2025-01-09 16:45:07,Medical,-105.79,Medical,Expense
+2025-01-09 18:57:37,Transportation,-12.29,Transportation,Expense
+2025-01-09 23:07:10,Dining Out,-37.96,Dining Out,Expense
+2025-01-09 23:11:07,Transportation,-24.62,Transportation,Expense
+2025-01-09 23:21:57,Online Subscription,-19.56,Online Subscription,Expense
+2025-01-10 00:41:04,Misc Income,217.62,Income,Deposit
+2025-01-10 00:58:00,Misc Income,274.86,Income,Deposit
+2025-01-10 02:55:59,Transportation,-15.57,Transportation,Expense
+2025-01-10 03:12:53,Dining Out,-24.04,Dining Out,Expense
+2025-01-10 09:00:00,Local Diner,-4.45,Coffee,Expense
+2025-01-10 09:49:10,Medical,-92.63,Medical,Expense
+2025-01-10 14:46:02,Online Subscription,-11.81,Online Subscription,Expense
+2025-01-10 18:13:23,Groceries,-61.71,Groceries,Expense
+2025-01-10 19:47:25,Online Subscription,-16.39,Online Subscription,Expense
+2025-01-10 21:37:53,Transportation,-25.8,Transportation,Expense
+2025-01-10 21:39:48,Groceries,-89.16,Groceries,Expense
+2025-01-11 00:37:27,Dining Out,-16.6,Dining Out,Expense
+2025-01-11 01:23:34,Online Subscription,-16.63,Online Subscription,Expense
+2025-01-11 03:40:53,Groceries,-33.35,Groceries,Expense
+2025-01-11 04:54:09,Utilities,-31.83,Utilities,Expense
+2025-01-11 09:00:00,Local Diner,-3.46,Coffee,Expense
+2025-01-11 09:57:07,Misc Income,234.02,Income,Deposit
+2025-01-11 14:32:15,Utilities,-40.57,Utilities,Expense
+2025-01-11 16:58:29,Medical,-93.97,Medical,Expense
+2025-01-11 17:18:16,Medical,-148.77,Medical,Expense
+2025-01-11 20:20:09,Online Subscription,-17.82,Online Subscription,Expense
+2025-01-11 21:14:07,Transportation,-12.7,Transportation,Expense
+2025-01-12 02:32:34,Groceries,-24.64,Groceries,Expense
+2025-01-12 03:58:51,Dining Out,-37.78,Dining Out,Expense
+2025-01-12 05:06:02,Dining Out,-10.99,Dining Out,Expense
+2025-01-12 08:45:59,Medical,-90.93,Medical,Expense
+2025-01-12 09:00:00,Local Diner,-5.4,Coffee,Expense
+2025-01-12 09:56:31,Transportation,-25.98,Transportation,Expense
+2025-01-12 12:45:58,Groceries,-72.61,Groceries,Expense
+2025-01-12 18:29:59,Online Subscription,-18.5,Online Subscription,Expense
+2025-01-12 19:56:21,Groceries,-51.43,Groceries,Expense
+2025-01-12 19:57:51,Transportation,-24.48,Transportation,Expense
+2025-01-12 20:28:11,Medical,-131.43,Medical,Expense
+2025-01-13 00:29:05,Online Subscription,-14.4,Online Subscription,Expense
+2025-01-13 03:52:45,Groceries,-91.31,Groceries,Expense
+2025-01-13 06:29:24,Online Subscription,-16.2,Online Subscription,Expense
+2025-01-13 09:00:00,Local Diner,-4.86,Coffee,Expense
+2025-01-13 10:39:56,Online Subscription,-17.59,Online Subscription,Expense
+2025-01-13 15:44:28,Utilities,-40.53,Utilities,Expense
+2025-01-13 16:45:33,Transportation,-18.83,Transportation,Expense
+2025-01-13 17:27:36,Misc Income,299.23,Income,Deposit
+2025-01-13 21:27:14,Medical,-65.44,Medical,Expense
+2025-01-13 22:11:26,Online Subscription,-9.18,Online Subscription,Expense
+2025-01-13 22:18:46,Medical,-66.76,Medical,Expense
+2025-01-14 02:15:16,Transportation,-13.87,Transportation,Expense
+2025-01-14 03:43:01,Groceries,-65.09,Groceries,Expense
+2025-01-14 09:00:00,Local Diner,-5.89,Coffee,Expense
+2025-01-14 11:39:14,Dining Out,-32.36,Dining Out,Expense
+2025-01-14 12:23:15,Misc Income,281.17,Income,Deposit
+2025-01-14 13:49:30,Online Subscription,-16.16,Online Subscription,Expense
+2025-01-14 16:58:23,Transportation,-22.27,Transportation,Expense
+2025-01-14 16:59:14,Utilities,-66.08,Utilities,Expense
+2025-01-14 18:50:23,Online Subscription,-9.43,Online Subscription,Expense
+2025-01-14 19:44:07,Transportation,-24.93,Transportation,Expense
+2025-01-14 19:47:32,Online Subscription,-13.47,Online Subscription,Expense
+2025-01-15 05:11:55,Utilities,-44.68,Utilities,Expense
+2025-01-15 07:05:17,Medical,-27.01,Medical,Expense
+2025-01-15 07:57:12,Groceries,-76.14,Groceries,Expense
+2025-01-15 08:44:49,Misc Income,105.4,Income,Deposit
+2025-01-15 08:53:44,Online Subscription,-8.49,Online Subscription,Expense
+2025-01-15 09:00:00,Local Diner,-5.81,Coffee,Expense
+2025-01-15 10:33:57,Dining Out,-21.27,Dining Out,Expense
+2025-01-15 14:13:16,Utilities,-42.87,Utilities,Expense
+2025-01-15 14:30:14,Online Subscription,-14.32,Online Subscription,Expense
+2025-01-15 17:09:57,Medical,-135.19,Medical,Expense
+2025-01-15 19:49:44,Dining Out,-18.7,Dining Out,Expense
+2025-01-16 02:52:19,Misc Income,140.33,Income,Deposit
+2025-01-16 04:33:00,Transportation,-7.4,Transportation,Expense
+2025-01-16 04:39:56,Groceries,-38.08,Groceries,Expense
+2025-01-16 06:35:25,Groceries,-84.08,Groceries,Expense
+2025-01-16 08:22:22,Dining Out,-30.26,Dining Out,Expense
+2025-01-16 09:00:00,Local Diner,-3.7,Coffee,Expense
+2025-01-16 11:08:25,Transportation,-14.64,Transportation,Expense
+2025-01-16 12:44:38,Utilities,-58.44,Utilities,Expense
+2025-01-16 15:54:35,Utilities,-69.53,Utilities,Expense
+2025-01-16 18:57:55,Transportation,-9.95,Transportation,Expense
+2025-01-16 21:56:13,Dining Out,-33.66,Dining Out,Expense
+2025-01-17 00:13:14,Online Subscription,-14.31,Online Subscription,Expense
+2025-01-17 05:25:59,Utilities,-30.72,Utilities,Expense
+2025-01-17 07:53:42,Medical,-103.57,Medical,Expense
+2025-01-17 08:26:22,Transportation,-11.41,Transportation,Expense
+2025-01-17 09:00:00,Local Diner,-3.02,Coffee,Expense
+2025-01-17 10:30:11,Misc Income,170.1,Income,Deposit
+2025-01-17 11:32:28,Misc Income,219.92,Income,Deposit
+2025-01-17 12:23:08,Groceries,-75.23,Groceries,Expense
+2025-01-17 20:06:22,Utilities,-64.66,Utilities,Expense
+2025-01-17 21:17:42,Transportation,-11.06,Transportation,Expense
+2025-01-17 22:16:57,Utilities,-55.49,Utilities,Expense
+2025-01-18 05:13:29,Transportation,-9.15,Transportation,Expense
+2025-01-18 09:00:00,Local Diner,-5.2,Coffee,Expense
+2025-01-18 09:34:28,Online Subscription,-10.24,Online Subscription,Expense
+2025-01-18 11:17:28,Utilities,-64.99,Utilities,Expense
+2025-01-18 12:36:57,Groceries,-21.57,Groceries,Expense
+2025-01-18 14:03:01,Misc Income,85.55,Income,Deposit
+2025-01-18 15:27:51,Utilities,-51.54,Utilities,Expense
+2025-01-18 17:54:56,Medical,-75.52,Medical,Expense
+2025-01-18 21:20:06,Transportation,-16.47,Transportation,Expense
+2025-01-18 21:37:49,Misc Income,51.85,Income,Deposit
+2025-01-18 21:40:07,Online Subscription,-16.22,Online Subscription,Expense
+2025-01-19 00:04:34,Medical,-98.01,Medical,Expense
+2025-01-19 07:34:32,Transportation,-19.99,Transportation,Expense
+2025-01-19 08:22:09,Groceries,-65.19,Groceries,Expense
+2025-01-19 09:00:00,Local Diner,-5.53,Coffee,Expense
+2025-01-19 14:01:00,Medical,-37.94,Medical,Expense
+2025-01-19 15:12:48,Dining Out,-28.29,Dining Out,Expense
+2025-01-19 17:46:03,Misc Income,156.55,Income,Deposit
+2025-01-19 20:10:56,Groceries,-79.23,Groceries,Expense
+2025-01-19 20:36:29,Groceries,-26.03,Groceries,Expense
+2025-01-19 22:01:43,Groceries,-96.11,Groceries,Expense
+2025-01-19 22:19:17,Transportation,-16.85,Transportation,Expense
+2025-01-20 03:10:25,Misc Income,91.16,Income,Deposit
+2025-01-20 03:27:24,Medical,-22.21,Medical,Expense
+2025-01-20 03:30:32,Medical,-119.75,Medical,Expense
+2025-01-20 06:55:17,Online Subscription,-8.7,Online Subscription,Expense
+2025-01-20 07:23:51,Groceries,-40.98,Groceries,Expense
+2025-01-20 09:00:00,Local Diner,-3.78,Coffee,Expense
+2025-01-20 12:00:00,Vacation,-1500.0,Vacation,Expense
+2025-01-20 12:01:04,Misc Income,257.54,Income,Deposit
+2025-01-20 16:21:14,Online Subscription,-16.59,Online Subscription,Expense
+2025-01-20 17:44:49,Dining Out,-31.24,Dining Out,Expense
+2025-01-20 21:30:28,Transportation,-18.75,Transportation,Expense
+2025-01-20 21:41:48,Dining Out,-10.14,Dining Out,Expense
+2025-01-21 00:02:20,Utilities,-48.38,Utilities,Expense
+2025-01-21 03:13:30,Transportation,-19.33,Transportation,Expense
+2025-01-21 05:59:24,Medical,-26.74,Medical,Expense
+2025-01-21 07:21:09,Misc Income,207.63,Income,Deposit
+2025-01-21 09:00:00,Local Diner,-3.69,Coffee,Expense
+2025-01-21 10:03:56,Medical,-47.99,Medical,Expense
+2025-01-21 10:30:25,Misc Income,138.62,Income,Deposit
+2025-01-21 12:20:19,Utilities,-47.12,Utilities,Expense
+2025-01-21 14:06:31,Online Subscription,-9.08,Online Subscription,Expense
+2025-01-21 15:03:33,Medical,-135.35,Medical,Expense
+2025-01-21 18:42:56,Groceries,-74.68,Groceries,Expense
+2025-01-22 00:51:30,Groceries,-31.56,Groceries,Expense
+2025-01-22 04:59:11,Transportation,-17.46,Transportation,Expense
+2025-01-22 06:51:09,Transportation,-28.99,Transportation,Expense
+2025-01-22 07:38:36,Utilities,-31.62,Utilities,Expense
+2025-01-22 09:00:00,Local Diner,-3.59,Coffee,Expense
+2025-01-22 09:38:38,Medical,-62.73,Medical,Expense
+2025-01-22 11:17:49,Online Subscription,-19.52,Online Subscription,Expense
+2025-01-22 11:48:23,Online Subscription,-18.06,Online Subscription,Expense
+2025-01-22 15:12:32,Dining Out,-11.44,Dining Out,Expense
+2025-01-22 15:37:32,Transportation,-22.58,Transportation,Expense
+2025-01-22 17:54:11,Transportation,-27.28,Transportation,Expense
+2025-01-23 01:10:43,Online Subscription,-12.36,Online Subscription,Expense
+2025-01-23 01:28:49,Misc Income,135.74,Income,Deposit
+2025-01-23 02:17:23,Dining Out,-32.29,Dining Out,Expense
+2025-01-23 02:35:48,Utilities,-52.03,Utilities,Expense
+2025-01-23 04:21:57,Medical,-54.32,Medical,Expense
+2025-01-23 05:48:07,Misc Income,118.52,Income,Deposit
+2025-01-23 08:57:28,Medical,-148.56,Medical,Expense
+2025-01-23 09:00:00,Local Diner,-5.88,Coffee,Expense
+2025-01-23 11:52:33,Groceries,-42.78,Groceries,Expense
+2025-01-23 20:23:52,Groceries,-40.08,Groceries,Expense
+2025-01-23 21:30:35,Transportation,-19.51,Transportation,Expense
+2025-01-24 00:08:44,Dining Out,-29.47,Dining Out,Expense
+2025-01-24 01:51:42,Medical,-99.93,Medical,Expense
+2025-01-24 02:42:52,Groceries,-55.78,Groceries,Expense
+2025-01-24 03:35:56,Misc Income,290.15,Income,Deposit
+2025-01-24 04:17:54,Transportation,-8.84,Transportation,Expense
+2025-01-24 06:26:00,Misc Income,210.66,Income,Deposit
+2025-01-24 09:00:00,Local Diner,-5.85,Coffee,Expense
+2025-01-24 14:46:36,Online Subscription,-16.45,Online Subscription,Expense
+2025-01-24 19:17:53,Medical,-21.93,Medical,Expense
+2025-01-24 20:30:09,Transportation,-6.25,Transportation,Expense
+2025-01-24 23:53:11,Online Subscription,-9.57,Online Subscription,Expense
+2025-01-25 02:37:14,Groceries,-93.92,Groceries,Expense
+2025-01-25 02:40:30,Groceries,-73.06,Groceries,Expense
+2025-01-25 04:26:09,Dining Out,-38.3,Dining Out,Expense
+2025-01-25 06:06:52,Utilities,-48.5,Utilities,Expense
+2025-01-25 07:17:16,Transportation,-22.5,Transportation,Expense
+2025-01-25 09:00:00,Local Diner,-4.8,Coffee,Expense
+2025-01-25 09:42:21,Transportation,-10.79,Transportation,Expense
+2025-01-25 09:45:49,Misc Income,145.56,Income,Deposit
+2025-01-25 13:41:22,Online Subscription,-15.05,Online Subscription,Expense
+2025-01-25 16:34:16,Groceries,-90.13,Groceries,Expense
+2025-01-25 22:10:01,Groceries,-34.01,Groceries,Expense
+2025-01-26 00:13:50,Transportation,-24.21,Transportation,Expense
+2025-01-26 05:55:08,Utilities,-65.86,Utilities,Expense
+2025-01-26 09:00:00,Local Diner,-3.38,Coffee,Expense
+2025-01-26 10:26:01,Medical,-95.76,Medical,Expense
+2025-01-26 10:36:11,Medical,-95.32,Medical,Expense
+2025-01-26 10:42:13,Groceries,-53.0,Groceries,Expense
+2025-01-26 10:51:27,Transportation,-23.11,Transportation,Expense
+2025-01-26 11:06:51,Groceries,-93.59,Groceries,Expense
+2025-01-26 14:42:34,Dining Out,-11.07,Dining Out,Expense
+2025-01-26 15:38:08,Medical,-47.66,Medical,Expense
+2025-01-26 20:14:51,Groceries,-28.33,Groceries,Expense
+2025-01-27 05:55:34,Misc Income,244.4,Income,Deposit
+2025-01-27 09:00:00,Local Diner,-3.21,Coffee,Expense
+2025-01-27 10:30:59,Online Subscription,-10.92,Online Subscription,Expense
+2025-01-27 10:57:30,Dining Out,-36.09,Dining Out,Expense
+2025-01-27 13:01:00,Utilities,-58.01,Utilities,Expense
+2025-01-27 13:48:45,Online Subscription,-15.03,Online Subscription,Expense
+2025-01-27 17:41:03,Groceries,-45.34,Groceries,Expense
+2025-01-27 19:40:33,Misc Income,62.28,Income,Deposit
+2025-01-27 20:03:43,Online Subscription,-12.54,Online Subscription,Expense
+2025-01-27 20:48:32,Groceries,-49.58,Groceries,Expense
+2025-01-27 21:48:32,Misc Income,50.62,Income,Deposit
+2025-01-28 02:45:03,Misc Income,145.81,Income,Deposit
+2025-01-28 03:07:22,Groceries,-28.22,Groceries,Expense
+2025-01-28 04:21:18,Dining Out,-31.68,Dining Out,Expense
+2025-01-28 04:59:03,Transportation,-8.78,Transportation,Expense
+2025-01-28 07:53:00,Online Subscription,-14.5,Online Subscription,Expense
+2025-01-28 08:42:21,Transportation,-13.16,Transportation,Expense
+2025-01-28 09:00:00,Local Diner,-3.64,Coffee,Expense
+2025-01-28 10:27:48,Transportation,-7.53,Transportation,Expense
+2025-01-28 13:14:18,Online Subscription,-19.67,Online Subscription,Expense
+2025-01-28 16:19:15,Transportation,-17.28,Transportation,Expense
+2025-01-28 17:15:30,Misc Income,228.75,Income,Deposit
+2025-01-29 00:24:36,Dining Out,-17.64,Dining Out,Expense
+2025-01-29 01:43:05,Dining Out,-20.41,Dining Out,Expense
+2025-01-29 03:05:50,Online Subscription,-16.0,Online Subscription,Expense
+2025-01-29 05:06:00,Medical,-32.64,Medical,Expense
+2025-01-29 06:49:18,Groceries,-42.17,Groceries,Expense
+2025-01-29 08:34:58,Dining Out,-37.82,Dining Out,Expense
+2025-01-29 09:00:00,Local Diner,-4.93,Coffee,Expense
+2025-01-29 12:42:57,Transportation,-5.6,Transportation,Expense
+2025-01-29 17:04:00,Medical,-128.41,Medical,Expense
+2025-01-29 19:21:35,Utilities,-46.83,Utilities,Expense
+2025-01-29 20:42:15,Transportation,-11.01,Transportation,Expense
+2025-01-30 02:56:55,Transportation,-8.68,Transportation,Expense
+2025-01-30 09:00:00,Local Diner,-3.99,Coffee,Expense
+2025-01-30 09:15:32,Transportation,-12.78,Transportation,Expense
+2025-01-30 09:48:15,Transportation,-10.89,Transportation,Expense
+2025-01-30 09:56:58,Groceries,-28.24,Groceries,Expense
+2025-01-30 10:47:26,Transportation,-20.42,Transportation,Expense
+2025-01-30 13:05:09,Medical,-141.21,Medical,Expense
+2025-01-30 14:19:38,Misc Income,148.94,Income,Deposit
+2025-01-30 14:42:51,Dining Out,-26.73,Dining Out,Expense
+2025-01-30 16:18:16,Transportation,-11.15,Transportation,Expense
+2025-01-30 21:01:24,Utilities,-40.11,Utilities,Expense
+2025-01-31 02:05:58,Medical,-149.0,Medical,Expense
+2025-01-31 05:20:38,Misc Income,261.51,Income,Deposit
+2025-01-31 06:30:27,Transportation,-9.29,Transportation,Expense
+2025-01-31 08:02:07,Groceries,-71.41,Groceries,Expense
+2025-01-31 08:23:28,Utilities,-69.51,Utilities,Expense
+2025-01-31 08:59:08,Utilities,-36.84,Utilities,Expense
+2025-01-31 09:00:00,Local Diner,-5.78,Coffee,Expense
+2025-01-31 16:47:27,Misc Income,148.49,Income,Deposit
+2025-01-31 18:15:01,Medical,-54.57,Medical,Expense
+2025-01-31 20:28:28,Groceries,-61.14,Groceries,Expense
+2025-01-31 23:18:25,Medical,-89.28,Medical,Expense
+2025-02-01 01:02:16,Medical,-85.45,Medical,Expense
+2025-02-01 09:00:00,Local Diner,-4.1,Coffee,Expense
+2025-02-01 09:35:49,Groceries,-70.23,Groceries,Expense
+2025-02-01 09:44:34,Groceries,-94.78,Groceries,Expense
+2025-02-01 14:03:21,Misc Income,243.62,Income,Deposit
+2025-02-01 14:20:15,Transportation,-18.13,Transportation,Expense
+2025-02-01 16:05:28,Transportation,-22.44,Transportation,Expense
+2025-02-01 18:20:55,Utilities,-46.27,Utilities,Expense
+2025-02-01 19:33:30,Medical,-69.3,Medical,Expense
+2025-02-01 20:30:22,Groceries,-46.87,Groceries,Expense
+2025-02-01 23:32:11,Groceries,-89.85,Groceries,Expense
+2025-02-02 00:18:32,Transportation,-24.18,Transportation,Expense
+2025-02-02 01:33:29,Medical,-78.75,Medical,Expense
+2025-02-02 06:44:14,Misc Income,55.01,Income,Deposit
+2025-02-02 08:27:43,Online Subscription,-12.3,Online Subscription,Expense
+2025-02-02 09:00:00,Local Diner,-3.28,Coffee,Expense
+2025-02-02 10:21:36,Online Subscription,-8.62,Online Subscription,Expense
+2025-02-02 11:52:22,Medical,-43.13,Medical,Expense
+2025-02-02 14:09:51,Dining Out,-11.83,Dining Out,Expense
+2025-02-02 15:19:59,Medical,-74.46,Medical,Expense
+2025-02-02 17:28:35,Dining Out,-33.06,Dining Out,Expense
+2025-02-02 19:12:52,Utilities,-68.12,Utilities,Expense

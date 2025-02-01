@@ -1,336 +1,369 @@
 time,description,amount,category,transaction_type
-2023-09-01 00:24:07,Misc Income,197.93,Income,Deposit
-2023-09-01 02:41:45,Misc Income,127.8,Income,Deposit
-2023-09-01 04:25:32,Transportation,-25.29,Transportation,Expense
-2023-09-01 04:38:40,Entertainment,-14.06,Entertainment,Expense
-2023-09-01 05:16:49,Online Subscription,-10.9,Online Subscription,Expense
-2023-09-01 07:30:00,Starbucks,-4.69,Coffee,Expense
-2023-09-01 08:00:00,Rent,-900.0,Rent,Expense
-2023-09-01 09:18:13,Utilities,-63.55,Utilities,Expense
-2023-09-01 10:36:36,Online Subscription,-11.75,Online Subscription,Expense
-2023-09-01 11:31:29,Groceries,-55.96,Groceries,Expense
-2023-09-01 20:44:16,Dining Out,-39.94,Dining Out,Expense
-2023-09-01 20:47:10,Misc Income,114.89,Income,Deposit
-2023-09-02 05:23:36,Dining Out,-24.28,Dining Out,Expense
-2023-09-02 06:17:27,Entertainment,-43.44,Entertainment,Expense
-2023-09-02 06:52:39,Online Subscription,-18.24,Online Subscription,Expense
-2023-09-02 07:30:00,Starbucks,-4.13,Coffee,Expense
-2023-09-02 11:14:59,Online Subscription,-11.0,Online Subscription,Expense
-2023-09-02 12:16:06,Misc Income,120.08,Income,Deposit
-2023-09-02 14:50:57,Dining Out,-39.15,Dining Out,Expense
-2023-09-02 16:41:11,Entertainment,-44.81,Entertainment,Expense
-2023-09-02 19:17:53,Utilities,-57.82,Utilities,Expense
-2023-09-02 22:44:12,Groceries,-53.09,Groceries,Expense
-2023-09-02 23:18:44,Groceries,-22.58,Groceries,Expense
-2023-09-03 00:02:47,Online Subscription,-19.42,Online Subscription,Expense
-2023-09-03 01:37:25,Entertainment,-18.04,Entertainment,Expense
-2023-09-03 02:05:31,Transportation,-10.11,Transportation,Expense
-2023-09-03 03:12:29,Dining Out,-36.08,Dining Out,Expense
-2023-09-03 05:15:12,Transportation,-28.79,Transportation,Expense
-2023-09-03 07:30:00,Starbucks,-3.76,Coffee,Expense
-2023-09-03 08:38:40,Utilities,-64.71,Utilities,Expense
-2023-09-03 08:38:41,Utilities,-53.97,Utilities,Expense
-2023-09-03 11:09:25,Entertainment,-16.25,Entertainment,Expense
-2023-09-03 22:31:04,Dining Out,-38.75,Dining Out,Expense
-2023-09-03 23:16:39,Online Subscription,-19.01,Online Subscription,Expense
-2023-09-04 01:30:48,Misc Income,262.95,Income,Deposit
-2023-09-04 01:47:32,Transportation,-8.56,Transportation,Expense
-2023-09-04 03:02:51,Misc Income,50.15,Income,Deposit
-2023-09-04 07:30:00,Starbucks,-4.91,Coffee,Expense
-2023-09-04 08:00:12,Misc Income,94.14,Income,Deposit
-2023-09-04 09:15:18,Misc Income,92.92,Income,Deposit
-2023-09-04 09:43:05,Entertainment,-48.9,Entertainment,Expense
-2023-09-04 09:50:34,Online Subscription,-8.89,Online Subscription,Expense
-2023-09-04 10:57:56,Entertainment,-37.9,Entertainment,Expense
-2023-09-04 13:33:46,Transportation,-29.64,Transportation,Expense
-2023-09-04 23:16:44,Misc Income,271.64,Income,Deposit
-2023-09-05 00:07:29,Entertainment,-10.97,Entertainment,Expense
-2023-09-05 02:12:09,Groceries,-24.6,Groceries,Expense
-2023-09-05 02:27:52,Misc Income,120.68,Income,Deposit
-2023-09-05 02:47:23,Entertainment,-33.93,Entertainment,Expense
-2023-09-05 05:45:47,Misc Income,183.13,Income,Deposit
-2023-09-05 07:30:00,Starbucks,-4.78,Coffee,Expense
-2023-09-05 11:38:52,Dining Out,-23.37,Dining Out,Expense
-2023-09-05 12:19:59,Online Subscription,-14.54,Online Subscription,Expense
-2023-09-05 15:09:44,Transportation,-6.18,Transportation,Expense
-2023-09-05 15:18:20,Transportation,-13.56,Transportation,Expense
-2023-09-05 16:46:55,Online Subscription,-17.6,Online Subscription,Expense
-2023-09-06 00:05:08,Online Subscription,-10.62,Online Subscription,Expense
-2023-09-06 03:14:15,Dining Out,-12.61,Dining Out,Expense
-2023-09-06 05:56:01,Entertainment,-25.68,Entertainment,Expense
-2023-09-06 07:30:00,Starbucks,-4.21,Coffee,Expense
-2023-09-06 08:47:18,Utilities,-33.83,Utilities,Expense
-2023-09-06 10:55:17,Entertainment,-19.9,Entertainment,Expense
-2023-09-06 13:08:59,Groceries,-26.57,Groceries,Expense
-2023-09-06 19:53:32,Dining Out,-36.38,Dining Out,Expense
-2023-09-06 22:11:58,Utilities,-64.52,Utilities,Expense
-2023-09-06 22:31:11,Utilities,-47.47,Utilities,Expense
-2023-09-06 23:40:52,Misc Income,160.67,Income,Deposit
-2023-09-07 00:21:45,Groceries,-55.42,Groceries,Expense
-2023-09-07 00:36:25,Dining Out,-36.65,Dining Out,Expense
-2023-09-07 02:27:58,Transportation,-28.98,Transportation,Expense
-2023-09-07 04:10:44,Dining Out,-32.76,Dining Out,Expense
-2023-09-07 07:30:00,Starbucks,-4.77,Coffee,Expense
-2023-09-07 10:35:36,Groceries,-25.68,Groceries,Expense
-2023-09-07 12:00:00,Freelance Payment,800.0,Income,Deposit
-2023-09-07 17:31:33,Utilities,-49.06,Utilities,Expense
-2023-09-07 21:36:57,Utilities,-44.59,Utilities,Expense
-2023-09-07 21:53:51,Entertainment,-20.24,Entertainment,Expense
-2023-09-07 22:34:15,Transportation,-13.73,Transportation,Expense
-2023-09-07 23:41:27,Dining Out,-39.52,Dining Out,Expense
-2023-09-08 03:45:19,Online Subscription,-12.36,Online Subscription,Expense
-2023-09-08 04:43:00,Online Subscription,-19.19,Online Subscription,Expense
-2023-09-08 06:17:56,Groceries,-81.13,Groceries,Expense
-2023-09-08 06:30:06,Dining Out,-25.5,Dining Out,Expense
-2023-09-08 07:30:00,Starbucks,-4.55,Coffee,Expense
-2023-09-08 07:48:01,Entertainment,-32.99,Entertainment,Expense
-2023-09-08 12:58:09,Entertainment,-44.09,Entertainment,Expense
-2023-09-08 14:38:46,Groceries,-43.3,Groceries,Expense
-2023-09-08 20:02:36,Groceries,-48.39,Groceries,Expense
-2023-09-08 21:18:31,Transportation,-12.78,Transportation,Expense
-2023-09-08 21:51:57,Online Subscription,-14.06,Online Subscription,Expense
-2023-09-09 06:44:37,Dining Out,-14.75,Dining Out,Expense
-2023-09-09 07:30:00,Starbucks,-3.7,Coffee,Expense
-2023-09-09 10:19:28,Dining Out,-34.23,Dining Out,Expense
-2023-09-09 12:06:53,Utilities,-54.09,Utilities,Expense
-2023-09-09 13:23:20,Groceries,-52.97,Groceries,Expense
-2023-09-09 14:41:11,Online Subscription,-16.91,Online Subscription,Expense
-2023-09-09 14:42:15,Utilities,-55.66,Utilities,Expense
-2023-09-09 14:54:13,Transportation,-15.96,Transportation,Expense
-2023-09-09 15:20:25,Utilities,-56.85,Utilities,Expense
-2023-09-09 15:49:40,Entertainment,-46.18,Entertainment,Expense
-2023-09-09 23:26:16,Transportation,-15.22,Transportation,Expense
-2023-09-10 00:13:57,Utilities,-30.5,Utilities,Expense
-2023-09-10 06:17:57,Transportation,-24.22,Transportation,Expense
-2023-09-10 07:30:00,Starbucks,-3.83,Coffee,Expense
-2023-09-10 08:56:49,Online Subscription,-17.69,Online Subscription,Expense
-2023-09-10 09:42:12,Utilities,-31.77,Utilities,Expense
-2023-09-10 13:09:17,Transportation,-29.88,Transportation,Expense
-2023-09-10 14:07:02,Utilities,-40.96,Utilities,Expense
-2023-09-10 16:57:39,Utilities,-40.59,Utilities,Expense
-2023-09-10 17:51:00,Online Subscription,-10.68,Online Subscription,Expense
-2023-09-10 20:09:02,Transportation,-24.71,Transportation,Expense
-2023-09-10 22:08:03,Dining Out,-36.25,Dining Out,Expense
-2023-09-11 00:06:43,Utilities,-40.97,Utilities,Expense
-2023-09-11 03:48:44,Dining Out,-26.27,Dining Out,Expense
-2023-09-11 05:32:30,Groceries,-33.48,Groceries,Expense
-2023-09-11 07:30:00,Starbucks,-3.87,Coffee,Expense
-2023-09-11 07:48:18,Misc Income,76.48,Income,Deposit
-2023-09-11 12:29:41,Entertainment,-15.61,Entertainment,Expense
-2023-09-11 14:20:51,Entertainment,-25.0,Entertainment,Expense
-2023-09-11 15:03:41,Groceries,-42.28,Groceries,Expense
-2023-09-11 22:11:49,Groceries,-27.2,Groceries,Expense
-2023-09-11 22:14:58,Online Subscription,-19.1,Online Subscription,Expense
-2023-09-11 23:39:48,Dining Out,-37.5,Dining Out,Expense
-2023-09-12 00:59:54,Transportation,-11.94,Transportation,Expense
-2023-09-12 01:17:08,Utilities,-66.62,Utilities,Expense
-2023-09-12 05:38:49,Misc Income,157.46,Income,Deposit
-2023-09-12 07:30:00,Starbucks,-3.97,Coffee,Expense
-2023-09-12 10:48:35,Entertainment,-46.35,Entertainment,Expense
-2023-09-12 11:57:56,Transportation,-27.62,Transportation,Expense
-2023-09-12 12:07:15,Misc Income,135.13,Income,Deposit
-2023-09-12 12:08:10,Misc Income,221.42,Income,Deposit
-2023-09-12 12:19:51,Groceries,-31.68,Groceries,Expense
-2023-09-12 20:24:23,Entertainment,-38.71,Entertainment,Expense
-2023-09-12 20:40:00,Utilities,-58.04,Utilities,Expense
-2023-09-13 03:20:26,Utilities,-50.03,Utilities,Expense
-2023-09-13 03:57:55,Transportation,-18.49,Transportation,Expense
-2023-09-13 06:05:37,Misc Income,242.59,Income,Deposit
-2023-09-13 07:30:00,Starbucks,-4.95,Coffee,Expense
-2023-09-13 13:13:24,Transportation,-27.99,Transportation,Expense
-2023-09-13 13:28:06,Misc Income,55.29,Income,Deposit
-2023-09-13 16:37:53,Online Subscription,-14.42,Online Subscription,Expense
-2023-09-13 20:12:29,Transportation,-16.89,Transportation,Expense
-2023-09-13 20:21:47,Utilities,-55.48,Utilities,Expense
-2023-09-13 21:57:02,Entertainment,-25.58,Entertainment,Expense
-2023-09-13 22:49:44,Utilities,-60.87,Utilities,Expense
-2023-09-14 00:09:05,Dining Out,-27.9,Dining Out,Expense
-2023-09-14 05:50:12,Groceries,-68.23,Groceries,Expense
-2023-09-14 07:30:00,Starbucks,-4.74,Coffee,Expense
-2023-09-14 08:37:32,Entertainment,-15.43,Entertainment,Expense
-2023-09-14 10:46:20,Entertainment,-39.61,Entertainment,Expense
-2023-09-14 11:34:47,Online Subscription,-12.44,Online Subscription,Expense
-2023-09-14 12:00:00,Freelance Payment,800.0,Income,Deposit
-2023-09-14 14:15:43,Dining Out,-15.98,Dining Out,Expense
-2023-09-14 15:39:44,Utilities,-52.21,Utilities,Expense
-2023-09-14 15:46:15,Groceries,-82.52,Groceries,Expense
-2023-09-14 21:05:26,Transportation,-29.3,Transportation,Expense
-2023-09-14 23:23:32,Groceries,-56.23,Groceries,Expense
-2023-09-15 00:48:23,Transportation,-10.56,Transportation,Expense
-2023-09-15 05:05:14,Online Subscription,-11.95,Online Subscription,Expense
-2023-09-15 05:42:23,Utilities,-58.12,Utilities,Expense
-2023-09-15 07:30:00,Starbucks,-4.0,Coffee,Expense
-2023-09-15 10:17:25,Dining Out,-33.29,Dining Out,Expense
-2023-09-15 10:36:23,Dining Out,-25.03,Dining Out,Expense
-2023-09-15 12:35:37,Dining Out,-38.07,Dining Out,Expense
-2023-09-15 14:53:36,Transportation,-28.46,Transportation,Expense
-2023-09-15 16:33:24,Groceries,-74.83,Groceries,Expense
-2023-09-15 19:26:16,Dining Out,-18.51,Dining Out,Expense
-2023-09-15 22:54:34,Dining Out,-15.42,Dining Out,Expense
-2023-09-16 00:34:54,Dining Out,-33.24,Dining Out,Expense
-2023-09-16 02:39:01,Misc Income,77.25,Income,Deposit
-2023-09-16 03:44:17,Online Subscription,-20.0,Online Subscription,Expense
-2023-09-16 06:27:48,Utilities,-42.62,Utilities,Expense
-2023-09-16 07:30:00,Starbucks,-5.0,Coffee,Expense
-2023-09-16 08:11:49,Online Subscription,-13.99,Online Subscription,Expense
-2023-09-16 13:52:59,Entertainment,-19.66,Entertainment,Expense
-2023-09-16 20:04:18,Misc Income,239.03,Income,Deposit
-2023-09-16 20:50:06,Dining Out,-38.0,Dining Out,Expense
-2023-09-16 22:55:21,Utilities,-57.21,Utilities,Expense
-2023-09-16 23:41:57,Entertainment,-40.23,Entertainment,Expense
-2023-09-17 03:51:26,Dining Out,-13.25,Dining Out,Expense
-2023-09-17 04:23:41,Online Subscription,-19.14,Online Subscription,Expense
-2023-09-17 06:01:59,Transportation,-15.27,Transportation,Expense
-2023-09-17 07:29:45,Groceries,-85.1,Groceries,Expense
-2023-09-17 07:30:00,Starbucks,-3.63,Coffee,Expense
-2023-09-17 08:37:03,Online Subscription,-11.26,Online Subscription,Expense
-2023-09-17 10:42:27,Dining Out,-20.0,Dining Out,Expense
-2023-09-17 14:54:04,Dining Out,-10.07,Dining Out,Expense
-2023-09-17 15:29:12,Transportation,-15.97,Transportation,Expense
-2023-09-17 21:21:12,Transportation,-18.9,Transportation,Expense
-2023-09-17 21:32:16,Online Subscription,-8.89,Online Subscription,Expense
-2023-09-18 00:33:50,Entertainment,-34.65,Entertainment,Expense
-2023-09-18 01:53:35,Groceries,-29.85,Groceries,Expense
-2023-09-18 03:26:19,Groceries,-38.25,Groceries,Expense
-2023-09-18 07:30:00,Starbucks,-4.74,Coffee,Expense
-2023-09-18 08:42:01,Online Subscription,-10.6,Online Subscription,Expense
-2023-09-18 11:09:56,Dining Out,-36.71,Dining Out,Expense
-2023-09-18 11:43:01,Groceries,-45.25,Groceries,Expense
-2023-09-18 13:22:32,Online Subscription,-13.08,Online Subscription,Expense
-2023-09-18 13:44:41,Groceries,-33.75,Groceries,Expense
-2023-09-18 16:06:22,Groceries,-41.97,Groceries,Expense
-2023-09-18 21:30:50,Dining Out,-13.97,Dining Out,Expense
-2023-09-19 01:39:55,Groceries,-20.0,Groceries,Expense
-2023-09-19 03:45:03,Transportation,-5.67,Transportation,Expense
-2023-09-19 06:06:44,Transportation,-6.25,Transportation,Expense
-2023-09-19 07:30:00,Starbucks,-3.6,Coffee,Expense
-2023-09-19 09:21:56,Online Subscription,-12.28,Online Subscription,Expense
-2023-09-19 11:57:39,Entertainment,-14.04,Entertainment,Expense
-2023-09-19 13:07:05,Online Subscription,-19.22,Online Subscription,Expense
-2023-09-19 13:50:04,Online Subscription,-9.05,Online Subscription,Expense
-2023-09-19 16:10:13,Online Subscription,-8.67,Online Subscription,Expense
-2023-09-19 17:04:59,Misc Income,88.15,Income,Deposit
-2023-09-19 20:53:44,Transportation,-18.9,Transportation,Expense
-2023-09-20 03:17:45,Utilities,-64.82,Utilities,Expense
-2023-09-20 05:40:43,Groceries,-46.67,Groceries,Expense
-2023-09-20 07:30:00,Starbucks,-3.68,Coffee,Expense
-2023-09-20 08:03:53,Transportation,-21.32,Transportation,Expense
-2023-09-20 11:41:50,Transportation,-11.1,Transportation,Expense
-2023-09-20 11:55:51,Misc Income,110.73,Income,Deposit
-2023-09-20 13:29:20,Utilities,-68.57,Utilities,Expense
-2023-09-20 13:40:33,Groceries,-52.38,Groceries,Expense
-2023-09-20 16:05:09,Groceries,-50.13,Groceries,Expense
-2023-09-20 17:44:20,Dining Out,-26.67,Dining Out,Expense
-2023-09-20 18:24:57,Dining Out,-17.87,Dining Out,Expense
-2023-09-21 02:08:36,Transportation,-12.83,Transportation,Expense
-2023-09-21 04:37:28,Entertainment,-11.36,Entertainment,Expense
-2023-09-21 07:30:00,Starbucks,-3.87,Coffee,Expense
-2023-09-21 08:18:06,Groceries,-29.85,Groceries,Expense
-2023-09-21 12:00:00,Freelance Payment,800.0,Income,Deposit
-2023-09-21 12:25:38,Groceries,-99.35,Groceries,Expense
-2023-09-21 14:28:24,Misc Income,265.5,Income,Deposit
-2023-09-21 19:32:38,Misc Income,128.75,Income,Deposit
-2023-09-21 20:27:23,Online Subscription,-13.78,Online Subscription,Expense
-2023-09-21 21:39:14,Transportation,-14.38,Transportation,Expense
-2023-09-21 22:43:57,Groceries,-24.88,Groceries,Expense
-2023-09-21 23:10:55,Groceries,-64.87,Groceries,Expense
-2023-09-22 04:46:24,Transportation,-22.3,Transportation,Expense
-2023-09-22 06:28:58,Groceries,-52.82,Groceries,Expense
-2023-09-22 07:30:00,Starbucks,-3.53,Coffee,Expense
-2023-09-22 08:15:26,Entertainment,-35.59,Entertainment,Expense
-2023-09-22 09:37:22,Misc Income,280.58,Income,Deposit
-2023-09-22 15:08:45,Online Subscription,-12.37,Online Subscription,Expense
-2023-09-22 15:54:10,Groceries,-95.32,Groceries,Expense
-2023-09-22 21:26:31,Transportation,-26.72,Transportation,Expense
-2023-09-22 22:24:04,Groceries,-21.84,Groceries,Expense
-2023-09-22 23:47:29,Online Subscription,-19.82,Online Subscription,Expense
-2023-09-22 23:59:23,Groceries,-55.08,Groceries,Expense
-2023-09-23 00:36:59,Transportation,-10.81,Transportation,Expense
-2023-09-23 02:56:46,Transportation,-5.25,Transportation,Expense
-2023-09-23 05:34:59,Online Subscription,-10.62,Online Subscription,Expense
-2023-09-23 07:30:00,Starbucks,-4.23,Coffee,Expense
-2023-09-23 11:05:48,Online Subscription,-11.58,Online Subscription,Expense
-2023-09-23 11:22:40,Entertainment,-31.89,Entertainment,Expense
-2023-09-23 11:35:12,Misc Income,128.54,Income,Deposit
-2023-09-23 13:25:06,Entertainment,-19.42,Entertainment,Expense
-2023-09-23 17:26:10,Groceries,-30.44,Groceries,Expense
-2023-09-23 20:21:13,Online Subscription,-15.95,Online Subscription,Expense
-2023-09-23 23:24:10,Utilities,-65.0,Utilities,Expense
-2023-09-24 03:45:07,Entertainment,-40.77,Entertainment,Expense
-2023-09-24 05:38:53,Groceries,-46.86,Groceries,Expense
-2023-09-24 06:23:59,Utilities,-54.26,Utilities,Expense
-2023-09-24 07:30:00,Starbucks,-4.19,Coffee,Expense
-2023-09-24 07:38:04,Dining Out,-10.8,Dining Out,Expense
-2023-09-24 10:07:46,Transportation,-18.18,Transportation,Expense
-2023-09-24 11:23:00,Online Subscription,-17.32,Online Subscription,Expense
-2023-09-24 19:03:00,Misc Income,180.03,Income,Deposit
-2023-09-24 19:29:31,Online Subscription,-10.83,Online Subscription,Expense
-2023-09-24 20:18:07,Online Subscription,-8.42,Online Subscription,Expense
-2023-09-24 23:57:53,Entertainment,-33.1,Entertainment,Expense
-2023-09-25 01:06:10,Online Subscription,-16.57,Online Subscription,Expense
-2023-09-25 01:32:02,Online Subscription,-16.32,Online Subscription,Expense
-2023-09-25 01:33:44,Utilities,-53.44,Utilities,Expense
-2023-09-25 05:24:20,Transportation,-23.19,Transportation,Expense
-2023-09-25 06:40:31,Entertainment,-48.95,Entertainment,Expense
-2023-09-25 07:30:00,Starbucks,-4.3,Coffee,Expense
-2023-09-25 08:10:48,Online Subscription,-14.81,Online Subscription,Expense
-2023-09-25 16:33:29,Transportation,-19.86,Transportation,Expense
-2023-09-25 17:39:07,Dining Out,-21.13,Dining Out,Expense
-2023-09-25 21:21:02,Transportation,-16.43,Transportation,Expense
-2023-09-25 21:52:42,Transportation,-23.01,Transportation,Expense
-2023-09-26 04:34:42,Groceries,-81.43,Groceries,Expense
-2023-09-26 07:29:40,Utilities,-34.72,Utilities,Expense
-2023-09-26 07:30:00,Starbucks,-4.67,Coffee,Expense
-2023-09-26 08:57:05,Transportation,-6.67,Transportation,Expense
-2023-09-26 09:45:29,Groceries,-33.54,Groceries,Expense
-2023-09-26 10:11:50,Groceries,-98.11,Groceries,Expense
-2023-09-26 13:23:22,Online Subscription,-18.35,Online Subscription,Expense
-2023-09-26 14:16:11,Entertainment,-33.37,Entertainment,Expense
-2023-09-26 14:35:55,Misc Income,148.93,Income,Deposit
-2023-09-26 14:51:52,Utilities,-34.93,Utilities,Expense
-2023-09-26 17:57:44,Groceries,-99.98,Groceries,Expense
-2023-09-27 00:45:38,Groceries,-62.17,Groceries,Expense
-2023-09-27 01:49:46,Utilities,-43.78,Utilities,Expense
-2023-09-27 05:02:14,Groceries,-86.14,Groceries,Expense
-2023-09-27 07:30:00,Starbucks,-4.57,Coffee,Expense
-2023-09-27 12:22:25,Utilities,-69.26,Utilities,Expense
-2023-09-27 13:19:34,Dining Out,-11.27,Dining Out,Expense
-2023-09-27 14:58:33,Dining Out,-29.5,Dining Out,Expense
-2023-09-27 17:07:25,Utilities,-58.32,Utilities,Expense
-2023-09-27 17:26:21,Entertainment,-13.21,Entertainment,Expense
-2023-09-27 18:14:26,Transportation,-19.63,Transportation,Expense
-2023-09-27 23:07:11,Transportation,-16.3,Transportation,Expense
-2023-09-28 03:49:52,Transportation,-24.74,Transportation,Expense
-2023-09-28 04:18:25,Dining Out,-36.74,Dining Out,Expense
-2023-09-28 04:22:30,Transportation,-5.13,Transportation,Expense
-2023-09-28 07:30:00,Starbucks,-3.62,Coffee,Expense
-2023-09-28 08:14:10,Transportation,-27.1,Transportation,Expense
-2023-09-28 08:49:53,Utilities,-47.3,Utilities,Expense
-2023-09-28 09:00:27,Online Subscription,-14.06,Online Subscription,Expense
-2023-09-28 10:39:13,Entertainment,-18.33,Entertainment,Expense
-2023-09-28 12:00:00,Freelance Payment,800.0,Income,Deposit
-2023-09-28 14:23:28,Transportation,-22.98,Transportation,Expense
-2023-09-28 18:48:20,Dining Out,-22.96,Dining Out,Expense
-2023-09-28 19:56:57,Online Subscription,-15.39,Online Subscription,Expense
-2023-09-29 02:50:50,Groceries,-34.42,Groceries,Expense
-2023-09-29 04:15:07,Entertainment,-31.51,Entertainment,Expense
-2023-09-29 04:18:27,Transportation,-8.13,Transportation,Expense
-2023-09-29 06:49:06,Utilities,-35.51,Utilities,Expense
-2023-09-29 07:30:00,Starbucks,-3.9,Coffee,Expense
-2023-09-29 11:28:21,Misc Income,211.11,Income,Deposit
-2023-09-29 12:05:34,Online Subscription,-18.16,Online Subscription,Expense
-2023-09-29 13:59:36,Dining Out,-17.4,Dining Out,Expense
-2023-09-29 15:45:23,Utilities,-52.37,Utilities,Expense
-2023-09-29 18:23:07,Transportation,-15.23,Transportation,Expense
-2023-09-29 20:03:37,Online Subscription,-8.32,Online Subscription,Expense
-2023-09-30 04:46:14,Groceries,-85.19,Groceries,Expense
-2023-09-30 05:55:04,Transportation,-12.1,Transportation,Expense
-2023-09-30 06:54:46,Dining Out,-37.29,Dining Out,Expense
-2023-09-30 07:30:00,Starbucks,-4.3,Coffee,Expense
-2023-09-30 10:57:37,Entertainment,-46.15,Entertainment,Expense
-2023-09-30 11:42:29,Misc Income,203.92,Income,Deposit
-2023-09-30 19:49:44,Online Subscription,-10.03,Online Subscription,Expense
-2023-09-30 22:11:32,Transportation,-18.56,Transportation,Expense
-2023-09-30 22:37:02,Entertainment,-35.02,Entertainment,Expense
-2023-09-30 23:24:32,Groceries,-40.27,Groceries,Expense
-2023-09-30 23:54:29,Online Subscription,-17.65,Online Subscription,Expense
+2025-01-01 01:58:25,Transportation,-29.92,Transportation,Expense
+2025-01-01 07:30:00,Starbucks,-3.73,Coffee,Expense
+2025-01-01 07:36:03,Misc Income,270.56,Income,Deposit
+2025-01-01 07:43:09,Transportation,-10.67,Transportation,Expense
+2025-01-01 08:00:00,Rent,-900.0,Rent,Expense
+2025-01-01 10:16:52,Transportation,-26.27,Transportation,Expense
+2025-01-01 16:04:58,Online Subscription,-11.19,Online Subscription,Expense
+2025-01-01 17:05:39,Groceries,-95.93,Groceries,Expense
+2025-01-01 17:52:32,Utilities,-35.74,Utilities,Expense
+2025-01-01 18:06:53,Dining Out,-25.33,Dining Out,Expense
+2025-01-01 18:56:30,Misc Income,259.13,Income,Deposit
+2025-01-01 20:02:58,Groceries,-30.29,Groceries,Expense
+2025-01-02 05:45:56,Groceries,-88.61,Groceries,Expense
+2025-01-02 07:30:00,Starbucks,-4.51,Coffee,Expense
+2025-01-02 11:37:48,Online Subscription,-8.6,Online Subscription,Expense
+2025-01-02 13:46:21,Groceries,-34.31,Groceries,Expense
+2025-01-02 15:19:26,Transportation,-21.82,Transportation,Expense
+2025-01-02 15:46:20,Groceries,-91.94,Groceries,Expense
+2025-01-02 17:26:04,Online Subscription,-10.89,Online Subscription,Expense
+2025-01-02 17:36:45,Utilities,-62.39,Utilities,Expense
+2025-01-02 18:29:21,Misc Income,102.71,Income,Deposit
+2025-01-02 19:13:06,Online Subscription,-9.87,Online Subscription,Expense
+2025-01-02 22:29:41,Utilities,-30.63,Utilities,Expense
+2025-01-03 00:02:53,Transportation,-23.7,Transportation,Expense
+2025-01-03 02:47:16,Groceries,-64.42,Groceries,Expense
+2025-01-03 06:04:18,Online Subscription,-10.01,Online Subscription,Expense
+2025-01-03 07:30:00,Starbucks,-4.39,Coffee,Expense
+2025-01-03 07:47:41,Misc Income,135.02,Income,Deposit
+2025-01-03 09:01:16,Entertainment,-39.24,Entertainment,Expense
+2025-01-03 09:37:59,Dining Out,-36.1,Dining Out,Expense
+2025-01-03 15:05:25,Online Subscription,-15.85,Online Subscription,Expense
+2025-01-03 17:21:51,Transportation,-23.82,Transportation,Expense
+2025-01-03 17:53:13,Dining Out,-19.5,Dining Out,Expense
+2025-01-03 19:23:17,Misc Income,260.96,Income,Deposit
+2025-01-04 00:40:01,Utilities,-67.18,Utilities,Expense
+2025-01-04 01:39:16,Online Subscription,-12.24,Online Subscription,Expense
+2025-01-04 02:29:58,Utilities,-46.31,Utilities,Expense
+2025-01-04 06:24:30,Entertainment,-13.43,Entertainment,Expense
+2025-01-04 07:30:00,Starbucks,-4.71,Coffee,Expense
+2025-01-04 07:33:12,Entertainment,-32.54,Entertainment,Expense
+2025-01-04 16:35:57,Entertainment,-38.44,Entertainment,Expense
+2025-01-04 17:52:31,Utilities,-46.31,Utilities,Expense
+2025-01-04 19:53:21,Groceries,-86.36,Groceries,Expense
+2025-01-04 20:48:30,Transportation,-11.73,Transportation,Expense
+2025-01-04 21:48:30,Misc Income,120.24,Income,Deposit
+2025-01-05 00:57:59,Dining Out,-18.35,Dining Out,Expense
+2025-01-05 03:13:33,Groceries,-48.99,Groceries,Expense
+2025-01-05 06:36:13,Online Subscription,-12.22,Online Subscription,Expense
+2025-01-05 07:04:26,Dining Out,-38.96,Dining Out,Expense
+2025-01-05 07:30:00,Starbucks,-4.44,Coffee,Expense
+2025-01-05 08:33:39,Groceries,-54.14,Groceries,Expense
+2025-01-05 09:04:39,Entertainment,-14.72,Entertainment,Expense
+2025-01-05 15:07:40,Online Subscription,-11.55,Online Subscription,Expense
+2025-01-05 17:40:43,Online Subscription,-10.51,Online Subscription,Expense
+2025-01-05 19:29:17,Utilities,-39.79,Utilities,Expense
+2025-01-05 22:33:31,Dining Out,-12.52,Dining Out,Expense
+2025-01-06 01:44:28,Entertainment,-21.63,Entertainment,Expense
+2025-01-06 04:32:12,Dining Out,-13.5,Dining Out,Expense
+2025-01-06 05:00:21,Utilities,-63.02,Utilities,Expense
+2025-01-06 07:30:00,Starbucks,-4.88,Coffee,Expense
+2025-01-06 08:11:46,Utilities,-31.65,Utilities,Expense
+2025-01-06 10:42:10,Online Subscription,-8.01,Online Subscription,Expense
+2025-01-06 19:16:33,Groceries,-98.01,Groceries,Expense
+2025-01-06 19:17:21,Misc Income,222.59,Income,Deposit
+2025-01-06 21:18:20,Online Subscription,-17.84,Online Subscription,Expense
+2025-01-06 21:53:48,Misc Income,289.42,Income,Deposit
+2025-01-06 23:15:35,Groceries,-25.18,Groceries,Expense
+2025-01-07 00:45:52,Dining Out,-15.05,Dining Out,Expense
+2025-01-07 02:09:31,Utilities,-32.81,Utilities,Expense
+2025-01-07 02:12:15,Utilities,-38.84,Utilities,Expense
+2025-01-07 03:03:29,Entertainment,-49.5,Entertainment,Expense
+2025-01-07 07:30:00,Starbucks,-4.3,Coffee,Expense
+2025-01-07 11:29:31,Utilities,-37.76,Utilities,Expense
+2025-01-07 12:00:00,Freelance Payment,800.0,Income,Deposit
+2025-01-07 19:51:33,Entertainment,-40.3,Entertainment,Expense
+2025-01-07 20:07:10,Misc Income,90.5,Income,Deposit
+2025-01-07 21:09:43,Utilities,-54.87,Utilities,Expense
+2025-01-07 21:18:35,Transportation,-21.4,Transportation,Expense
+2025-01-07 23:50:38,Misc Income,233.17,Income,Deposit
+2025-01-08 01:17:09,Misc Income,152.69,Income,Deposit
+2025-01-08 07:30:00,Starbucks,-4.34,Coffee,Expense
+2025-01-08 07:50:53,Utilities,-46.23,Utilities,Expense
+2025-01-08 08:30:51,Entertainment,-27.89,Entertainment,Expense
+2025-01-08 09:51:42,Online Subscription,-9.34,Online Subscription,Expense
+2025-01-08 11:24:10,Entertainment,-47.28,Entertainment,Expense
+2025-01-08 11:42:54,Groceries,-71.05,Groceries,Expense
+2025-01-08 18:02:20,Dining Out,-17.89,Dining Out,Expense
+2025-01-08 18:19:07,Dining Out,-35.07,Dining Out,Expense
+2025-01-08 20:09:25,Dining Out,-35.62,Dining Out,Expense
+2025-01-08 21:33:52,Online Subscription,-8.67,Online Subscription,Expense
+2025-01-09 03:07:11,Dining Out,-24.9,Dining Out,Expense
+2025-01-09 07:30:00,Starbucks,-3.89,Coffee,Expense
+2025-01-09 09:00:32,Transportation,-17.48,Transportation,Expense
+2025-01-09 11:17:08,Groceries,-81.33,Groceries,Expense
+2025-01-09 12:24:15,Dining Out,-19.32,Dining Out,Expense
+2025-01-09 12:44:55,Dining Out,-28.54,Dining Out,Expense
+2025-01-09 13:16:48,Utilities,-42.95,Utilities,Expense
+2025-01-09 18:07:32,Groceries,-34.93,Groceries,Expense
+2025-01-09 18:30:51,Transportation,-28.64,Transportation,Expense
+2025-01-09 20:19:31,Groceries,-39.6,Groceries,Expense
+2025-01-09 20:49:43,Misc Income,242.16,Income,Deposit
+2025-01-10 00:43:21,Transportation,-21.84,Transportation,Expense
+2025-01-10 03:55:02,Groceries,-32.51,Groceries,Expense
+2025-01-10 05:21:59,Online Subscription,-14.76,Online Subscription,Expense
+2025-01-10 07:30:00,Starbucks,-3.68,Coffee,Expense
+2025-01-10 08:08:51,Online Subscription,-11.39,Online Subscription,Expense
+2025-01-10 09:13:28,Entertainment,-17.49,Entertainment,Expense
+2025-01-10 09:16:30,Utilities,-59.14,Utilities,Expense
+2025-01-10 12:46:59,Misc Income,129.35,Income,Deposit
+2025-01-10 13:53:11,Utilities,-61.49,Utilities,Expense
+2025-01-10 18:45:11,Entertainment,-48.35,Entertainment,Expense
+2025-01-10 22:18:09,Utilities,-33.01,Utilities,Expense
+2025-01-11 03:15:25,Transportation,-24.34,Transportation,Expense
+2025-01-11 05:19:00,Entertainment,-28.49,Entertainment,Expense
+2025-01-11 06:32:43,Dining Out,-11.02,Dining Out,Expense
+2025-01-11 06:43:21,Utilities,-59.41,Utilities,Expense
+2025-01-11 07:30:00,Starbucks,-4.0,Coffee,Expense
+2025-01-11 08:27:47,Transportation,-9.83,Transportation,Expense
+2025-01-11 09:31:27,Transportation,-14.66,Transportation,Expense
+2025-01-11 11:26:04,Misc Income,183.13,Income,Deposit
+2025-01-11 15:54:33,Groceries,-23.89,Groceries,Expense
+2025-01-11 16:02:48,Dining Out,-38.25,Dining Out,Expense
+2025-01-11 20:35:37,Groceries,-72.8,Groceries,Expense
+2025-01-12 00:17:32,Entertainment,-17.55,Entertainment,Expense
+2025-01-12 00:31:09,Dining Out,-25.68,Dining Out,Expense
+2025-01-12 02:33:44,Transportation,-26.73,Transportation,Expense
+2025-01-12 03:46:07,Transportation,-14.61,Transportation,Expense
+2025-01-12 04:05:09,Dining Out,-21.41,Dining Out,Expense
+2025-01-12 07:01:24,Utilities,-47.87,Utilities,Expense
+2025-01-12 07:02:42,Entertainment,-25.11,Entertainment,Expense
+2025-01-12 07:20:57,Online Subscription,-18.22,Online Subscription,Expense
+2025-01-12 07:30:00,Starbucks,-4.61,Coffee,Expense
+2025-01-12 09:08:43,Online Subscription,-18.45,Online Subscription,Expense
+2025-01-12 10:19:36,Groceries,-96.79,Groceries,Expense
+2025-01-13 06:23:03,Online Subscription,-10.74,Online Subscription,Expense
+2025-01-13 07:30:00,Starbucks,-4.43,Coffee,Expense
+2025-01-13 07:59:33,Online Subscription,-12.37,Online Subscription,Expense
+2025-01-13 09:01:55,Transportation,-7.95,Transportation,Expense
+2025-01-13 11:21:26,Groceries,-46.41,Groceries,Expense
+2025-01-13 11:26:51,Dining Out,-23.34,Dining Out,Expense
+2025-01-13 12:40:54,Dining Out,-30.24,Dining Out,Expense
+2025-01-13 13:03:53,Online Subscription,-13.4,Online Subscription,Expense
+2025-01-13 17:42:56,Dining Out,-20.14,Dining Out,Expense
+2025-01-13 20:34:38,Dining Out,-14.11,Dining Out,Expense
+2025-01-13 22:50:22,Online Subscription,-11.53,Online Subscription,Expense
+2025-01-14 07:30:00,Starbucks,-3.62,Coffee,Expense
+2025-01-14 09:04:16,Entertainment,-37.71,Entertainment,Expense
+2025-01-14 09:58:55,Online Subscription,-15.42,Online Subscription,Expense
+2025-01-14 12:00:00,Freelance Payment,800.0,Income,Deposit
+2025-01-14 12:21:51,Transportation,-11.12,Transportation,Expense
+2025-01-14 12:37:38,Online Subscription,-17.21,Online Subscription,Expense
+2025-01-14 14:55:12,Entertainment,-29.48,Entertainment,Expense
+2025-01-14 18:35:23,Groceries,-75.95,Groceries,Expense
+2025-01-14 18:47:06,Transportation,-10.78,Transportation,Expense
+2025-01-14 20:35:49,Dining Out,-23.28,Dining Out,Expense
+2025-01-14 22:42:00,Utilities,-55.88,Utilities,Expense
+2025-01-14 22:52:01,Misc Income,235.1,Income,Deposit
+2025-01-15 02:13:08,Transportation,-11.28,Transportation,Expense
+2025-01-15 06:36:52,Utilities,-55.67,Utilities,Expense
+2025-01-15 07:30:00,Starbucks,-4.36,Coffee,Expense
+2025-01-15 09:39:10,Utilities,-40.09,Utilities,Expense
+2025-01-15 10:40:39,Online Subscription,-8.87,Online Subscription,Expense
+2025-01-15 12:22:19,Utilities,-34.52,Utilities,Expense
+2025-01-15 14:24:17,Entertainment,-19.12,Entertainment,Expense
+2025-01-15 18:54:26,Groceries,-77.56,Groceries,Expense
+2025-01-15 19:15:51,Transportation,-18.0,Transportation,Expense
+2025-01-15 19:26:26,Transportation,-19.8,Transportation,Expense
+2025-01-15 19:49:30,Online Subscription,-18.62,Online Subscription,Expense
+2025-01-16 02:38:31,Transportation,-8.96,Transportation,Expense
+2025-01-16 02:40:07,Groceries,-48.51,Groceries,Expense
+2025-01-16 03:21:10,Transportation,-24.8,Transportation,Expense
+2025-01-16 04:21:37,Misc Income,263.48,Income,Deposit
+2025-01-16 07:30:00,Starbucks,-3.57,Coffee,Expense
+2025-01-16 15:59:59,Online Subscription,-9.19,Online Subscription,Expense
+2025-01-16 16:16:37,Dining Out,-34.8,Dining Out,Expense
+2025-01-16 18:33:11,Dining Out,-18.01,Dining Out,Expense
+2025-01-16 18:42:34,Transportation,-10.52,Transportation,Expense
+2025-01-16 22:49:05,Online Subscription,-16.88,Online Subscription,Expense
+2025-01-16 23:30:36,Entertainment,-30.92,Entertainment,Expense
+2025-01-17 01:26:04,Transportation,-29.09,Transportation,Expense
+2025-01-17 01:26:37,Online Subscription,-19.63,Online Subscription,Expense
+2025-01-17 03:01:03,Dining Out,-31.52,Dining Out,Expense
+2025-01-17 04:46:23,Entertainment,-38.89,Entertainment,Expense
+2025-01-17 07:30:00,Starbucks,-3.6,Coffee,Expense
+2025-01-17 09:28:19,Online Subscription,-11.35,Online Subscription,Expense
+2025-01-17 10:36:08,Misc Income,236.38,Income,Deposit
+2025-01-17 13:53:26,Entertainment,-14.32,Entertainment,Expense
+2025-01-17 16:38:57,Transportation,-6.79,Transportation,Expense
+2025-01-17 20:28:12,Entertainment,-32.04,Entertainment,Expense
+2025-01-17 20:28:53,Dining Out,-22.19,Dining Out,Expense
+2025-01-18 05:51:50,Dining Out,-22.79,Dining Out,Expense
+2025-01-18 07:14:12,Online Subscription,-11.82,Online Subscription,Expense
+2025-01-18 07:30:00,Starbucks,-4.75,Coffee,Expense
+2025-01-18 12:25:08,Groceries,-46.99,Groceries,Expense
+2025-01-18 14:51:38,Online Subscription,-19.67,Online Subscription,Expense
+2025-01-18 18:25:25,Entertainment,-35.38,Entertainment,Expense
+2025-01-18 18:45:14,Transportation,-8.11,Transportation,Expense
+2025-01-18 19:32:06,Transportation,-28.23,Transportation,Expense
+2025-01-18 20:15:32,Transportation,-10.24,Transportation,Expense
+2025-01-18 21:55:34,Online Subscription,-13.04,Online Subscription,Expense
+2025-01-18 23:53:54,Transportation,-10.94,Transportation,Expense
+2025-01-19 01:21:33,Entertainment,-19.46,Entertainment,Expense
+2025-01-19 01:49:38,Online Subscription,-16.75,Online Subscription,Expense
+2025-01-19 05:00:36,Online Subscription,-9.5,Online Subscription,Expense
+2025-01-19 07:30:00,Starbucks,-4.48,Coffee,Expense
+2025-01-19 10:07:56,Groceries,-44.77,Groceries,Expense
+2025-01-19 11:15:40,Utilities,-52.43,Utilities,Expense
+2025-01-19 15:34:29,Online Subscription,-15.53,Online Subscription,Expense
+2025-01-19 17:16:37,Misc Income,228.74,Income,Deposit
+2025-01-19 18:21:07,Groceries,-92.26,Groceries,Expense
+2025-01-19 22:27:40,Dining Out,-30.09,Dining Out,Expense
+2025-01-19 22:43:04,Online Subscription,-17.03,Online Subscription,Expense
+2025-01-20 02:53:53,Misc Income,95.73,Income,Deposit
+2025-01-20 05:40:31,Dining Out,-28.15,Dining Out,Expense
+2025-01-20 07:30:00,Starbucks,-3.59,Coffee,Expense
+2025-01-20 07:57:27,Transportation,-25.28,Transportation,Expense
+2025-01-20 08:08:58,Transportation,-20.31,Transportation,Expense
+2025-01-20 08:42:25,Dining Out,-22.47,Dining Out,Expense
+2025-01-20 15:08:43,Misc Income,252.33,Income,Deposit
+2025-01-20 16:02:49,Transportation,-22.24,Transportation,Expense
+2025-01-20 16:21:56,Transportation,-8.45,Transportation,Expense
+2025-01-20 18:36:41,Misc Income,201.91,Income,Deposit
+2025-01-20 20:32:04,Misc Income,242.7,Income,Deposit
+2025-01-21 01:55:33,Transportation,-15.34,Transportation,Expense
+2025-01-21 04:51:18,Groceries,-99.23,Groceries,Expense
+2025-01-21 05:00:27,Transportation,-15.2,Transportation,Expense
+2025-01-21 07:30:00,Starbucks,-4.57,Coffee,Expense
+2025-01-21 12:00:00,Freelance Payment,800.0,Income,Deposit
+2025-01-21 12:36:16,Utilities,-33.57,Utilities,Expense
+2025-01-21 13:43:17,Misc Income,152.53,Income,Deposit
+2025-01-21 16:23:02,Utilities,-45.25,Utilities,Expense
+2025-01-21 17:24:09,Online Subscription,-13.19,Online Subscription,Expense
+2025-01-21 18:01:11,Groceries,-59.65,Groceries,Expense
+2025-01-21 21:19:45,Dining Out,-11.75,Dining Out,Expense
+2025-01-21 23:07:45,Online Subscription,-18.92,Online Subscription,Expense
+2025-01-22 06:20:56,Dining Out,-10.97,Dining Out,Expense
+2025-01-22 07:30:00,Starbucks,-3.8,Coffee,Expense
+2025-01-22 10:04:04,Utilities,-48.4,Utilities,Expense
+2025-01-22 10:46:04,Groceries,-57.54,Groceries,Expense
+2025-01-22 12:22:10,Utilities,-36.79,Utilities,Expense
+2025-01-22 15:39:47,Transportation,-21.22,Transportation,Expense
+2025-01-22 16:17:45,Transportation,-22.43,Transportation,Expense
+2025-01-22 16:20:10,Utilities,-31.04,Utilities,Expense
+2025-01-22 19:44:51,Transportation,-11.77,Transportation,Expense
+2025-01-22 19:50:00,Online Subscription,-10.42,Online Subscription,Expense
+2025-01-22 23:11:31,Online Subscription,-13.1,Online Subscription,Expense
+2025-01-23 01:23:16,Misc Income,180.47,Income,Deposit
+2025-01-23 02:30:04,Dining Out,-24.72,Dining Out,Expense
+2025-01-23 03:16:19,Online Subscription,-9.85,Online Subscription,Expense
+2025-01-23 06:49:13,Misc Income,156.46,Income,Deposit
+2025-01-23 07:30:00,Starbucks,-4.55,Coffee,Expense
+2025-01-23 09:18:03,Online Subscription,-17.35,Online Subscription,Expense
+2025-01-23 17:23:39,Groceries,-67.06,Groceries,Expense
+2025-01-23 19:39:11,Entertainment,-30.66,Entertainment,Expense
+2025-01-23 20:45:39,Online Subscription,-10.89,Online Subscription,Expense
+2025-01-23 21:29:38,Online Subscription,-17.62,Online Subscription,Expense
+2025-01-23 21:55:11,Dining Out,-27.51,Dining Out,Expense
+2025-01-24 04:01:17,Groceries,-86.19,Groceries,Expense
+2025-01-24 05:51:31,Misc Income,101.14,Income,Deposit
+2025-01-24 07:30:00,Starbucks,-4.61,Coffee,Expense
+2025-01-24 07:46:13,Transportation,-7.57,Transportation,Expense
+2025-01-24 09:51:38,Entertainment,-11.07,Entertainment,Expense
+2025-01-24 10:56:33,Transportation,-10.7,Transportation,Expense
+2025-01-24 15:07:08,Dining Out,-31.26,Dining Out,Expense
+2025-01-24 15:55:19,Utilities,-45.59,Utilities,Expense
+2025-01-24 16:36:03,Entertainment,-17.62,Entertainment,Expense
+2025-01-24 22:27:34,Utilities,-42.86,Utilities,Expense
+2025-01-24 23:56:42,Groceries,-60.83,Groceries,Expense
+2025-01-25 01:14:29,Dining Out,-26.92,Dining Out,Expense
+2025-01-25 07:30:00,Starbucks,-4.88,Coffee,Expense
+2025-01-25 09:22:45,Groceries,-48.5,Groceries,Expense
+2025-01-25 12:59:16,Utilities,-67.04,Utilities,Expense
+2025-01-25 16:13:48,Transportation,-26.89,Transportation,Expense
+2025-01-25 19:28:12,Utilities,-54.43,Utilities,Expense
+2025-01-25 20:57:04,Online Subscription,-16.79,Online Subscription,Expense
+2025-01-25 21:22:12,Transportation,-23.51,Transportation,Expense
+2025-01-25 22:02:37,Transportation,-19.71,Transportation,Expense
+2025-01-25 22:28:01,Dining Out,-33.11,Dining Out,Expense
+2025-01-25 23:54:03,Groceries,-53.09,Groceries,Expense
+2025-01-26 07:30:00,Starbucks,-4.02,Coffee,Expense
+2025-01-26 09:46:35,Dining Out,-39.04,Dining Out,Expense
+2025-01-26 09:52:04,Entertainment,-49.01,Entertainment,Expense
+2025-01-26 10:39:01,Misc Income,60.46,Income,Deposit
+2025-01-26 11:25:33,Groceries,-91.5,Groceries,Expense
+2025-01-26 17:10:38,Utilities,-46.6,Utilities,Expense
+2025-01-26 17:30:05,Groceries,-26.24,Groceries,Expense
+2025-01-26 19:10:18,Online Subscription,-13.87,Online Subscription,Expense
+2025-01-26 20:28:42,Entertainment,-11.06,Entertainment,Expense
+2025-01-26 21:17:24,Misc Income,283.35,Income,Deposit
+2025-01-26 22:58:14,Utilities,-30.6,Utilities,Expense
+2025-01-27 01:00:55,Transportation,-9.9,Transportation,Expense
+2025-01-27 01:24:41,Entertainment,-47.66,Entertainment,Expense
+2025-01-27 02:35:43,Utilities,-64.7,Utilities,Expense
+2025-01-27 02:45:28,Dining Out,-25.65,Dining Out,Expense
+2025-01-27 04:17:26,Utilities,-34.14,Utilities,Expense
+2025-01-27 07:02:07,Dining Out,-31.33,Dining Out,Expense
+2025-01-27 07:30:00,Starbucks,-3.67,Coffee,Expense
+2025-01-27 07:45:07,Online Subscription,-14.46,Online Subscription,Expense
+2025-01-27 11:04:01,Groceries,-97.65,Groceries,Expense
+2025-01-27 20:45:07,Entertainment,-28.42,Entertainment,Expense
+2025-01-27 23:53:04,Misc Income,264.4,Income,Deposit
+2025-01-28 00:50:16,Utilities,-69.96,Utilities,Expense
+2025-01-28 01:16:25,Utilities,-31.86,Utilities,Expense
+2025-01-28 05:50:27,Dining Out,-25.6,Dining Out,Expense
+2025-01-28 06:12:52,Entertainment,-37.65,Entertainment,Expense
+2025-01-28 06:20:29,Groceries,-27.7,Groceries,Expense
+2025-01-28 07:30:00,Starbucks,-3.5,Coffee,Expense
+2025-01-28 12:00:00,Freelance Payment,800.0,Income,Deposit
+2025-01-28 17:14:38,Misc Income,243.83,Income,Deposit
+2025-01-28 18:55:04,Entertainment,-20.86,Entertainment,Expense
+2025-01-28 19:19:35,Online Subscription,-9.71,Online Subscription,Expense
+2025-01-28 20:57:13,Utilities,-63.54,Utilities,Expense
+2025-01-28 22:19:54,Utilities,-54.25,Utilities,Expense
+2025-01-29 00:42:37,Groceries,-92.33,Groceries,Expense
+2025-01-29 02:43:08,Online Subscription,-15.94,Online Subscription,Expense
+2025-01-29 02:47:51,Entertainment,-27.29,Entertainment,Expense
+2025-01-29 02:49:12,Entertainment,-36.12,Entertainment,Expense
+2025-01-29 05:43:40,Misc Income,127.39,Income,Deposit
+2025-01-29 07:30:00,Starbucks,-3.86,Coffee,Expense
+2025-01-29 16:05:19,Utilities,-65.15,Utilities,Expense
+2025-01-29 16:47:31,Dining Out,-36.96,Dining Out,Expense
+2025-01-29 19:42:51,Entertainment,-44.52,Entertainment,Expense
+2025-01-29 21:00:38,Groceries,-81.9,Groceries,Expense
+2025-01-29 21:17:45,Transportation,-13.03,Transportation,Expense
+2025-01-30 07:30:00,Starbucks,-4.59,Coffee,Expense
+2025-01-30 08:53:18,Transportation,-6.55,Transportation,Expense
+2025-01-30 08:57:40,Online Subscription,-12.99,Online Subscription,Expense
+2025-01-30 09:00:36,Misc Income,144.92,Income,Deposit
+2025-01-30 14:54:05,Transportation,-6.69,Transportation,Expense
+2025-01-30 17:27:20,Dining Out,-22.03,Dining Out,Expense
+2025-01-30 17:56:27,Misc Income,248.45,Income,Deposit
+2025-01-30 18:10:31,Online Subscription,-17.97,Online Subscription,Expense
+2025-01-30 18:29:36,Utilities,-68.06,Utilities,Expense
+2025-01-30 19:42:33,Utilities,-34.95,Utilities,Expense
+2025-01-30 21:13:21,Groceries,-53.11,Groceries,Expense
+2025-01-31 03:59:25,Transportation,-6.17,Transportation,Expense
+2025-01-31 04:06:12,Groceries,-98.34,Groceries,Expense
+2025-01-31 06:22:36,Utilities,-63.58,Utilities,Expense
+2025-01-31 07:23:07,Entertainment,-29.02,Entertainment,Expense
+2025-01-31 07:30:00,Starbucks,-4.77,Coffee,Expense
+2025-01-31 11:55:03,Groceries,-35.32,Groceries,Expense
+2025-01-31 12:54:40,Groceries,-68.23,Groceries,Expense
+2025-01-31 14:58:51,Utilities,-58.54,Utilities,Expense
+2025-01-31 15:21:53,Utilities,-68.69,Utilities,Expense
+2025-01-31 16:55:18,Transportation,-15.26,Transportation,Expense
+2025-01-31 20:12:34,Entertainment,-41.72,Entertainment,Expense
+2025-02-01 01:33:12,Dining Out,-28.35,Dining Out,Expense
+2025-02-01 02:51:59,Transportation,-11.58,Transportation,Expense
+2025-02-01 04:47:14,Online Subscription,-11.87,Online Subscription,Expense
+2025-02-01 07:30:00,Starbucks,-3.55,Coffee,Expense
+2025-02-01 10:05:47,Utilities,-38.08,Utilities,Expense
+2025-02-01 13:03:30,Transportation,-11.56,Transportation,Expense
+2025-02-01 14:01:41,Misc Income,98.18,Income,Deposit
+2025-02-01 14:37:17,Misc Income,178.35,Income,Deposit
+2025-02-01 19:44:42,Groceries,-73.26,Groceries,Expense
+2025-02-01 19:48:21,Utilities,-46.72,Utilities,Expense
+2025-02-01 22:51:55,Transportation,-19.19,Transportation,Expense
+2025-02-02 00:55:31,Transportation,-17.39,Transportation,Expense
+2025-02-02 01:45:23,Entertainment,-23.39,Entertainment,Expense
+2025-02-02 01:56:32,Online Subscription,-15.1,Online Subscription,Expense
+2025-02-02 06:25:54,Utilities,-66.71,Utilities,Expense
+2025-02-02 07:30:00,Starbucks,-4.44,Coffee,Expense
+2025-02-02 11:37:12,Online Subscription,-16.11,Online Subscription,Expense
+2025-02-02 15:53:40,Entertainment,-49.39,Entertainment,Expense
+2025-02-02 19:39:49,Groceries,-39.09,Groceries,Expense
+2025-02-02 21:16:11,Utilities,-48.63,Utilities,Expense
+2025-02-02 22:17:57,Misc Income,123.43,Income,Deposit
+2025-02-02 22:25:26,Utilities,-55.9,Utilities,Expense

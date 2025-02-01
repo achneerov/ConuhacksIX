@@ -1,333 +1,366 @@
 time,description,amount,category,transaction_type
-2023-09-01 03:46:52,Dining Out,-39.52,Dining Out,Expense
-2023-09-01 05:53:19,Groceries,-70.98,Groceries,Expense
-2023-09-01 06:50:55,Utilities,-63.2,Utilities,Expense
-2023-09-01 07:30:00,Starbucks,-4.55,Coffee,Expense
-2023-09-01 07:34:34,Groceries,-61.39,Groceries,Expense
-2023-09-01 07:34:35,Misc Income,257.89,Income,Deposit
-2023-09-01 08:16:18,Gambling Loss,-34.1,Gambling Loss,Expense
-2023-09-01 12:05:40,Transportation,-26.77,Transportation,Expense
-2023-09-01 12:18:22,Gambling Loss,-141.48,Gambling Loss,Expense
-2023-09-01 16:59:11,Dining Out,-10.82,Dining Out,Expense
-2023-09-01 16:59:15,Misc Income,204.49,Income,Deposit
-2023-09-02 01:13:13,Groceries,-32.11,Groceries,Expense
-2023-09-02 07:30:00,Starbucks,-4.83,Coffee,Expense
-2023-09-02 08:58:07,Groceries,-30.28,Groceries,Expense
-2023-09-02 12:34:25,Dining Out,-15.84,Dining Out,Expense
-2023-09-02 13:11:46,Groceries,-66.68,Groceries,Expense
-2023-09-02 15:08:51,Utilities,-49.1,Utilities,Expense
-2023-09-02 18:00:50,Transportation,-7.25,Transportation,Expense
-2023-09-02 18:08:26,Gambling Loss,-146.66,Gambling Loss,Expense
-2023-09-02 18:10:25,Groceries,-20.78,Groceries,Expense
-2023-09-02 20:57:59,Groceries,-92.57,Groceries,Expense
-2023-09-02 23:54:02,Dining Out,-10.12,Dining Out,Expense
-2023-09-03 00:08:02,Transportation,-25.5,Transportation,Expense
-2023-09-03 01:31:20,Utilities,-58.31,Utilities,Expense
-2023-09-03 02:33:15,Dining Out,-17.53,Dining Out,Expense
-2023-09-03 04:30:55,Groceries,-98.83,Groceries,Expense
-2023-09-03 05:34:55,Groceries,-27.06,Groceries,Expense
-2023-09-03 07:30:00,Starbucks,-4.59,Coffee,Expense
-2023-09-03 15:55:48,Gambling Loss,-179.81,Gambling Loss,Expense
-2023-09-03 17:40:46,Gambling Loss,-94.07,Gambling Loss,Expense
-2023-09-03 19:43:14,Dining Out,-30.09,Dining Out,Expense
-2023-09-03 20:59:49,Transportation,-20.08,Transportation,Expense
-2023-09-03 22:33:24,Utilities,-54.42,Utilities,Expense
-2023-09-04 02:15:10,Transportation,-8.69,Transportation,Expense
-2023-09-04 02:59:59,Groceries,-34.57,Groceries,Expense
-2023-09-04 03:05:58,Dining Out,-23.41,Dining Out,Expense
-2023-09-04 04:46:56,Groceries,-70.88,Groceries,Expense
-2023-09-04 05:55:46,Gambling Loss,-153.05,Gambling Loss,Expense
-2023-09-04 07:30:00,Starbucks,-4.56,Coffee,Expense
-2023-09-04 09:46:15,Utilities,-34.28,Utilities,Expense
-2023-09-04 10:17:15,Misc Income,190.08,Income,Deposit
-2023-09-04 12:51:27,Groceries,-63.51,Groceries,Expense
-2023-09-04 19:47:32,Transportation,-18.28,Transportation,Expense
-2023-09-04 21:24:17,Misc Income,90.48,Income,Deposit
-2023-09-05 04:03:10,Misc Income,145.37,Income,Deposit
-2023-09-05 05:32:06,Transportation,-10.83,Transportation,Expense
-2023-09-05 05:55:10,Misc Income,112.29,Income,Deposit
-2023-09-05 07:30:00,Starbucks,-3.92,Coffee,Expense
-2023-09-05 08:14:42,Gambling Loss,-188.65,Gambling Loss,Expense
-2023-09-05 12:23:23,Utilities,-55.94,Utilities,Expense
-2023-09-05 15:36:20,Dining Out,-30.91,Dining Out,Expense
-2023-09-05 15:38:39,Utilities,-61.43,Utilities,Expense
-2023-09-05 17:48:01,Groceries,-61.69,Groceries,Expense
-2023-09-05 21:36:33,Gambling Loss,-90.0,Gambling Loss,Expense
-2023-09-05 21:46:24,Gambling Loss,-115.31,Gambling Loss,Expense
-2023-09-06 02:27:32,Groceries,-59.29,Groceries,Expense
-2023-09-06 04:10:56,Transportation,-26.3,Transportation,Expense
-2023-09-06 07:30:00,Starbucks,-3.6,Coffee,Expense
-2023-09-06 07:45:12,Utilities,-55.52,Utilities,Expense
-2023-09-06 09:10:38,Utilities,-51.37,Utilities,Expense
-2023-09-06 10:44:44,Gambling Loss,-161.84,Gambling Loss,Expense
-2023-09-06 13:37:56,Dining Out,-11.7,Dining Out,Expense
-2023-09-06 15:11:44,Transportation,-19.72,Transportation,Expense
-2023-09-06 18:21:35,Misc Income,200.42,Income,Deposit
-2023-09-06 19:31:27,Groceries,-24.67,Groceries,Expense
-2023-09-06 20:10:00,Transportation,-18.52,Transportation,Expense
-2023-09-07 05:36:16,Dining Out,-15.0,Dining Out,Expense
-2023-09-07 05:44:18,Misc Income,60.32,Income,Deposit
-2023-09-07 06:30:13,Groceries,-53.76,Groceries,Expense
-2023-09-07 07:30:00,Starbucks,-4.9,Coffee,Expense
-2023-09-07 10:04:48,Gambling Loss,-51.47,Gambling Loss,Expense
-2023-09-07 12:07:59,Utilities,-43.73,Utilities,Expense
-2023-09-07 16:21:53,Utilities,-45.48,Utilities,Expense
-2023-09-07 17:17:34,Misc Income,184.9,Income,Deposit
-2023-09-07 18:30:25,Groceries,-43.67,Groceries,Expense
-2023-09-07 19:14:04,Utilities,-63.5,Utilities,Expense
-2023-09-07 20:00:00,Casino Win,1000.0,Income,Deposit
-2023-09-07 23:56:35,Utilities,-52.89,Utilities,Expense
-2023-09-08 05:29:01,Gambling Loss,-118.74,Gambling Loss,Expense
-2023-09-08 06:31:30,Utilities,-45.68,Utilities,Expense
-2023-09-08 06:35:43,Transportation,-5.31,Transportation,Expense
-2023-09-08 07:20:30,Gambling Loss,-70.64,Gambling Loss,Expense
-2023-09-08 07:30:00,Starbucks,-4.23,Coffee,Expense
-2023-09-08 10:00:41,Gambling Loss,-104.25,Gambling Loss,Expense
-2023-09-08 16:47:57,Dining Out,-33.42,Dining Out,Expense
-2023-09-08 17:52:14,Utilities,-59.54,Utilities,Expense
-2023-09-08 18:20:11,Transportation,-9.75,Transportation,Expense
-2023-09-08 19:20:30,Utilities,-59.8,Utilities,Expense
-2023-09-08 22:49:13,Transportation,-5.91,Transportation,Expense
-2023-09-09 04:26:46,Transportation,-23.82,Transportation,Expense
-2023-09-09 06:38:16,Utilities,-42.3,Utilities,Expense
-2023-09-09 07:30:00,Starbucks,-4.53,Coffee,Expense
-2023-09-09 10:07:33,Transportation,-9.29,Transportation,Expense
-2023-09-09 14:39:03,Misc Income,190.37,Income,Deposit
-2023-09-09 15:14:31,Groceries,-80.29,Groceries,Expense
-2023-09-09 16:58:57,Dining Out,-20.69,Dining Out,Expense
-2023-09-09 17:00:21,Gambling Loss,-121.88,Gambling Loss,Expense
-2023-09-09 17:13:12,Dining Out,-16.48,Dining Out,Expense
-2023-09-09 18:01:21,Transportation,-25.45,Transportation,Expense
-2023-09-09 18:55:45,Transportation,-22.02,Transportation,Expense
-2023-09-10 00:29:37,Dining Out,-16.55,Dining Out,Expense
-2023-09-10 02:51:04,Groceries,-74.41,Groceries,Expense
-2023-09-10 04:17:36,Utilities,-48.57,Utilities,Expense
-2023-09-10 07:30:00,Starbucks,-4.78,Coffee,Expense
-2023-09-10 11:13:08,Utilities,-61.74,Utilities,Expense
-2023-09-10 12:33:43,Transportation,-11.41,Transportation,Expense
-2023-09-10 17:05:21,Gambling Loss,-50.41,Gambling Loss,Expense
-2023-09-10 18:03:24,Gambling Loss,-61.92,Gambling Loss,Expense
-2023-09-10 21:18:48,Gambling Loss,-162.04,Gambling Loss,Expense
-2023-09-10 21:23:42,Groceries,-88.24,Groceries,Expense
-2023-09-10 21:36:25,Gambling Loss,-141.2,Gambling Loss,Expense
-2023-09-11 02:46:25,Gambling Loss,-156.65,Gambling Loss,Expense
-2023-09-11 04:47:07,Misc Income,179.3,Income,Deposit
-2023-09-11 04:53:27,Transportation,-16.58,Transportation,Expense
-2023-09-11 07:30:00,Starbucks,-3.7,Coffee,Expense
-2023-09-11 09:17:31,Gambling Loss,-84.11,Gambling Loss,Expense
-2023-09-11 12:28:28,Gambling Loss,-41.33,Gambling Loss,Expense
-2023-09-11 18:41:30,Gambling Loss,-147.52,Gambling Loss,Expense
-2023-09-11 18:46:37,Utilities,-43.29,Utilities,Expense
-2023-09-11 18:49:09,Groceries,-92.45,Groceries,Expense
-2023-09-11 22:21:45,Dining Out,-25.93,Dining Out,Expense
-2023-09-11 22:47:57,Transportation,-27.21,Transportation,Expense
-2023-09-12 01:53:20,Groceries,-40.56,Groceries,Expense
-2023-09-12 07:30:00,Starbucks,-4.56,Coffee,Expense
-2023-09-12 07:42:43,Transportation,-16.95,Transportation,Expense
-2023-09-12 09:01:52,Utilities,-66.21,Utilities,Expense
-2023-09-12 09:15:48,Groceries,-66.45,Groceries,Expense
-2023-09-12 16:42:36,Dining Out,-27.98,Dining Out,Expense
-2023-09-12 17:58:18,Utilities,-37.22,Utilities,Expense
-2023-09-12 18:07:46,Groceries,-95.88,Groceries,Expense
-2023-09-12 19:35:59,Dining Out,-37.39,Dining Out,Expense
-2023-09-12 21:29:42,Misc Income,256.86,Income,Deposit
-2023-09-12 22:29:19,Groceries,-59.44,Groceries,Expense
-2023-09-13 00:19:55,Gambling Loss,-45.43,Gambling Loss,Expense
-2023-09-13 03:27:26,Gambling Loss,-87.61,Gambling Loss,Expense
-2023-09-13 06:23:44,Utilities,-53.29,Utilities,Expense
-2023-09-13 06:52:25,Utilities,-33.36,Utilities,Expense
-2023-09-13 06:53:30,Groceries,-21.46,Groceries,Expense
-2023-09-13 07:30:00,Starbucks,-4.92,Coffee,Expense
-2023-09-13 10:58:46,Transportation,-9.48,Transportation,Expense
-2023-09-13 15:27:17,Groceries,-45.06,Groceries,Expense
-2023-09-13 16:21:12,Gambling Loss,-175.61,Gambling Loss,Expense
-2023-09-13 18:10:58,Misc Income,244.79,Income,Deposit
-2023-09-13 19:38:32,Utilities,-30.81,Utilities,Expense
-2023-09-14 01:38:21,Transportation,-22.23,Transportation,Expense
-2023-09-14 02:11:53,Gambling Loss,-42.19,Gambling Loss,Expense
-2023-09-14 03:18:41,Transportation,-7.58,Transportation,Expense
-2023-09-14 03:59:00,Utilities,-59.75,Utilities,Expense
-2023-09-14 04:26:22,Gambling Loss,-172.0,Gambling Loss,Expense
-2023-09-14 07:30:00,Starbucks,-4.73,Coffee,Expense
-2023-09-14 09:08:05,Dining Out,-30.41,Dining Out,Expense
-2023-09-14 16:49:35,Dining Out,-20.88,Dining Out,Expense
-2023-09-14 21:13:36,Dining Out,-25.42,Dining Out,Expense
-2023-09-14 22:47:06,Transportation,-10.33,Transportation,Expense
-2023-09-14 22:55:31,Dining Out,-15.87,Dining Out,Expense
-2023-09-15 00:37:59,Groceries,-56.23,Groceries,Expense
-2023-09-15 03:24:31,Gambling Loss,-105.94,Gambling Loss,Expense
-2023-09-15 03:24:57,Transportation,-20.17,Transportation,Expense
-2023-09-15 06:46:00,Gambling Loss,-181.38,Gambling Loss,Expense
-2023-09-15 07:30:00,Starbucks,-4.01,Coffee,Expense
-2023-09-15 07:36:55,Dining Out,-29.03,Dining Out,Expense
-2023-09-15 13:32:16,Utilities,-38.73,Utilities,Expense
-2023-09-15 13:54:46,Dining Out,-16.79,Dining Out,Expense
-2023-09-15 17:02:47,Misc Income,79.4,Income,Deposit
-2023-09-15 18:50:39,Utilities,-63.12,Utilities,Expense
-2023-09-15 22:51:22,Dining Out,-11.15,Dining Out,Expense
-2023-09-16 01:01:58,Transportation,-27.43,Transportation,Expense
-2023-09-16 06:15:26,Dining Out,-16.72,Dining Out,Expense
-2023-09-16 07:13:43,Utilities,-48.47,Utilities,Expense
-2023-09-16 07:30:00,Starbucks,-4.37,Coffee,Expense
-2023-09-16 07:33:52,Misc Income,269.17,Income,Deposit
-2023-09-16 11:51:13,Dining Out,-23.18,Dining Out,Expense
-2023-09-16 13:19:15,Dining Out,-24.29,Dining Out,Expense
-2023-09-16 15:56:57,Utilities,-45.57,Utilities,Expense
-2023-09-16 18:09:04,Misc Income,293.76,Income,Deposit
-2023-09-16 21:52:16,Dining Out,-19.34,Dining Out,Expense
-2023-09-16 22:49:15,Dining Out,-23.19,Dining Out,Expense
-2023-09-17 03:57:11,Gambling Loss,-119.06,Gambling Loss,Expense
-2023-09-17 06:45:02,Utilities,-61.91,Utilities,Expense
-2023-09-17 07:30:00,Starbucks,-4.46,Coffee,Expense
-2023-09-17 10:13:46,Groceries,-79.95,Groceries,Expense
-2023-09-17 10:43:45,Dining Out,-14.69,Dining Out,Expense
-2023-09-17 11:30:05,Utilities,-54.54,Utilities,Expense
-2023-09-17 12:00:53,Dining Out,-26.29,Dining Out,Expense
-2023-09-17 12:40:02,Groceries,-85.33,Groceries,Expense
-2023-09-17 17:18:24,Transportation,-15.43,Transportation,Expense
-2023-09-17 18:57:50,Gambling Loss,-190.57,Gambling Loss,Expense
-2023-09-17 21:01:26,Groceries,-29.0,Groceries,Expense
-2023-09-18 04:22:13,Misc Income,287.9,Income,Deposit
-2023-09-18 05:14:02,Transportation,-16.25,Transportation,Expense
-2023-09-18 05:43:18,Utilities,-42.71,Utilities,Expense
-2023-09-18 05:55:01,Transportation,-15.79,Transportation,Expense
-2023-09-18 07:30:00,Starbucks,-4.43,Coffee,Expense
-2023-09-18 12:03:52,Dining Out,-38.73,Dining Out,Expense
-2023-09-18 13:40:26,Groceries,-94.52,Groceries,Expense
-2023-09-18 16:09:39,Gambling Loss,-121.77,Gambling Loss,Expense
-2023-09-18 21:10:26,Dining Out,-38.89,Dining Out,Expense
-2023-09-18 21:49:37,Dining Out,-16.49,Dining Out,Expense
-2023-09-18 22:46:03,Groceries,-48.83,Groceries,Expense
-2023-09-19 02:26:45,Gambling Loss,-196.76,Gambling Loss,Expense
-2023-09-19 02:38:24,Utilities,-38.85,Utilities,Expense
-2023-09-19 03:27:21,Groceries,-81.28,Groceries,Expense
-2023-09-19 03:39:26,Groceries,-89.6,Groceries,Expense
-2023-09-19 06:55:17,Misc Income,297.68,Income,Deposit
-2023-09-19 07:30:00,Starbucks,-3.57,Coffee,Expense
-2023-09-19 09:46:49,Utilities,-66.93,Utilities,Expense
-2023-09-19 09:52:42,Groceries,-60.94,Groceries,Expense
-2023-09-19 10:05:19,Misc Income,57.21,Income,Deposit
-2023-09-19 13:33:39,Transportation,-20.05,Transportation,Expense
-2023-09-19 16:54:35,Transportation,-26.56,Transportation,Expense
-2023-09-20 00:13:32,Gambling Loss,-62.9,Gambling Loss,Expense
-2023-09-20 00:26:04,Gambling Loss,-83.84,Gambling Loss,Expense
-2023-09-20 04:07:01,Transportation,-11.2,Transportation,Expense
-2023-09-20 07:30:00,Starbucks,-4.53,Coffee,Expense
-2023-09-20 09:30:51,Transportation,-17.52,Transportation,Expense
-2023-09-20 12:06:06,Groceries,-62.99,Groceries,Expense
-2023-09-20 12:14:20,Dining Out,-20.64,Dining Out,Expense
-2023-09-20 13:25:34,Dining Out,-39.53,Dining Out,Expense
-2023-09-20 16:06:41,Dining Out,-10.2,Dining Out,Expense
-2023-09-20 18:35:16,Gambling Loss,-180.86,Gambling Loss,Expense
-2023-09-20 20:20:13,Groceries,-89.87,Groceries,Expense
-2023-09-21 01:53:27,Groceries,-44.54,Groceries,Expense
-2023-09-21 03:35:45,Dining Out,-30.51,Dining Out,Expense
-2023-09-21 05:25:10,Transportation,-8.86,Transportation,Expense
-2023-09-21 07:26:13,Utilities,-45.34,Utilities,Expense
-2023-09-21 07:30:00,Starbucks,-4.78,Coffee,Expense
-2023-09-21 09:36:31,Groceries,-74.25,Groceries,Expense
-2023-09-21 14:43:56,Groceries,-22.37,Groceries,Expense
-2023-09-21 17:04:48,Transportation,-26.06,Transportation,Expense
-2023-09-21 21:07:15,Groceries,-39.0,Groceries,Expense
-2023-09-21 21:28:07,Groceries,-52.21,Groceries,Expense
-2023-09-21 21:44:29,Utilities,-31.98,Utilities,Expense
-2023-09-21 22:00:00,Casino Win,1500.0,Income,Deposit
-2023-09-22 01:06:22,Transportation,-5.27,Transportation,Expense
-2023-09-22 05:16:18,Dining Out,-12.55,Dining Out,Expense
-2023-09-22 06:55:37,Utilities,-53.16,Utilities,Expense
-2023-09-22 07:30:00,Starbucks,-3.76,Coffee,Expense
-2023-09-22 07:52:04,Groceries,-24.3,Groceries,Expense
-2023-09-22 13:51:27,Groceries,-26.85,Groceries,Expense
-2023-09-22 14:43:35,Utilities,-30.74,Utilities,Expense
-2023-09-22 17:35:08,Gambling Loss,-130.63,Gambling Loss,Expense
-2023-09-22 17:36:54,Utilities,-63.48,Utilities,Expense
-2023-09-22 20:07:49,Utilities,-46.89,Utilities,Expense
-2023-09-22 23:02:18,Transportation,-25.06,Transportation,Expense
-2023-09-23 01:12:37,Gambling Loss,-34.79,Gambling Loss,Expense
-2023-09-23 01:52:57,Dining Out,-28.52,Dining Out,Expense
-2023-09-23 02:07:07,Transportation,-15.53,Transportation,Expense
-2023-09-23 03:57:48,Transportation,-22.39,Transportation,Expense
-2023-09-23 07:30:00,Starbucks,-4.07,Coffee,Expense
-2023-09-23 07:38:12,Dining Out,-15.9,Dining Out,Expense
-2023-09-23 10:19:01,Gambling Loss,-46.8,Gambling Loss,Expense
-2023-09-23 13:35:36,Groceries,-21.89,Groceries,Expense
-2023-09-23 13:50:33,Utilities,-41.81,Utilities,Expense
-2023-09-23 16:34:27,Gambling Loss,-93.11,Gambling Loss,Expense
-2023-09-23 19:30:37,Utilities,-39.28,Utilities,Expense
-2023-09-24 00:32:00,Misc Income,117.14,Income,Deposit
-2023-09-24 01:35:44,Groceries,-66.58,Groceries,Expense
-2023-09-24 01:50:06,Utilities,-38.19,Utilities,Expense
-2023-09-24 07:30:00,Starbucks,-5.0,Coffee,Expense
-2023-09-24 11:33:59,Gambling Loss,-96.6,Gambling Loss,Expense
-2023-09-24 12:52:03,Transportation,-21.33,Transportation,Expense
-2023-09-24 15:18:44,Gambling Loss,-135.41,Gambling Loss,Expense
-2023-09-24 16:03:54,Groceries,-35.54,Groceries,Expense
-2023-09-24 16:35:02,Utilities,-33.58,Utilities,Expense
-2023-09-24 16:45:42,Utilities,-47.25,Utilities,Expense
-2023-09-24 19:54:59,Gambling Loss,-94.42,Gambling Loss,Expense
-2023-09-25 02:50:00,Dining Out,-11.49,Dining Out,Expense
-2023-09-25 03:20:10,Utilities,-53.05,Utilities,Expense
-2023-09-25 03:28:02,Transportation,-8.89,Transportation,Expense
-2023-09-25 07:30:00,Starbucks,-4.75,Coffee,Expense
-2023-09-25 10:32:23,Transportation,-28.28,Transportation,Expense
-2023-09-25 10:39:27,Dining Out,-12.01,Dining Out,Expense
-2023-09-25 11:34:43,Misc Income,89.48,Income,Deposit
-2023-09-25 16:00:34,Dining Out,-21.68,Dining Out,Expense
-2023-09-25 18:00:51,Dining Out,-39.3,Dining Out,Expense
-2023-09-25 18:04:31,Groceries,-30.84,Groceries,Expense
-2023-09-25 20:48:20,Gambling Loss,-116.89,Gambling Loss,Expense
-2023-09-26 05:42:43,Gambling Loss,-133.7,Gambling Loss,Expense
-2023-09-26 07:30:00,Starbucks,-4.17,Coffee,Expense
-2023-09-26 12:40:35,Gambling Loss,-148.35,Gambling Loss,Expense
-2023-09-26 14:02:53,Gambling Loss,-46.44,Gambling Loss,Expense
-2023-09-26 17:46:30,Dining Out,-19.53,Dining Out,Expense
-2023-09-26 18:17:20,Utilities,-42.87,Utilities,Expense
-2023-09-26 18:31:48,Gambling Loss,-190.43,Gambling Loss,Expense
-2023-09-26 18:55:26,Groceries,-86.05,Groceries,Expense
-2023-09-26 19:15:39,Misc Income,189.18,Income,Deposit
-2023-09-26 19:25:25,Gambling Loss,-132.5,Gambling Loss,Expense
-2023-09-26 22:19:01,Gambling Loss,-195.36,Gambling Loss,Expense
-2023-09-27 00:53:26,Utilities,-61.21,Utilities,Expense
-2023-09-27 01:13:01,Misc Income,229.04,Income,Deposit
-2023-09-27 01:17:17,Misc Income,110.6,Income,Deposit
-2023-09-27 05:23:47,Dining Out,-22.12,Dining Out,Expense
-2023-09-27 05:26:44,Transportation,-14.77,Transportation,Expense
-2023-09-27 07:30:00,Starbucks,-4.12,Coffee,Expense
-2023-09-27 09:51:26,Groceries,-30.93,Groceries,Expense
-2023-09-27 11:39:44,Groceries,-27.67,Groceries,Expense
-2023-09-27 12:43:30,Misc Income,252.5,Income,Deposit
-2023-09-27 13:54:27,Transportation,-9.55,Transportation,Expense
-2023-09-27 17:25:53,Groceries,-24.86,Groceries,Expense
-2023-09-28 05:11:15,Misc Income,179.44,Income,Deposit
-2023-09-28 06:15:35,Dining Out,-39.94,Dining Out,Expense
-2023-09-28 07:24:08,Gambling Loss,-140.03,Gambling Loss,Expense
-2023-09-28 07:30:00,Starbucks,-3.97,Coffee,Expense
-2023-09-28 07:58:18,Misc Income,223.47,Income,Deposit
-2023-09-28 09:37:17,Groceries,-25.79,Groceries,Expense
-2023-09-28 10:03:39,Transportation,-9.48,Transportation,Expense
-2023-09-28 11:43:35,Misc Income,237.45,Income,Deposit
-2023-09-28 13:30:31,Transportation,-5.24,Transportation,Expense
-2023-09-28 18:55:53,Utilities,-53.44,Utilities,Expense
-2023-09-28 22:22:40,Gambling Loss,-96.95,Gambling Loss,Expense
-2023-09-29 02:17:50,Gambling Loss,-106.78,Gambling Loss,Expense
-2023-09-29 05:14:12,Gambling Loss,-36.96,Gambling Loss,Expense
-2023-09-29 05:27:15,Utilities,-61.83,Utilities,Expense
-2023-09-29 07:30:00,Starbucks,-4.4,Coffee,Expense
-2023-09-29 10:56:38,Transportation,-7.73,Transportation,Expense
-2023-09-29 11:36:00,Groceries,-76.83,Groceries,Expense
-2023-09-29 12:56:24,Gambling Loss,-156.1,Gambling Loss,Expense
-2023-09-29 13:09:33,Dining Out,-19.26,Dining Out,Expense
-2023-09-29 14:49:01,Utilities,-46.25,Utilities,Expense
-2023-09-29 20:17:53,Transportation,-29.64,Transportation,Expense
-2023-09-29 21:00:15,Utilities,-51.69,Utilities,Expense
-2023-09-30 00:31:14,Dining Out,-15.85,Dining Out,Expense
-2023-09-30 02:50:57,Gambling Loss,-199.9,Gambling Loss,Expense
-2023-09-30 04:29:19,Utilities,-69.37,Utilities,Expense
-2023-09-30 06:20:34,Transportation,-26.66,Transportation,Expense
-2023-09-30 07:30:00,Starbucks,-3.61,Coffee,Expense
-2023-09-30 08:50:14,Transportation,-7.82,Transportation,Expense
-2023-09-30 13:50:02,Misc Income,208.74,Income,Deposit
-2023-09-30 15:32:33,Groceries,-48.9,Groceries,Expense
-2023-09-30 17:26:24,Dining Out,-37.61,Dining Out,Expense
-2023-09-30 18:30:43,Misc Income,77.95,Income,Deposit
-2023-09-30 20:39:31,Transportation,-23.68,Transportation,Expense
+2025-01-01 03:26:37,Utilities,-67.59,Utilities,Expense
+2025-01-01 07:30:00,Starbucks,-4.08,Coffee,Expense
+2025-01-01 09:10:53,Transportation,-26.15,Transportation,Expense
+2025-01-01 11:04:38,Transportation,-6.05,Transportation,Expense
+2025-01-01 11:29:29,Groceries,-76.31,Groceries,Expense
+2025-01-01 12:25:19,Utilities,-35.36,Utilities,Expense
+2025-01-01 14:31:03,Dining Out,-11.83,Dining Out,Expense
+2025-01-01 14:44:14,Groceries,-80.82,Groceries,Expense
+2025-01-01 15:10:33,Utilities,-51.78,Utilities,Expense
+2025-01-01 16:43:02,Dining Out,-22.99,Dining Out,Expense
+2025-01-01 17:04:00,Transportation,-10.91,Transportation,Expense
+2025-01-02 01:56:42,Gambling Loss,-151.3,Gambling Loss,Expense
+2025-01-02 03:09:24,Dining Out,-38.81,Dining Out,Expense
+2025-01-02 06:12:44,Dining Out,-21.16,Dining Out,Expense
+2025-01-02 07:30:00,Starbucks,-3.81,Coffee,Expense
+2025-01-02 09:24:20,Gambling Loss,-144.66,Gambling Loss,Expense
+2025-01-02 15:27:16,Dining Out,-32.5,Dining Out,Expense
+2025-01-02 16:07:19,Gambling Loss,-105.64,Gambling Loss,Expense
+2025-01-02 18:07:32,Groceries,-62.56,Groceries,Expense
+2025-01-02 19:39:32,Dining Out,-18.02,Dining Out,Expense
+2025-01-02 20:36:43,Transportation,-21.79,Transportation,Expense
+2025-01-02 21:33:15,Transportation,-15.1,Transportation,Expense
+2025-01-03 02:02:58,Transportation,-26.86,Transportation,Expense
+2025-01-03 04:53:36,Transportation,-27.67,Transportation,Expense
+2025-01-03 05:23:19,Dining Out,-19.15,Dining Out,Expense
+2025-01-03 07:30:00,Starbucks,-4.1,Coffee,Expense
+2025-01-03 11:14:04,Groceries,-80.79,Groceries,Expense
+2025-01-03 14:19:41,Dining Out,-17.81,Dining Out,Expense
+2025-01-03 17:10:49,Utilities,-47.74,Utilities,Expense
+2025-01-03 19:54:01,Dining Out,-37.2,Dining Out,Expense
+2025-01-03 22:38:30,Utilities,-46.45,Utilities,Expense
+2025-01-03 23:02:36,Misc Income,168.07,Income,Deposit
+2025-01-03 23:10:17,Dining Out,-14.48,Dining Out,Expense
+2025-01-04 00:30:03,Transportation,-24.84,Transportation,Expense
+2025-01-04 01:34:35,Transportation,-24.95,Transportation,Expense
+2025-01-04 04:44:00,Groceries,-24.65,Groceries,Expense
+2025-01-04 07:23:24,Gambling Loss,-107.63,Gambling Loss,Expense
+2025-01-04 07:30:00,Starbucks,-4.92,Coffee,Expense
+2025-01-04 07:30:37,Dining Out,-18.1,Dining Out,Expense
+2025-01-04 07:48:48,Dining Out,-22.2,Dining Out,Expense
+2025-01-04 07:57:57,Groceries,-49.28,Groceries,Expense
+2025-01-04 15:32:52,Groceries,-31.15,Groceries,Expense
+2025-01-04 18:04:03,Dining Out,-32.0,Dining Out,Expense
+2025-01-04 21:32:47,Utilities,-48.3,Utilities,Expense
+2025-01-05 00:03:35,Transportation,-25.03,Transportation,Expense
+2025-01-05 04:14:37,Misc Income,164.03,Income,Deposit
+2025-01-05 07:30:00,Starbucks,-4.38,Coffee,Expense
+2025-01-05 07:58:31,Misc Income,167.75,Income,Deposit
+2025-01-05 08:21:08,Utilities,-42.59,Utilities,Expense
+2025-01-05 09:46:39,Gambling Loss,-120.63,Gambling Loss,Expense
+2025-01-05 11:38:46,Transportation,-12.83,Transportation,Expense
+2025-01-05 14:38:10,Transportation,-6.38,Transportation,Expense
+2025-01-05 15:31:35,Groceries,-93.38,Groceries,Expense
+2025-01-05 21:28:54,Gambling Loss,-70.94,Gambling Loss,Expense
+2025-01-05 23:24:41,Utilities,-35.72,Utilities,Expense
+2025-01-06 03:08:29,Utilities,-59.72,Utilities,Expense
+2025-01-06 04:24:37,Groceries,-37.09,Groceries,Expense
+2025-01-06 07:30:00,Starbucks,-3.71,Coffee,Expense
+2025-01-06 10:13:27,Misc Income,165.0,Income,Deposit
+2025-01-06 15:04:58,Groceries,-34.91,Groceries,Expense
+2025-01-06 16:31:50,Gambling Loss,-65.7,Gambling Loss,Expense
+2025-01-06 17:49:14,Transportation,-6.43,Transportation,Expense
+2025-01-06 19:09:01,Dining Out,-30.47,Dining Out,Expense
+2025-01-06 19:13:52,Groceries,-61.91,Groceries,Expense
+2025-01-06 22:16:13,Utilities,-32.63,Utilities,Expense
+2025-01-06 23:03:11,Dining Out,-15.55,Dining Out,Expense
+2025-01-07 02:14:47,Groceries,-73.28,Groceries,Expense
+2025-01-07 05:55:03,Dining Out,-34.11,Dining Out,Expense
+2025-01-07 07:30:00,Starbucks,-4.7,Coffee,Expense
+2025-01-07 10:00:19,Utilities,-55.25,Utilities,Expense
+2025-01-07 10:11:30,Dining Out,-35.79,Dining Out,Expense
+2025-01-07 14:06:01,Groceries,-53.45,Groceries,Expense
+2025-01-07 16:28:37,Gambling Loss,-172.22,Gambling Loss,Expense
+2025-01-07 18:50:56,Dining Out,-14.38,Dining Out,Expense
+2025-01-07 20:00:00,Casino Win,1000.0,Income,Deposit
+2025-01-07 20:15:09,Utilities,-55.24,Utilities,Expense
+2025-01-07 21:01:55,Dining Out,-15.68,Dining Out,Expense
+2025-01-07 22:57:24,Utilities,-46.91,Utilities,Expense
+2025-01-08 04:45:47,Transportation,-27.74,Transportation,Expense
+2025-01-08 04:54:50,Groceries,-29.12,Groceries,Expense
+2025-01-08 05:11:07,Dining Out,-13.5,Dining Out,Expense
+2025-01-08 07:21:45,Dining Out,-26.49,Dining Out,Expense
+2025-01-08 07:30:00,Starbucks,-4.17,Coffee,Expense
+2025-01-08 09:54:23,Groceries,-50.79,Groceries,Expense
+2025-01-08 10:22:34,Groceries,-45.91,Groceries,Expense
+2025-01-08 17:48:34,Utilities,-55.78,Utilities,Expense
+2025-01-08 18:06:58,Gambling Loss,-101.47,Gambling Loss,Expense
+2025-01-08 21:12:03,Groceries,-31.73,Groceries,Expense
+2025-01-08 23:16:09,Groceries,-57.27,Groceries,Expense
+2025-01-09 01:05:38,Transportation,-25.6,Transportation,Expense
+2025-01-09 01:36:33,Dining Out,-38.67,Dining Out,Expense
+2025-01-09 03:20:44,Misc Income,97.78,Income,Deposit
+2025-01-09 03:40:41,Transportation,-13.94,Transportation,Expense
+2025-01-09 07:30:00,Starbucks,-4.35,Coffee,Expense
+2025-01-09 08:16:18,Gambling Loss,-140.13,Gambling Loss,Expense
+2025-01-09 10:17:01,Dining Out,-12.17,Dining Out,Expense
+2025-01-09 10:28:38,Misc Income,197.93,Income,Deposit
+2025-01-09 11:46:51,Utilities,-44.41,Utilities,Expense
+2025-01-09 15:56:28,Transportation,-24.2,Transportation,Expense
+2025-01-09 20:13:55,Transportation,-23.71,Transportation,Expense
+2025-01-10 00:22:57,Gambling Loss,-142.59,Gambling Loss,Expense
+2025-01-10 06:40:41,Groceries,-77.28,Groceries,Expense
+2025-01-10 07:00:22,Utilities,-68.96,Utilities,Expense
+2025-01-10 07:30:00,Starbucks,-5.0,Coffee,Expense
+2025-01-10 07:46:45,Dining Out,-30.83,Dining Out,Expense
+2025-01-10 08:39:03,Transportation,-7.03,Transportation,Expense
+2025-01-10 08:45:53,Misc Income,233.83,Income,Deposit
+2025-01-10 09:15:45,Utilities,-34.55,Utilities,Expense
+2025-01-10 14:36:33,Gambling Loss,-132.61,Gambling Loss,Expense
+2025-01-10 20:22:52,Groceries,-26.88,Groceries,Expense
+2025-01-10 20:38:25,Utilities,-34.75,Utilities,Expense
+2025-01-11 01:05:34,Gambling Loss,-145.61,Gambling Loss,Expense
+2025-01-11 02:40:06,Transportation,-29.68,Transportation,Expense
+2025-01-11 03:48:01,Utilities,-62.18,Utilities,Expense
+2025-01-11 04:41:59,Utilities,-49.52,Utilities,Expense
+2025-01-11 04:54:50,Transportation,-20.94,Transportation,Expense
+2025-01-11 07:30:00,Starbucks,-4.86,Coffee,Expense
+2025-01-11 14:41:14,Utilities,-37.67,Utilities,Expense
+2025-01-11 15:34:03,Groceries,-56.06,Groceries,Expense
+2025-01-11 22:02:38,Groceries,-86.0,Groceries,Expense
+2025-01-11 22:46:47,Gambling Loss,-42.56,Gambling Loss,Expense
+2025-01-11 23:43:30,Utilities,-68.31,Utilities,Expense
+2025-01-12 00:38:24,Gambling Loss,-191.01,Gambling Loss,Expense
+2025-01-12 01:13:18,Utilities,-41.25,Utilities,Expense
+2025-01-12 01:49:55,Groceries,-29.22,Groceries,Expense
+2025-01-12 03:36:43,Misc Income,180.05,Income,Deposit
+2025-01-12 04:55:15,Groceries,-95.74,Groceries,Expense
+2025-01-12 05:35:51,Gambling Loss,-98.71,Gambling Loss,Expense
+2025-01-12 07:30:00,Starbucks,-4.67,Coffee,Expense
+2025-01-12 13:30:37,Transportation,-29.79,Transportation,Expense
+2025-01-12 14:13:36,Utilities,-62.31,Utilities,Expense
+2025-01-12 15:34:56,Groceries,-88.86,Groceries,Expense
+2025-01-12 16:20:27,Transportation,-28.75,Transportation,Expense
+2025-01-13 01:31:57,Dining Out,-37.28,Dining Out,Expense
+2025-01-13 05:45:51,Utilities,-69.36,Utilities,Expense
+2025-01-13 06:03:24,Utilities,-40.66,Utilities,Expense
+2025-01-13 07:30:00,Starbucks,-3.95,Coffee,Expense
+2025-01-13 09:34:03,Gambling Loss,-81.92,Gambling Loss,Expense
+2025-01-13 13:51:54,Groceries,-37.62,Groceries,Expense
+2025-01-13 15:41:25,Dining Out,-18.74,Dining Out,Expense
+2025-01-13 17:33:45,Misc Income,292.06,Income,Deposit
+2025-01-13 17:41:12,Gambling Loss,-169.06,Gambling Loss,Expense
+2025-01-13 20:50:13,Gambling Loss,-98.5,Gambling Loss,Expense
+2025-01-13 22:58:43,Utilities,-37.02,Utilities,Expense
+2025-01-14 01:48:25,Utilities,-38.29,Utilities,Expense
+2025-01-14 05:31:05,Dining Out,-38.46,Dining Out,Expense
+2025-01-14 06:11:11,Misc Income,139.47,Income,Deposit
+2025-01-14 07:18:33,Misc Income,213.17,Income,Deposit
+2025-01-14 07:30:00,Starbucks,-4.09,Coffee,Expense
+2025-01-14 11:44:29,Transportation,-11.93,Transportation,Expense
+2025-01-14 13:23:17,Utilities,-35.64,Utilities,Expense
+2025-01-14 13:42:46,Gambling Loss,-24.59,Gambling Loss,Expense
+2025-01-14 15:01:22,Gambling Loss,-145.7,Gambling Loss,Expense
+2025-01-14 21:04:17,Utilities,-45.37,Utilities,Expense
+2025-01-14 22:14:25,Dining Out,-15.61,Dining Out,Expense
+2025-01-15 01:46:12,Dining Out,-14.62,Dining Out,Expense
+2025-01-15 02:57:41,Dining Out,-33.07,Dining Out,Expense
+2025-01-15 07:30:00,Starbucks,-3.75,Coffee,Expense
+2025-01-15 08:56:08,Transportation,-29.44,Transportation,Expense
+2025-01-15 09:07:15,Gambling Loss,-110.44,Gambling Loss,Expense
+2025-01-15 09:54:30,Gambling Loss,-129.94,Gambling Loss,Expense
+2025-01-15 10:56:38,Groceries,-39.38,Groceries,Expense
+2025-01-15 13:20:10,Transportation,-25.8,Transportation,Expense
+2025-01-15 16:12:36,Groceries,-51.1,Groceries,Expense
+2025-01-15 16:32:39,Utilities,-48.49,Utilities,Expense
+2025-01-15 23:35:35,Transportation,-13.53,Transportation,Expense
+2025-01-16 00:52:11,Utilities,-49.46,Utilities,Expense
+2025-01-16 01:40:00,Gambling Loss,-148.07,Gambling Loss,Expense
+2025-01-16 02:02:04,Groceries,-80.19,Groceries,Expense
+2025-01-16 07:29:03,Transportation,-8.02,Transportation,Expense
+2025-01-16 07:30:00,Starbucks,-3.8,Coffee,Expense
+2025-01-16 10:11:08,Utilities,-31.58,Utilities,Expense
+2025-01-16 11:47:24,Transportation,-20.79,Transportation,Expense
+2025-01-16 14:15:44,Dining Out,-28.76,Dining Out,Expense
+2025-01-16 17:03:50,Dining Out,-19.95,Dining Out,Expense
+2025-01-16 22:01:30,Gambling Loss,-23.07,Gambling Loss,Expense
+2025-01-16 22:09:21,Groceries,-86.32,Groceries,Expense
+2025-01-17 04:33:00,Misc Income,149.86,Income,Deposit
+2025-01-17 07:30:00,Starbucks,-3.74,Coffee,Expense
+2025-01-17 07:45:11,Groceries,-87.29,Groceries,Expense
+2025-01-17 11:29:57,Transportation,-24.13,Transportation,Expense
+2025-01-17 14:12:06,Dining Out,-30.8,Dining Out,Expense
+2025-01-17 15:41:43,Transportation,-16.02,Transportation,Expense
+2025-01-17 16:57:20,Transportation,-21.13,Transportation,Expense
+2025-01-17 18:49:13,Transportation,-16.04,Transportation,Expense
+2025-01-17 21:01:38,Utilities,-53.36,Utilities,Expense
+2025-01-17 22:09:52,Dining Out,-33.16,Dining Out,Expense
+2025-01-17 22:49:20,Misc Income,298.08,Income,Deposit
+2025-01-18 03:04:50,Utilities,-57.55,Utilities,Expense
+2025-01-18 03:20:06,Utilities,-38.88,Utilities,Expense
+2025-01-18 05:13:04,Gambling Loss,-93.87,Gambling Loss,Expense
+2025-01-18 06:24:32,Gambling Loss,-32.81,Gambling Loss,Expense
+2025-01-18 07:30:00,Starbucks,-3.77,Coffee,Expense
+2025-01-18 09:17:37,Transportation,-23.3,Transportation,Expense
+2025-01-18 15:36:27,Groceries,-53.9,Groceries,Expense
+2025-01-18 18:31:57,Misc Income,298.91,Income,Deposit
+2025-01-18 18:52:25,Groceries,-52.15,Groceries,Expense
+2025-01-18 22:51:24,Dining Out,-10.03,Dining Out,Expense
+2025-01-18 23:17:12,Transportation,-11.93,Transportation,Expense
+2025-01-19 06:37:12,Groceries,-76.45,Groceries,Expense
+2025-01-19 07:24:37,Dining Out,-15.68,Dining Out,Expense
+2025-01-19 07:30:00,Starbucks,-4.98,Coffee,Expense
+2025-01-19 07:31:26,Utilities,-32.14,Utilities,Expense
+2025-01-19 08:06:21,Groceries,-94.97,Groceries,Expense
+2025-01-19 09:21:40,Dining Out,-30.91,Dining Out,Expense
+2025-01-19 14:09:10,Utilities,-48.54,Utilities,Expense
+2025-01-19 15:06:40,Dining Out,-20.35,Dining Out,Expense
+2025-01-19 18:30:54,Utilities,-65.3,Utilities,Expense
+2025-01-19 19:51:49,Dining Out,-15.43,Dining Out,Expense
+2025-01-19 21:26:28,Dining Out,-36.7,Dining Out,Expense
+2025-01-20 00:42:53,Groceries,-36.37,Groceries,Expense
+2025-01-20 03:31:21,Groceries,-34.7,Groceries,Expense
+2025-01-20 05:10:49,Gambling Loss,-177.04,Gambling Loss,Expense
+2025-01-20 07:30:00,Starbucks,-4.86,Coffee,Expense
+2025-01-20 08:21:40,Transportation,-29.19,Transportation,Expense
+2025-01-20 15:41:20,Misc Income,275.78,Income,Deposit
+2025-01-20 15:54:07,Dining Out,-28.29,Dining Out,Expense
+2025-01-20 16:45:35,Groceries,-83.12,Groceries,Expense
+2025-01-20 20:08:15,Gambling Loss,-175.35,Gambling Loss,Expense
+2025-01-20 20:29:54,Gambling Loss,-69.66,Gambling Loss,Expense
+2025-01-20 21:29:39,Transportation,-25.34,Transportation,Expense
+2025-01-21 04:01:58,Transportation,-14.1,Transportation,Expense
+2025-01-21 04:46:21,Gambling Loss,-115.05,Gambling Loss,Expense
+2025-01-21 06:12:19,Dining Out,-38.57,Dining Out,Expense
+2025-01-21 07:30:00,Starbucks,-4.63,Coffee,Expense
+2025-01-21 10:07:12,Transportation,-8.34,Transportation,Expense
+2025-01-21 10:21:47,Dining Out,-20.44,Dining Out,Expense
+2025-01-21 13:15:51,Dining Out,-12.78,Dining Out,Expense
+2025-01-21 15:48:01,Misc Income,99.61,Income,Deposit
+2025-01-21 17:13:10,Gambling Loss,-137.58,Gambling Loss,Expense
+2025-01-21 19:51:32,Gambling Loss,-44.98,Gambling Loss,Expense
+2025-01-21 21:03:31,Gambling Loss,-47.01,Gambling Loss,Expense
+2025-01-21 22:00:00,Casino Win,1500.0,Income,Deposit
+2025-01-22 01:18:40,Dining Out,-12.71,Dining Out,Expense
+2025-01-22 01:35:33,Gambling Loss,-53.64,Gambling Loss,Expense
+2025-01-22 02:04:51,Utilities,-48.19,Utilities,Expense
+2025-01-22 05:53:20,Groceries,-97.85,Groceries,Expense
+2025-01-22 07:30:00,Starbucks,-3.74,Coffee,Expense
+2025-01-22 08:45:54,Dining Out,-34.99,Dining Out,Expense
+2025-01-22 10:49:12,Transportation,-23.1,Transportation,Expense
+2025-01-22 11:18:45,Transportation,-8.58,Transportation,Expense
+2025-01-22 13:44:29,Misc Income,221.65,Income,Deposit
+2025-01-22 20:03:26,Dining Out,-33.33,Dining Out,Expense
+2025-01-22 21:33:34,Dining Out,-23.92,Dining Out,Expense
+2025-01-23 02:48:41,Transportation,-21.81,Transportation,Expense
+2025-01-23 04:51:43,Misc Income,273.61,Income,Deposit
+2025-01-23 06:46:37,Dining Out,-34.56,Dining Out,Expense
+2025-01-23 07:02:07,Dining Out,-18.4,Dining Out,Expense
+2025-01-23 07:30:00,Starbucks,-4.21,Coffee,Expense
+2025-01-23 11:22:44,Gambling Loss,-197.84,Gambling Loss,Expense
+2025-01-23 13:15:48,Misc Income,160.94,Income,Deposit
+2025-01-23 15:03:35,Transportation,-10.81,Transportation,Expense
+2025-01-23 15:37:20,Misc Income,297.3,Income,Deposit
+2025-01-23 17:58:15,Dining Out,-13.61,Dining Out,Expense
+2025-01-23 18:04:19,Misc Income,229.75,Income,Deposit
+2025-01-24 01:16:55,Gambling Loss,-58.24,Gambling Loss,Expense
+2025-01-24 01:38:59,Dining Out,-31.7,Dining Out,Expense
+2025-01-24 04:04:09,Transportation,-6.7,Transportation,Expense
+2025-01-24 04:47:59,Gambling Loss,-100.71,Gambling Loss,Expense
+2025-01-24 05:37:37,Transportation,-17.06,Transportation,Expense
+2025-01-24 07:30:00,Starbucks,-3.88,Coffee,Expense
+2025-01-24 10:51:42,Gambling Loss,-32.41,Gambling Loss,Expense
+2025-01-24 10:51:45,Utilities,-41.85,Utilities,Expense
+2025-01-24 16:33:38,Dining Out,-19.65,Dining Out,Expense
+2025-01-24 17:38:06,Utilities,-64.4,Utilities,Expense
+2025-01-24 21:46:31,Dining Out,-26.22,Dining Out,Expense
+2025-01-25 00:58:38,Transportation,-24.38,Transportation,Expense
+2025-01-25 06:26:29,Misc Income,283.71,Income,Deposit
+2025-01-25 07:30:00,Starbucks,-4.71,Coffee,Expense
+2025-01-25 08:45:41,Groceries,-64.63,Groceries,Expense
+2025-01-25 10:14:41,Groceries,-83.54,Groceries,Expense
+2025-01-25 11:15:22,Dining Out,-13.29,Dining Out,Expense
+2025-01-25 13:41:35,Groceries,-60.57,Groceries,Expense
+2025-01-25 15:35:47,Misc Income,194.28,Income,Deposit
+2025-01-25 18:06:09,Gambling Loss,-36.34,Gambling Loss,Expense
+2025-01-25 23:33:32,Dining Out,-23.89,Dining Out,Expense
+2025-01-25 23:55:21,Gambling Loss,-124.44,Gambling Loss,Expense
+2025-01-26 00:57:42,Groceries,-85.4,Groceries,Expense
+2025-01-26 04:50:59,Misc Income,171.86,Income,Deposit
+2025-01-26 05:05:04,Transportation,-5.32,Transportation,Expense
+2025-01-26 06:14:50,Gambling Loss,-155.73,Gambling Loss,Expense
+2025-01-26 07:30:00,Starbucks,-4.65,Coffee,Expense
+2025-01-26 09:35:03,Utilities,-53.26,Utilities,Expense
+2025-01-26 16:01:33,Dining Out,-38.51,Dining Out,Expense
+2025-01-26 17:02:14,Utilities,-31.9,Utilities,Expense
+2025-01-26 18:33:22,Gambling Loss,-190.88,Gambling Loss,Expense
+2025-01-26 18:54:44,Utilities,-61.38,Utilities,Expense
+2025-01-26 20:15:58,Transportation,-10.59,Transportation,Expense
+2025-01-27 07:30:00,Starbucks,-4.93,Coffee,Expense
+2025-01-27 08:37:55,Misc Income,193.1,Income,Deposit
+2025-01-27 08:42:41,Utilities,-36.57,Utilities,Expense
+2025-01-27 10:32:12,Transportation,-23.08,Transportation,Expense
+2025-01-27 11:18:20,Utilities,-48.16,Utilities,Expense
+2025-01-27 12:47:22,Gambling Loss,-24.5,Gambling Loss,Expense
+2025-01-27 13:30:31,Groceries,-74.2,Groceries,Expense
+2025-01-27 14:19:19,Misc Income,289.32,Income,Deposit
+2025-01-27 16:51:05,Dining Out,-38.94,Dining Out,Expense
+2025-01-27 20:55:30,Transportation,-10.19,Transportation,Expense
+2025-01-27 21:30:26,Dining Out,-31.01,Dining Out,Expense
+2025-01-28 00:52:17,Transportation,-8.97,Transportation,Expense
+2025-01-28 02:05:32,Gambling Loss,-81.55,Gambling Loss,Expense
+2025-01-28 03:22:18,Gambling Loss,-123.9,Gambling Loss,Expense
+2025-01-28 07:30:00,Starbucks,-4.17,Coffee,Expense
+2025-01-28 08:44:47,Dining Out,-18.57,Dining Out,Expense
+2025-01-28 10:05:16,Groceries,-81.77,Groceries,Expense
+2025-01-28 13:52:05,Dining Out,-17.21,Dining Out,Expense
+2025-01-28 14:02:13,Transportation,-14.36,Transportation,Expense
+2025-01-28 17:02:47,Dining Out,-32.94,Dining Out,Expense
+2025-01-28 20:29:14,Gambling Loss,-151.58,Gambling Loss,Expense
+2025-01-28 20:44:17,Transportation,-28.99,Transportation,Expense
+2025-01-29 06:52:47,Gambling Loss,-108.84,Gambling Loss,Expense
+2025-01-29 07:30:00,Starbucks,-4.83,Coffee,Expense
+2025-01-29 11:11:32,Utilities,-64.48,Utilities,Expense
+2025-01-29 14:01:01,Dining Out,-25.36,Dining Out,Expense
+2025-01-29 14:51:03,Transportation,-8.2,Transportation,Expense
+2025-01-29 15:06:18,Gambling Loss,-100.34,Gambling Loss,Expense
+2025-01-29 15:37:47,Utilities,-56.47,Utilities,Expense
+2025-01-29 18:50:38,Dining Out,-14.55,Dining Out,Expense
+2025-01-29 18:59:26,Dining Out,-18.1,Dining Out,Expense
+2025-01-29 19:07:40,Utilities,-44.55,Utilities,Expense
+2025-01-29 20:13:45,Gambling Loss,-78.82,Gambling Loss,Expense
+2025-01-30 00:52:30,Gambling Loss,-67.63,Gambling Loss,Expense
+2025-01-30 04:11:00,Gambling Loss,-84.63,Gambling Loss,Expense
+2025-01-30 04:53:40,Gambling Loss,-74.77,Gambling Loss,Expense
+2025-01-30 07:30:00,Starbucks,-4.43,Coffee,Expense
+2025-01-30 09:24:24,Groceries,-53.27,Groceries,Expense
+2025-01-30 10:15:18,Dining Out,-23.36,Dining Out,Expense
+2025-01-30 12:16:57,Utilities,-39.16,Utilities,Expense
+2025-01-30 16:44:55,Gambling Loss,-98.62,Gambling Loss,Expense
+2025-01-30 19:46:36,Groceries,-98.51,Groceries,Expense
+2025-01-30 23:00:31,Utilities,-42.41,Utilities,Expense
+2025-01-30 23:17:08,Dining Out,-33.72,Dining Out,Expense
+2025-01-31 03:15:45,Groceries,-83.05,Groceries,Expense
+2025-01-31 04:01:31,Dining Out,-26.23,Dining Out,Expense
+2025-01-31 07:30:00,Starbucks,-4.32,Coffee,Expense
+2025-01-31 07:47:02,Utilities,-50.15,Utilities,Expense
+2025-01-31 08:09:16,Groceries,-29.84,Groceries,Expense
+2025-01-31 09:51:01,Transportation,-18.45,Transportation,Expense
+2025-01-31 11:42:38,Utilities,-52.49,Utilities,Expense
+2025-01-31 15:41:28,Gambling Loss,-87.28,Gambling Loss,Expense
+2025-01-31 19:18:22,Dining Out,-30.46,Dining Out,Expense
+2025-01-31 21:39:47,Utilities,-56.06,Utilities,Expense
+2025-01-31 22:23:44,Groceries,-85.68,Groceries,Expense
+2025-02-01 00:15:48,Utilities,-44.38,Utilities,Expense
+2025-02-01 01:09:47,Dining Out,-11.32,Dining Out,Expense
+2025-02-01 01:21:41,Utilities,-38.74,Utilities,Expense
+2025-02-01 04:42:49,Dining Out,-31.12,Dining Out,Expense
+2025-02-01 06:09:23,Misc Income,56.94,Income,Deposit
+2025-02-01 07:30:00,Starbucks,-3.82,Coffee,Expense
+2025-02-01 10:25:36,Utilities,-67.5,Utilities,Expense
+2025-02-01 11:49:52,Dining Out,-10.83,Dining Out,Expense
+2025-02-01 12:33:47,Utilities,-50.35,Utilities,Expense
+2025-02-01 21:30:10,Groceries,-74.64,Groceries,Expense
+2025-02-01 23:45:08,Gambling Loss,-25.83,Gambling Loss,Expense
+2025-02-02 03:54:17,Utilities,-32.22,Utilities,Expense
+2025-02-02 04:19:28,Dining Out,-22.04,Dining Out,Expense
+2025-02-02 07:30:00,Starbucks,-3.68,Coffee,Expense
+2025-02-02 08:27:08,Misc Income,63.83,Income,Deposit
+2025-02-02 10:36:00,Transportation,-5.91,Transportation,Expense
+2025-02-02 10:45:45,Gambling Loss,-47.23,Gambling Loss,Expense
+2025-02-02 10:54:20,Gambling Loss,-166.65,Gambling Loss,Expense
+2025-02-02 13:53:37,Utilities,-30.06,Utilities,Expense
+2025-02-02 14:14:02,Groceries,-71.51,Groceries,Expense
+2025-02-02 16:54:41,Dining Out,-22.57,Dining Out,Expense
+2025-02-02 23:35:51,Dining Out,-35.98,Dining Out,Expense

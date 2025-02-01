@@ -5,8 +5,8 @@ output_dir = "dataSets"
 os.makedirs(output_dir, exist_ok=True)
 
 # Date range for September 2023
-start_date = datetime.datetime(2023, 9, 1)
-end_date = datetime.datetime(2023, 9, 30)
+start_date = datetime.datetime(2025, 1, 1)
+end_date = datetime.datetime(2025, 2, 2)
 num_days = (end_date - start_date).days + 1
 
 # Utility function: random time for a given day
@@ -64,11 +64,11 @@ profiles = [
         "profile": "Student",
         "fixed_incomes": [
             # (date, description, amount)
-            ("2023-09-01 09:00:00", "Scholarship", 500.00),
-            ("2023-09-15 17:00:00", "Part-time Job", 300.00)
+            ("2025-01-01 09:00:00", "Scholarship", 500.00),
+            ("2025-01-15 17:00:00", "Part-time Job", 300.00)
         ],
         "fixed_expenses": [
-            ("2023-09-01 08:00:00", "Rent", 700.00, "Rent")
+            ("2025-01-01 08:00:00", "Rent", 700.00, "Rent")
         ],
         "daily_habits": [
             ("07:30:00", "Starbucks",  "Coffee",  lambda: round(random.uniform(3.5, 5.0),2))
@@ -80,11 +80,11 @@ profiles = [
         "file_name": "corporate_parent.csv",
         "profile": "Corporate Parent",
         "fixed_incomes": [
-            ("2023-09-01 09:00:00", "Salary", 4000.00),
-            ("2023-09-20 16:00:00", "Bonus", 500.00)
+            ("2025-01-01 09:00:00", "Salary", 4000.00),
+            ("2025-01-20 16:00:00", "Bonus", 500.00)
         ],
         "fixed_expenses": [
-            ("2023-09-05 10:00:00", "Mortgage Payment", 1500.00, "Mortgage")
+            ("2025-01-05 10:00:00", "Mortgage Payment", 1500.00, "Mortgage")
         ],
         "daily_habits": [
             ("07:30:00", "Starbucks",  "Coffee", lambda: round(random.uniform(3.5, 5.0),2))
@@ -96,11 +96,11 @@ profiles = [
         "file_name": "retired.csv",
         "profile": "Retired",
         "fixed_incomes": [
-            ("2023-09-01 09:00:00", "Pension", 2000.00)
+            ("2025-01-01 09:00:00", "Pension", 2000.00)
         ],
         "fixed_expenses": [
             # Retired person has no housing payment but will have a vacation
-            ("2023-09-20 12:00:00", "Vacation", 1500.00, "Vacation")
+            ("2025-01-20 12:00:00", "Vacation", 1500.00, "Vacation")
         ],
         "daily_habits": [
             ("09:00:00", "Local Diner",  "Coffee", lambda: round(random.uniform(3.0, 6.0),2))
@@ -113,8 +113,8 @@ profiles = [
         "profile": "Gambler",
         "fixed_incomes": [
             # Gambler wins occur randomly; add a few fixed wins for demonstration
-            ("2023-09-07 20:00:00", "Casino Win", 1000.00),
-            ("2023-09-21 22:00:00", "Casino Win", 1500.00)
+            ("2025-01-07 20:00:00", "Casino Win", 1000.00),
+            ("2025-01-21 22:00:00", "Casino Win", 1500.00)
         ],
         "fixed_expenses": [],
         "daily_habits": [
@@ -127,13 +127,13 @@ profiles = [
         "file_name": "freelancer.csv",
         "profile": "Freelancer",
         "fixed_incomes": [
-            ("2023-09-07 12:00:00", "Freelance Payment", 800.00),
-            ("2023-09-14 12:00:00", "Freelance Payment", 800.00),
-            ("2023-09-21 12:00:00", "Freelance Payment", 800.00),
-            ("2023-09-28 12:00:00", "Freelance Payment", 800.00)
+            ("2025-01-07 12:00:00", "Freelance Payment", 800.00),
+            ("2025-01-14 12:00:00", "Freelance Payment", 800.00),
+            ("2025-01-21 12:00:00", "Freelance Payment", 800.00),
+            ("2025-01-28 12:00:00", "Freelance Payment", 800.00)
         ],
         "fixed_expenses": [
-            ("2023-09-01 08:00:00", "Rent", 900.00, "Rent")
+            ("2025-01-01 08:00:00", "Rent", 900.00, "Rent")
         ],
         "daily_habits": [
             ("07:30:00", "Starbucks", "Coffee", lambda: round(random.uniform(3.5, 5.0),2))
