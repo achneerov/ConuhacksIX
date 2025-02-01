@@ -1,4 +1,8 @@
 import React, { useState } from 'react';
+import { GoogleGenerativeAI } from "@google/generative-ai";
+
+// Initialize Gemini
+const genAI = new GoogleGenerativeAI("---");
 
 interface Message {
   text: string;
@@ -10,13 +14,57 @@ const Chatbot: React.FC = () => {
     { text: "Hello! How can I help you today?", isBot: true }
   ]);
   const [input, setInput] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const generateResponse = async (userInput: string) => {
+    try {
+      // Get the model
+      const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+      console.log("model found");
+  
+      // Start a chat
+      const chat = model.startChat({
+        history: [
+          { role: "user", parts: [{ text: userInput }] },  // Add the user's current message here
+          ...messages.map(msg => ({
+            role: msg.isBot ? "model" : "user",
+            parts: [{ text: msg.text }],
+          })),
+        ],
+      });
+  
+      // Send message and get response
+      const result = await chat.sendMessage(userInput);
+      const response = await result.response;
+      const text = response.text();
+  
+      return text;
+    } catch (error) {
+      console.error('Error generating response:', error);
+      return "I apologize, but I'm having trouble processing your request right now.";
+    }
+  };
+  
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!input.trim()) return;
     
-    setMessages([...messages, { text: input, isBot: false }]);
+    // Add user message
+    const userMessage = { text: input, isBot: false };
+    setMessages(prev => [...prev, userMessage]);
     setInput("");
+    
+    // Generate and add bot response
+    setIsLoading(true);
+    try {
+      const response = await generateResponse(input);
+      setMessages(prev => [...prev, { text: response, isBot: true }]);
+    } catch (error) {
+      console.error('Error:', error);
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (
@@ -30,10 +78,20 @@ const Chatbot: React.FC = () => {
       {/* Chat messages */}
       <div className="h-64 space-y-4 overflow-y-auto mb-4">
         {messages.map((msg, idx) => (
-          <div key={idx} className={`p-3 rounded-lg ${msg.isBot ? 'bg-yellow-200 mr-8' : 'bg-blue-200 ml-8'}`}>
+          <div
+            key={idx}
+            className={`p-3 rounded-lg ${
+              msg.isBot ? 'bg-[#ffcb4d] mr-8' : 'bg-blue-200 ml-8'
+            }`}
+          >
             {msg.text}
           </div>
         ))}
+        {isLoading && (
+          <div className="p-3 rounded-lg bg-[#ffcb4d] mr-8">
+            Thinking...
+          </div>
+        )}
       </div>
 
       {/* Input form */}
@@ -44,8 +102,13 @@ const Chatbot: React.FC = () => {
           onChange={(e: React.ChangeEvent<HTMLInputElement>) => setInput(e.target.value)}
           className="flex-grow p-2 rounded border"
           placeholder="Type a message..."
+          disabled={isLoading}
         />
-        <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded">
+        <button 
+          type="submit" 
+          className="bg-blue-500 text-white px-4 py-2 rounded disabled:bg-blue-300"
+          disabled={isLoading}
+        >
           Send
         </button>
       </form>
