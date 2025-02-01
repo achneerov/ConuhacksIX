@@ -1,52 +1,61 @@
 {
-  "hash": "a7128eb0",
+  "hash": "08bec0b1",
   "configHash": "60002914",
-  "lockfileHash": "901d7a91",
-  "browserHash": "f7105ff8",
+  "lockfileHash": "174099ec",
+  "browserHash": "98a7c8d7",
   "optimized": {
     "react/jsx-dev-runtime": {
       "src": "../../node_modules/react/jsx-dev-runtime.js",
       "file": "react_jsx-dev-runtime.js",
-      "fileHash": "c4591d58",
+      "fileHash": "bdfc79f8",
       "needsInterop": true
     },
     "react": {
       "src": "../../node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "075f6fde",
+      "fileHash": "2ad3c8ea",
       "needsInterop": true
     },
     "react-dom/client": {
       "src": "../../node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "5d4dfec9",
+      "fileHash": "5c908916",
       "needsInterop": true
     },
     "lucide-react": {
       "src": "../../node_modules/lucide-react/dist/esm/lucide-react.js",
       "file": "lucide-react.js",
-      "fileHash": "99925444",
+      "fileHash": "8191b595",
       "needsInterop": false
     },
     "recharts": {
       "src": "../../node_modules/recharts/es6/index.js",
       "file": "recharts.js",
-      "fileHash": "0d58a3b4",
+      "fileHash": "114c18de",
       "needsInterop": false
     },
     "react-router-dom": {
       "src": "../../node_modules/react-router-dom/dist/index.mjs",
       "file": "react-router-dom.js",
-      "fileHash": "aaf03784",
+      "fileHash": "1375c447",
+      "needsInterop": false
+    },
+    "@google/generative-ai": {
+      "src": "../../node_modules/@google/generative-ai/dist/index.mjs",
+      "file": "@google_generative-ai.js",
+      "fileHash": "d9167438",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-FPEHQ7MX": {
-      "file": "chunk-FPEHQ7MX.js"
+    "chunk-UP6LQVYV": {
+      "file": "chunk-UP6LQVYV.js"
     },
-    "chunk-DDNM7ENY": {
-      "file": "chunk-DDNM7ENY.js"
+    "chunk-TWJRYSII": {
+      "file": "chunk-TWJRYSII.js"
+    },
+    "chunk-DC5AMYBS": {
+      "file": "chunk-DC5AMYBS.js"
     }
   }
 }
