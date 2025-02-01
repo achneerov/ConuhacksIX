@@ -41,31 +41,31 @@ const Stats3 = () => {
   ];
 
   return (
-    <div className="flex flex-col h-full bg-white rounded-lg p-6 overflow-hidden">
+    <div className="flex flex-col h-full bg-white rounded-lg p-6">
       <div className="mb-6">
         <h2 className="text-2xl font-bold text-gray-800">Smart Investment Tips</h2>
         <p className="text-sm text-gray-600">Essential strategies for long-term financial success</p>
       </div>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {tips.map((tip, index) => (
-          <div key={index} className="p-4 bg-gray-50 rounded-lg hover:shadow-md transition-shadow">
-            <div className="flex items-center mb-2">
-              {tip.icon}
-              <span className="ml-2 text-xs font-medium text-gray-500">{tip.category}</span>
+      <div className="flex-1 overflow-y-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {tips.map((tip, index) => (
+            <div key={index} className="p-4 bg-gray-50 rounded-lg hover:shadow-md transition-shadow">
+              <div className="flex items-center mb-2">
+                {tip.icon}
+                <span className="ml-2 text-xs font-medium text-gray-500">{tip.category}</span>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-800 mb-2">{tip.title}</h3>
+              <p className="text-sm text-gray-600">{tip.description}</p>
             </div>
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">{tip.title}</h3>
-            <p className="text-sm text-gray-600">{tip.description}</p>
-          </div>
-        ))}
-      </div>
-
-      <div className="mt-6 p-4 bg-blue-50 rounded-lg">
-        <h3 className="text-base font-semibold text-gray-800 mb-2">Pro Tip</h3>
-        <p className="text-sm text-gray-600">
-          Consider consulting with a financial advisor to create a personalized investment strategy 
-          that aligns with your goals, risk tolerance, and time horizon.
-        </p>
+          ))}
+        </div>
+        <div className="mt-6 p-4 bg-blue-50 rounded-lg">
+          <h3 className="text-base font-semibold text-gray-800 mb-2">Pro Tip</h3>
+          <p className="text-sm text-gray-600">
+            Consider consulting with a financial advisor to create a personalized investment strategy
+            that aligns with your goals, risk tolerance, and time horizon.
+          </p>
+        </div>
       </div>
     </div>
   );
