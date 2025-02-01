@@ -20,9 +20,9 @@ const Chatbot: React.FC = () => {
   };
 
   return (
-    <div className="bg-gray-100 p-6 rounded-lg flex flex-col h-full">
+    <div className="bg-gray-100 p-6 rounded-lg flex flex-col h-full max-h-[500px]">
       <h2 className="text-xl font-bold mb-4">Chatbot</h2>
-      <div className="flex-grow space-y-4 overflow-y-auto mb-4">
+      <div className="h-64 flex-grow space-y-4 overflow-y-auto mb-4">
         {messages.map((msg, idx) => (
           <div key={idx} className={`p-3 rounded-lg ${msg.isBot ? 'bg-blue-200 mr-8' : 'bg-green-200 ml-8'}`}>
             {msg.text}
