@@ -1,7 +1,7 @@
-// Stats1.tsx
 import React from 'react';
+
 const Stats1: React.FC = () => (
-  <div className="bg-blue-100 p-6 rounded-lg h-full">
+  <div className="p-6 h-full">
     <h2 className="text-xl font-bold mb-4">Stats 1</h2>
     <div className="space-y-2">
       <p>Metric 1: 85%</p>
@@ -9,4 +9,5 @@ const Stats1: React.FC = () => (
     </div>
   </div>
 );
+
 export default Stats1;
