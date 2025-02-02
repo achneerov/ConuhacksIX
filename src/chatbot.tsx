@@ -232,7 +232,7 @@ const Chatbot: React.FC = () => {
   }, []);
 
   return (
-    <div className="bg-gray-100 p-6 rounded-lg flex flex-col h-full max-h-[500px]">
+    <div className="bg-gray-100 p-6 rounded-lg flex flex-col h-full max-h-[500px] mt-6">
       <div className="flex items-center justify-between mb-4">
         <div className="flex items-center gap-2">
           <img
