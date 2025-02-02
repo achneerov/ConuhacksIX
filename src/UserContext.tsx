@@ -13,13 +13,6 @@ interface MoneyRecommendation {
   suggestion?: string;
 }
 
-// New type for SunLife links
-interface SunLifeLink {
-  title: string;
-  description: string;
-  url: string;
-}
-
 interface User {
   name: string;
   age: number;
