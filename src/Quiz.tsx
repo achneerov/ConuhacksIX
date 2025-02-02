@@ -104,9 +104,9 @@ const Quiz: React.FC = () => {
 
   if(isMobile){
     return(
-      <div className="min-h-screen w-full flex justify-center p-4">
+      <div className="flex flex-col h-full bg-white rounded-lg">
       <div className="">
-      <div className="max-w-2xl w-full bg-white rounded-lg shadow-md p-6">
+      <div className="grid md:grid-cols-2 flex-1 min-h-0 overflow-y-auto max-w-4xl mx-auto overflow-x-hidden">
         <div className="mb-6">
           <h1 className="text-2xl font-bold text-black">Insurance Knowledge Quiz</h1>
         </div>
