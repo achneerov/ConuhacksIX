@@ -27,6 +27,8 @@ const Header = () => {
 
   const tools = [
     { name: 'Mortgage Tools', href: '/suggested-products' },
+    { name: 'Insurance Tools', href: '/InsuranceTools' },
+
   ];
 
   return (
