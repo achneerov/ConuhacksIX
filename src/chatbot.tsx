@@ -60,10 +60,13 @@ const Chatbot: React.FC = () => {
     }
   };
 
-  // Auto-scroll to the bottom when messages update
+  // Smooth auto-scroll to the bottom when messages update
   useEffect(() => {
     if (chatContainerRef.current) {
-      chatContainerRef.current.scrollTop = chatContainerRef.current.scrollHeight;
+      chatContainerRef.current.scrollTo({
+        top: chatContainerRef.current.scrollHeight,
+        behavior: "smooth", // Enables slow, smooth scrolling
+      });
     }
   }, [messages]);
 
