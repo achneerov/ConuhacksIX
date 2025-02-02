@@ -6,8 +6,8 @@ const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isToolsDropdownOpen, setIsToolsDropdownOpen] = useState(false);
   const [isUserDropdownOpen, setIsUserDropdownOpen] = useState(false);
-  const dropdownRef = useRef<HTMLDivElement>(null);
-  const userDropdownRef = useRef<HTMLDivElement>(null);
+  const dropdownRef = useRef<HTMLDivElement | null>(null);
+  const userDropdownRef = useRef<HTMLDivElement | null>(null);
   const { selectedUser, setSelectedUser, users } = useUser();
 
   useEffect(() => {
@@ -41,6 +41,9 @@ const Header = () => {
           .yellow-button:hover {
             background-color: #e6b745;
           }
+          .dropdown-item:hover {
+            color: #144953;
+          }
         `}
       </style>
       <header className="w-full border-b border-gray-200">
@@ -56,7 +59,7 @@ const Header = () => {
               </button>
               <a href="/" className="flex items-center">
                 <img
-                  src="./images/suunlifeicon_large_trans.png"
+                  src="/api/placeholder/160/40"
                   alt="Sun Life logo"
                   className="h-10"
                 />
@@ -81,7 +84,7 @@ const Header = () => {
                       <a
                         key={tool.name}
                         href={tool.href}
-                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dropdown-item"
                       >
                         {tool.name}
                       </a>
@@ -105,12 +108,12 @@ const Header = () => {
                       <a
                         key={user.name}
                         href="#"
-                        onClick={(e) => {
+                        onClick={(e: React.MouseEvent<HTMLAnchorElement>) => {
                           e.preventDefault();
                           setSelectedUser(user);
                           setIsUserDropdownOpen(false);
                         }}
-                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dropdown-item"
                       >
                         {user.name}
                       </a>
@@ -130,7 +133,7 @@ const Header = () => {
                   <a
                     key={tool.name}
                     href={tool.href}
-                    className="block px-3 py-2 text-base font-medium text-gray-700"
+                    className="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-100 dropdown-item"
                   >
                     {tool.name}
                   </a>
@@ -143,7 +146,7 @@ const Header = () => {
                       setSelectedUser(user);
                       setIsMobileMenuOpen(false);
                     }}
-                    className="block w-full text-left px-3 py-2 text-base font-medium text-gray-700"
+                    className="block w-full text-left px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-100 dropdown-item"
                   >
                     {user.name}
                   </button>
