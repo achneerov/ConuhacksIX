@@ -218,8 +218,11 @@ Focus on educating about: Sun Life's mortgage types, competitive interest rates,
 Include subtle transitions to bring non-mortgage topics back to Sun Life mortgages naturally
 Make mortgage concepts accessible while emphasizing the value of professional guidance from Sun Life's mortgage experts
 
+Format: Limit yourself to 4 paragraphs, do not use headers in your responses, and only enter to separate your paragraphs. Do not use any special formatting in your responses including '*'.
+
 The core purpose is maintaining laser focus on mortgages and Sun Life's mortgage solutions while making the topic approachable and emphasizing professional advice from Sun Life's mortgage specialists.
 Remember to highlight how Sun Life stands out in the mortgage industry through its competitive rates, flexible terms, and exceptional customer service. When discussing mortgage options, always reference Sun Life's specific programs and benefits where applicable.
+
 
 
 
@@ -275,62 +278,6 @@ Remember to highlight how Sun Life stands out in the mortgage industry through i
       });
     }
   }, [messages]);
-
-  if(isMobile){
-    return (
-    <div className="bg-white rounded-lg shadow-lg min-h-screen">
-      <div className="border-b p-4">
-        <div className="flex items-center">
-          <MessageSquare className="h-6 w-6 text-blue-600 mr-2" />
-          <h2 className="text-xl font-serif bold text-gray-800">Mortgage Product Advisor</h2>
-        </div>
-      </div>
-
-      <div ref={chatContainerRef} className="overflow-y-auto p-4 space-y-4">
-        {messages.map((msg, idx) => (
-          <div key={idx} className={`flex ${msg.isBot ? "justify-start" : "justify-end"}`}>
-            <div
-              className={`relative p-3 max-w-[80%] ${
-                msg.isBot
-                  ? "bg-[#ffcb4d] rounded-tl-2xl rounded-tr-2xl rounded-br-2xl"
-                  : "bg-blue-200 rounded-tl-2xl rounded-tr-2xl rounded-bl-2xl"
-              }`}
-            >
-              {msg.text}
-            </div>
-          </div>
-        ))}
-        {isLoading && (
-          <div className="flex justify-start">
-            <div className="relative p-3 bg-[#ffcb4d] rounded-tl-2xl rounded-tr-2xl rounded-br-2xl">
-              Thinking...
-            </div>
-          </div>
-        )}
-      </div>
-
-      <form onSubmit={handleSubmit} className="border-t p-4">
-        <div className="flex space-x-2">
-          <input
-            type="text"
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
-            placeholder="Type your message..."
-            className="flex-1 p-2 border border-gray-300 rounded-md"
-            disabled={isLoading}
-          />
-          <button
-            type="submit"
-            className="bg-blue-600 text-white p-2 rounded-md hover:bg-blue-700"
-            disabled={isLoading}
-          >
-            <Send className="h-5 w-5" />
-          </button>
-        </div>
-      </form>
-    </div>
-  );
-  }
 
   return (
     <div className="bg-white rounded-lg shadow-lg">
