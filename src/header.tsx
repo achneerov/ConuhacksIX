@@ -1,15 +1,22 @@
 import { useState, useEffect, useRef } from 'react';
 import { Menu, User, ChevronDown } from 'lucide-react';
+import { useUser } from './UserContext';
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isToolsDropdownOpen, setIsToolsDropdownOpen] = useState(false);
+  const [isUserDropdownOpen, setIsUserDropdownOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const userDropdownRef = useRef<HTMLDivElement>(null);
+  const { selectedUser, setSelectedUser, users } = useUser();
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
         setIsToolsDropdownOpen(false);
+      }
+      if (userDropdownRef.current && !userDropdownRef.current.contains(event.target as Node)) {
+        setIsUserDropdownOpen(false);
       }
     };
 
@@ -56,7 +63,6 @@ const Header = () => {
                 Tools
                 <ChevronDown className="ml-1 h-4 w-4" />
               </button>
-
               {/* Dropdown Menu */}
               {isToolsDropdownOpen && (
                 <div className="absolute right-0 mt-2 w-64 rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5">
@@ -73,14 +79,34 @@ const Header = () => {
               )}
             </div>
 
-            {/* Sign in button */}
-            <a
-              href="#"
-              className="inline-flex items-center text-sm font-medium text-gray-700"
-            >
-              <User className="mr-1 h-4 w-4" />
-              Sign in
-            </a>
+            {/* User Dropdown */}
+            <div className="relative" ref={userDropdownRef}>
+              <button
+                className="flex items-center text-sm font-medium text-gray-700 hover:text-gray-900"
+                onClick={() => setIsUserDropdownOpen(!isUserDropdownOpen)}
+              >
+                {selectedUser ? selectedUser.name : 'Select User'}
+                <ChevronDown className="ml-1 h-4 w-4" />
+              </button>
+              {isUserDropdownOpen && (
+                <div className="absolute right-0 mt-2 w-64 rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5">
+                  {users.map((user) => (
+                    <a
+                      key={user.name}
+                      href="#"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setSelectedUser(user);
+                        setIsUserDropdownOpen(false);
+                      }}
+                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    >
+                      {user.name}
+                    </a>
+                  ))}
+                </div>
+              )}
+            </div>
           </div>
         </div>
 
@@ -98,12 +124,19 @@ const Header = () => {
                   {tool.name}
                 </a>
               ))}
-              <a
-                href="#"
-                className="block px-3 py-2 text-base font-medium text-gray-700"
-              >
-                Sign in
-              </a>
+              {/* Mobile User Selection */}
+              {users.map((user) => (
+                <button
+                  key={user.name}
+                  onClick={() => {
+                    setSelectedUser(user);
+                    setIsMobileMenuOpen(false);
+                  }}
+                  className="block w-full text-left px-3 py-2 text-base font-medium text-gray-700"
+                >
+                  {user.name}
+                </button>
+              ))}
             </div>
           </div>
         )}

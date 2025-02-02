@@ -5,10 +5,13 @@ import Header from './header';
 import ForceLightMode from './ForceLightMode';
 import MortgageCalculator from './MortgageCalculator';
 import SuggestedProductsChatbot from './SuggestedProductsChatbot';
+import { UserProvider } from './UserContext';
+
 
 const App: React.FC = () => {
   return (
     <Router>
+      <UserProvider>
       <ForceLightMode>
         <div className="min-h-screen h-screen w-screen flex flex-col">
           <Header />
@@ -21,6 +24,7 @@ const App: React.FC = () => {
           </div>
         </div>
       </ForceLightMode>
+      </UserProvider>
     </Router>
   );
 };
