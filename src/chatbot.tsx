@@ -25,6 +25,7 @@ const Chatbot: React.FC = () => {
       const chat = model.startChat({
         history: [
           { role: "user", parts: [{ text: userInput }] },
+          { role: "model", parts: [{ text: "You are SunBot, a friendly AI assistant. Always provide helpful, concise answers." }] },
           ...messages.map((msg) => ({
             role: msg.isBot ? "model" : "user",
             parts: [{ text: msg.text }],
