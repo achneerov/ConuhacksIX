@@ -55,11 +55,8 @@ const Chatbot: React.FC = () => {
     setIsLoading(true);
     try {
       const response = await generateResponse(input);
-
-      // Split the response into paragraphs
       const paragraphs = response.split(/\n\n+/);
-
-      // Add each paragraph as a separate message with a delay
+      
       paragraphs.forEach((paragraph) => {
         setTimeout(() => {
           setMessages((prev) => [...prev, { text: paragraph, isBot: true }]);
@@ -104,23 +101,17 @@ const Chatbot: React.FC = () => {
             <div
               className={`relative p-3 max-w-[80%] ${
                 msg.isBot
-                  ? "bg-[#ffcb4d] rounded-2xl rounded-bl-none ml-2"
-                  : "bg-blue-200 rounded-2xl rounded-br-none mr-2"
+                  ? "bg-[#ffcb4d] rounded-tl-2xl rounded-tr-2xl rounded-br-2xl"
+                  : "bg-blue-200 rounded-tl-2xl rounded-tr-2xl rounded-bl-2xl"
               }`}
             >
-              <div className={`absolute bottom-0 ${
-                msg.isBot
-                  ? "-left-2 border-[8px] border-transparent border-r-[#ffcb4d]"
-                  : "-right-2 border-[8px] border-transparent border-l-blue-200"
-              }`} />
               {msg.text}
             </div>
           </div>
         ))}
         {isLoading && (
           <div className="flex justify-start">
-            <div className="relative p-3 bg-[#ffcb4d] rounded-2xl rounded-bl-none ml-2">
-              <div className="absolute bottom-0 -left-2 border-[8px] border-transparent border-r-[#ffcb4d]" />
+            <div className="relative p-3 bg-[#ffcb4d] rounded-tl-2xl rounded-tr-2xl rounded-br-2xl">
               Thinking...
             </div>
           </div>
