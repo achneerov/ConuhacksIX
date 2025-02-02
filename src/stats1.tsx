@@ -27,7 +27,7 @@ const Stats1 = () => {
   }
 
   return (
-    <div className="flex flex-col h-full bg-white rounded-lg overflow-hidden">
+    <div className="flex flex-col bg-white rounded-lg">
       <div className="px-4 sm:px-6 pt-6 pb-4">
         <h2 className="text-xl font-serif bold text-gray-850">Investment Account Performance</h2>
         <p className="text-sm text-gray-600 mt-1">Annual overview of {selectedUser.name}'s TFSA and RRSP accounts</p>
@@ -57,10 +57,10 @@ const Stats1 = () => {
         </div>
       </div>
 
-      {/* Chart section with responsive height */}
-      <div className="flex-1 min-h-0 px-4 sm:px-6">
+      {/* Chart section with fixed height */}
+      <div className="px-4 sm:px-6 pb-6">
         <h3 className="text-base font-semibold mb-2">Account Balance History</h3>
-        <div className="h-64 sm:h-full">
+        <div className="h-64">
           <ResponsiveContainer width="100%" height="100%">
             <LineChart margin={{ top: 5, right: 10, left: 0, bottom: 5 }}>
               <CartesianGrid strokeDasharray="3 3" />
