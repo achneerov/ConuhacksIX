@@ -3,27 +3,26 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Dashboard from './dashboard';
 import Header from './header';
 import ForceLightMode from './ForceLightMode';
-import MortgageCalculator from './MortgageCalculator';
 import SuggestedProductsChatbot from './SuggestedProductsChatbot';
+import InsuranceTools from './InsuranceTools';
 import { UserProvider } from './UserContext';
-
 
 const App: React.FC = () => {
   return (
     <Router>
       <UserProvider>
-      <ForceLightMode>
-        <div className="min-h-screen h-screen w-screen flex flex-col">
-          <Header />
-          <div className="flex-1 p-4 overflow-hidden">
-            <Routes>
-              <Route path="/" element={<Dashboard />} />
-              <Route path="/mortgage-calculator" element={<MortgageCalculator />} />
-              <Route path="/suggested-products" element={<SuggestedProductsChatbot />} />
-            </Routes>
+        <ForceLightMode>
+          <div className="min-h-screen h-screen w-screen flex flex-col">
+            <Header />
+            <div className="flex-1 p-4 overflow-hidden">
+              <Routes>
+                <Route path="/" element={<Dashboard />} />
+                <Route path="/suggested-products" element={<SuggestedProductsChatbot />} />
+                <Route path="/InsuranceTools" element={<InsuranceTools />} />
+              </Routes>
+            </div>
           </div>
-        </div>
-      </ForceLightMode>
+        </ForceLightMode>
       </UserProvider>
     </Router>
   );

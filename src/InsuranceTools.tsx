@@ -11,85 +11,118 @@ interface Message {
   isBot: boolean;
 }
 
-// Mortgage Calculator Component
-const MortgageCalculator = () => {
-  const [loanAmount, setLoanAmount] = useState('');
-  const [interestRate, setInterestRate] = useState('');
-  const [loanTerm, setLoanTerm] = useState('');
-  const [monthlyPayment, setMonthlyPayment] = useState(0);
+// Insurance Calculator Component
+const InsuranceCalculator = () => {
+  const [age, setAge] = useState('');
+  const [coverageAmount, setCoverageAmount] = useState('');
+  const [termLength, setTermLength] = useState('');
+  const [monthlyPremium, setMonthlyPremium] = useState(0);
+  const [isSmoker, setIsSmoker] = useState(false);
 
-  const calculateMortgage = (e: React.FormEvent) => {
+  const calculateInsurance = (e: React.FormEvent) => {
     e.preventDefault();
-    const principal = parseFloat(loanAmount);
-    const annualRate = parseFloat(interestRate) / 100;
-    const monthlyRate = annualRate / 12;
-    const months = parseFloat(loanTerm) * 12;
-    const payment = (principal * monthlyRate * Math.pow(1 + monthlyRate, months)) /
-      (Math.pow(1 + monthlyRate, months) - 1);
-    setMonthlyPayment(payment);
+    // Basic premium calculation formula:
+    // Base rate per $1000 of coverage * Coverage Amount / 1000 * Age Factor * Smoker Factor
+    const baseRate = 0.15; // $0.15 per $1000 of coverage
+    const coverage = parseFloat(coverageAmount);
+    const ageNum = parseFloat(age);
+    
+    // Age factor increases with age
+    const ageFactor = 1 + (ageNum - 20) * 0.02;
+    
+    // Smoker factor
+    const smokerFactor = isSmoker ? 2.5 : 1;
+    
+    // Term length factor (longer terms are slightly cheaper per month)
+    const termFactor = 1 - (parseFloat(termLength) - 10) * 0.01;
+    
+    const premium = (baseRate * (coverage / 1000) * ageFactor * smokerFactor * termFactor);
+    setMonthlyPremium(premium);
   };
 
   return (
     <div className="bg-white rounded-lg shadow-lg p-6">
       <div className="flex items-center mb-6">
         <Calculator className="h-6 w-6 text-blue-600 mr-2" />
-        <h2 className="text-2xl font-serif bold text-gray-800">Mortgage Calculator</h2>
+        <h2 className="text-2xl font-serif bold text-gray-800">Life Insurance Calculator</h2>
       </div>
-      <form onSubmit={calculateMortgage} className="space-y-4">
+      <form onSubmit={calculateInsurance} className="space-y-4">
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
-            Loan Amount ($)
+            Age
           </label>
           <input
             type="number"
-            value={loanAmount}
-            onChange={(e) => setLoanAmount(e.target.value)}
+            value={age}
+            onChange={(e) => setAge(e.target.value)}
             className="w-full p-2 border border-gray-300 rounded-md"
-            placeholder="Enter loan amount"
+            placeholder="Enter your age"
+            min="18"
+            max="75"
             required
           />
         </div>
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
-            Annual Interest Rate (%)
+            Coverage Amount ($)
           </label>
           <input
             type="number"
-            value={interestRate}
-            onChange={(e) => setInterestRate(e.target.value)}
+            value={coverageAmount}
+            onChange={(e) => setCoverageAmount(e.target.value)}
             className="w-full p-2 border border-gray-300 rounded-md"
-            placeholder="Enter interest rate"
-            step="0.1"
+            placeholder="Enter coverage amount"
+            min="50000"
+            step="50000"
             required
           />
         </div>
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
-            Loan Term (years)
+            Term Length (years)
           </label>
-          <input
-            type="number"
-            value={loanTerm}
-            onChange={(e) => setLoanTerm(e.target.value)}
+          <select
+            value={termLength}
+            onChange={(e) => setTermLength(e.target.value)}
             className="w-full p-2 border border-gray-300 rounded-md"
-            placeholder="Enter loan term"
             required
+          >
+            <option value="">Select term length</option>
+            <option value="10">10 years</option>
+            <option value="15">15 years</option>
+            <option value="20">20 years</option>
+            <option value="30">30 years</option>
+          </select>
+        </div>
+        <div className="flex items-center space-x-2">
+          <input
+            type="checkbox"
+            id="smoker"
+            checked={isSmoker}
+            onChange={(e) => setIsSmoker(e.target.checked)}
+            className="h-4 w-4 text-blue-600"
           />
+          <label htmlFor="smoker" className="text-sm font-medium text-gray-700">
+            Smoker
+          </label>
         </div>
         <button
           type="submit"
           className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700"
         >
-          Calculate
+          Calculate Premium
         </button>
       </form>
-      {monthlyPayment > 0 && (
+      {monthlyPremium > 0 && (
         <div className="mt-6 p-4 bg-gray-50 rounded-md">
           <h3 className="text-lg font-semibold text-gray-800 mb-2">
-            Monthly Payment
+            Estimated Monthly Premium
           </h3>
           <p className="text-2xl font-bold text-blue-600">
-            ${monthlyPayment.toFixed(2)}
+            ${monthlyPremium.toFixed(2)}
+          </p>
+          <p className="text-sm text-gray-600 mt-2">
+            This is an estimate only. Actual premiums may vary based on medical history and other factors.
           </p>
         </div>
       )}
@@ -97,11 +130,11 @@ const MortgageCalculator = () => {
   );
 };
 
-// Chatbot Component
-const SuggestedProductsChatbot = () => {
+// Insurance Chatbot Component
+const InsuranceChatBot = () => {
   const { selectedUser } = useUser();
   const [messages, setMessages] = useState<Message[]>([
-    { text: "Hello! How can I help you today?", isBot: true },
+    { text: "Hello! I'm here to help you understand insurance options. What questions do you have?", isBot: true },
   ]);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
@@ -116,14 +149,6 @@ const SuggestedProductsChatbot = () => {
         Age: ${selectedUser.age}
         Gender: ${selectedUser.gender}
         Salary: ${selectedUser.salary}
-        RRSP Total: ${selectedUser.RRSP_total}
-        TFSA Total: ${selectedUser.TFSA_total}
-        RRSP Contribution: ${selectedUser.RRSP_contribution}
-        TFSA Contribution: ${selectedUser.TFSA_contribution}
-        RRSP Prices: ${JSON.stringify(selectedUser.RRSP_prices)}
-        TFSA Prices: ${JSON.stringify(selectedUser.TFSA_prices)}
-        Money Saving Recommendations: ${JSON.stringify(selectedUser.money_saving_recommendations)}
-        Suggested SunLife Links: ${JSON.stringify(selectedUser.SuggestedSunLifeLinks)}
       ` : "No user selected.";
 
       const chat = model.startChat({
@@ -132,29 +157,27 @@ const SuggestedProductsChatbot = () => {
           { role: "model", parts: [{ text: `
 
 
-            
 
 
+I'll help make this prompt more assertive and direct while maintaining professionalism. Here's a more aggressive version:
 
-Here's an updated version of that prompt:
+LISTEN UP: I am InsuranceBot and I don't mess around with insurance topics. Here's what I do:
 
-REMEMBER: You are MortgageBot, an AI assistant whose sole focus is mortgages and home loans. Every response must connect back to mortgages, even if the conversation drifts to other topics. If users ask about anything unrelated, acknowledge their question briefly but steer the discussion back to mortgage-related aspects.
+I WILL:
+- Break down insurance types with zero BS - life, health, property, whatever you need to know
+- Cut through the jargon and tell you EXACTLY what these insurance terms mean
+- Hit you with the raw facts about coverage options
+- Hammer home why you NEED to read every single word of your policy
+- Tell you straight up when you need to talk to a pro
+- Keep it SHORT and POWERFUL - if I can't explain it in 2-3 punchy paragraphs, I'm not doing my job
+- Demolish complex concepts into simple, crystal-clear language
+- Give you the TRUTH about insurance, no sugar coating
 
-Core behaviors:
-- Always relate any topic back to mortgages (e.g. if someone asks about cars, mention auto loans vs mortgage loans)
-- Limit responses to 2 natural paragraphs
-- Use plain language to explain complex mortgage concepts
-- Consistently emphasize working with qualified mortgage professionals
-- Never discuss topics that can't be connected to mortgages
-- If the conversation veers off-topic, say something like "That's interesting - speaking of which, this relates to mortgages because..."
-- Keep formatting simple - no bullet points, headers or special formatting
-- Focus on educating about: mortgage types, interest rates, down payments, credit scores, refinancing, loan terms, closing costs, and mortgage insurance
-- Include subtle transitions to bring non-mortgage topics back to mortgages naturally
-- Make mortgage concepts accessible while emphasizing the value of professional mortgage guidance
+I WILL NOT:
+- Tell you which specific policy to buy (THAT'S NOT MY JOB)
+- Pretend my info is anything more than general guidance (GET A LICENSED AGENT FOR THE SPECIFICS)
 
-The core purpose is maintaining laser focus on mortgages while making the topic approachable and emphasizing professional advice.
-
-
+NOW YOU KNOW THE DEAL. Let's talk insurance.
 
 
 
@@ -215,7 +238,7 @@ The core purpose is maintaining laser focus on mortgages while making the topic 
       <div className="border-b p-4">
         <div className="flex items-center">
           <MessageSquare className="h-6 w-6 text-blue-600 mr-2" />
-          <h2 className="text-xl font-serif bold text-gray-800">Mortgage Product Advisor</h2>
+          <h2 className="text-xl font-serif bold text-gray-800">Insurance Advisor</h2>
         </div>
       </div>
 
@@ -270,17 +293,17 @@ const CombinedInterface = () => {
   return (
     <div className="min-h-screen bg-gray-100 p-6">
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-3xl font-bold text-gray-800 mb-8 text-center">Mortgage Tools</h1>
+        <h1 className="text-3xl font-bold text-gray-800 mb-8 text-center">Insurance Tools</h1>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          {/* Left Column - Mortgage Calculator */}
+          {/* Left Column - Insurance Calculator */}
           <div className="w-full">
-            <MortgageCalculator />
+            <InsuranceCalculator />
           </div>
           
           {/* Right Column - Chatbot */}
           <div className="w-full">
-            <SuggestedProductsChatbot />
+            <InsuranceChatBot />
           </div>
         </div>
       </div>
