@@ -1,4 +1,3 @@
-// Quiz.tsx
 import React, { useState } from 'react';
 
 interface Question {
@@ -8,10 +7,19 @@ interface Question {
   correctAnswer: number;
 }
 
+interface AnswerState {
+  selectedAnswer: number | null;
+  isCorrect: boolean | null;
+}
+
 const Quiz: React.FC = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [showScore, setShowScore] = useState(false);
+  const [answerState, setAnswerState] = useState<AnswerState>({
+    selectedAnswer: null,
+    isCorrect: null,
+  });
 
   const questions: Question[] = [
     {
@@ -35,65 +43,113 @@ const Quiz: React.FC = () => {
         'Your claims history'
       ],
       correctAnswer: 1
+    },
+    {
+      id: 3,
+      text: 'What is a deductible in insurance?',
+      options: [
+        'A monthly payment to maintain coverage',
+        'The amount you pay before insurance coverage begins',
+        'A discount for safe driving',
+        'The maximum amount insurance will pay'
+      ],
+      correctAnswer: 1
     }
   ];
 
   const handleAnswerClick = (selectedAnswer: number) => {
-    if (selectedAnswer === questions[currentQuestion].correctAnswer) {
+    const isCorrect = selectedAnswer === questions[currentQuestion].correctAnswer;
+    
+    setAnswerState({
+      selectedAnswer,
+      isCorrect,
+    });
+
+    if (isCorrect) {
       setScore(score + 1);
     }
 
-    const nextQuestion = currentQuestion + 1;
-    if (nextQuestion < questions.length) {
-      setCurrentQuestion(nextQuestion);
-    } else {
-      setShowScore(true);
+    setTimeout(() => {
+      const nextQuestion = currentQuestion + 1;
+      if (nextQuestion < questions.length) {
+        setCurrentQuestion(nextQuestion);
+        setAnswerState({ selectedAnswer: null, isCorrect: null });
+      } else {
+        setShowScore(true);
+      }
+    }, 2000);
+  };
+
+  const getButtonStyles = (index: number) => {
+    const baseStyles = "w-full text-left p-4 rounded-lg transition-colors duration-200 text-black";
+    
+    if (answerState.selectedAnswer === null) {
+      return `${baseStyles} bg-[#ffcb05] hover:bg-[#ffd739]`;
     }
+    
+    // If this is the selected answer
+    if (answerState.selectedAnswer === index) {
+      return `${baseStyles} ${answerState.isCorrect ? 'bg-[#22c55e] text-white' : 'bg-[#ef4444] text-white'}`;
+    }
+    
+    // Show correct answer in green if wrong answer was selected
+    if (index === questions[currentQuestion].correctAnswer && !answerState.isCorrect && answerState.selectedAnswer !== null) {
+      return `${baseStyles} bg-[#22c55e] text-white`;
+    }
+    
+    // Keep other buttons gold but disabled
+    return `${baseStyles} bg-[#ffcb05] opacity-50`;
   };
 
   return (
-    <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-md p-6">
-      <div className="mb-6">
-        <h1 className="text-2xl font-bold">Insurance Knowledge Quiz</h1>
-      </div>
-      <div>
-        {showScore ? (
-          <div className="text-center py-8">
-            <h2 className="text-2xl font-bold mb-4">
-              You scored {score} out of {questions.length}!
-            </h2>
-            <button
-              onClick={() => {
-                setCurrentQuestion(0);
-                setScore(0);
-                setShowScore(false);
-              }}
-              className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700"
-            >
-              Retry Quiz
-            </button>
-          </div>
-        ) : (
-          <div>
-            <p className="text-lg mb-6">{questions[currentQuestion].text}</p>
-            <div className="space-y-4">
-              {questions[currentQuestion].options.map((option, index) => (
-                <button
-                  key={index}
-                  onClick={() => handleAnswerClick(index)}
-                  className="w-full text-left p-4 border rounded-lg hover:bg-gray-50"
-                >
-                  {option}
-                </button>
-              ))}
+    <div className="min-h-screen w-full flex justify-center p-4">
+      <div className="mt-20">
+      <div className="max-w-2xl w-full bg-white rounded-lg shadow-md p-6">
+        <div className="mb-6">
+          <h1 className="text-2xl font-bold text-black">Insurance Knowledge Quiz</h1>
+        </div>
+        <div>
+          {showScore ? (
+            <div className="text-center py-8">
+              <h2 className="text-2xl font-bold mb-4 text-black">
+                You scored {score} out of {questions.length}!
+              </h2>
+              <button
+                onClick={() => {
+                  setCurrentQuestion(0);
+                  setScore(0);
+                  setShowScore(false);
+                  setAnswerState({ selectedAnswer: null, isCorrect: null });
+                }}
+                className="bg-[#144953] text-white px-6 py-2 rounded-lg hover:bg-[#1a5d69]"
+              >
+                Retry Quiz
+              </button>
             </div>
-            <div className="mt-4 text-gray-600">
-              Question {currentQuestion + 1} of {questions.length}
+          ) : (
+            <div>
+              <p className="text-lg mb-6 text-black">{questions[currentQuestion].text}</p>
+              <div className="space-y-4">
+                {questions[currentQuestion].options.map((option, index) => (
+                  <button
+                    key={index}
+                    onClick={() => handleAnswerClick(index)}
+                    disabled={answerState.selectedAnswer !== null}
+                    className={getButtonStyles(index)}
+                  >
+                    {option}
+                  </button>
+                ))}
+              </div>
+              <div className="mt-4 text-gray-600">
+                Question {currentQuestion + 1} of {questions.length}
+              </div>
             </div>
-          </div>
-        )}
+          )}
+        </div>
       </div>
     </div>
+</div>
   );
 };
 
