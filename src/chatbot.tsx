@@ -9,10 +9,10 @@ declare global {
 import React, { useState, useEffect, useRef } from "react";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { useUser } from "./UserContext";
-import { Volume2, Mic } from "lucide-react";
+import { Volume2, Mic, VolumeX } from "lucide-react";
 
 // Initialize Gemini
-const genAI = new GoogleGenerativeAI("AIzaSyDZS2xaQvtXQzLaXXTSYasKc-lrwTc8KEs");
+const genAI = new GoogleGenerativeAI("---");
 
 // Initialize speech recognition with proper type handling
 const createSpeechRecognition = () => {
@@ -45,10 +45,13 @@ const Chatbot: React.FC = () => {
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [isListening, setIsListening] = useState(false);
+  const [isTTSEnabled, setIsTTSEnabled] = useState(false);
   const chatContainerRef = useRef<HTMLDivElement>(null);
   const speechSynthesis = window.speechSynthesis;
 
   const speak = (text: string, messageIndex: number) => {
+    if (!isTTSEnabled) return;
+    
     const utterance = new SpeechSynthesisUtterance(text);
     
     utterance.rate = 1;
@@ -72,6 +75,13 @@ const Chatbot: React.FC = () => {
     };
 
     speechSynthesis.speak(utterance);
+  };
+
+  const toggleTTS = () => {
+    setIsTTSEnabled(!isTTSEnabled);
+    if (!isTTSEnabled) {
+      speechSynthesis.cancel();
+    }
   };
 
   const startListening = () => {
@@ -182,8 +192,8 @@ const Chatbot: React.FC = () => {
         setTimeout(() => {
           setMessages((prev) => {
             const newMessages = [...prev, { text: paragraph, isBot: true }];
-            if (index === 0) {
-              // Read first paragraph automatically
+            if (index === 0 && isTTSEnabled) {
+              // Read first paragraph automatically if TTS is enabled
               setTimeout(() => speak(paragraph, newMessages.length - 1), 100);
             }
             return newMessages;
@@ -232,6 +242,17 @@ const Chatbot: React.FC = () => {
           />
           <h2 className="text-xl font-serif bold">SunBot</h2>
         </div>
+        <button
+          onClick={toggleTTS}
+          className="p-2 rounded-full hover:bg-gray-200 transition-colors"
+          title={isTTSEnabled ? "Disable Text-to-Speech" : "Enable Text-to-Speech"}
+        >
+          {isTTSEnabled ? (
+            <Volume2 className="h-5 w-5" />
+          ) : (
+            <VolumeX className="h-5 w-5" />
+          )}
+        </button>
       </div>
 
       <div
@@ -251,7 +272,7 @@ const Chatbot: React.FC = () => {
               }`}
             >
               {msg.text}
-              {msg.isBot && (
+              {msg.isBot && isTTSEnabled && (
                 <button
                   className="absolute -right-8 top-1/2 -translate-y-1/2 p-1 rounded-full hover:bg-gray-200 transition-colors"
                   onClick={() => speak(msg.text, idx)}
