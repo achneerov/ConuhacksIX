@@ -150,7 +150,7 @@ const Stats2 = () => {
     return(
         <div className="flex flex-col h-full bg-white rounded-lg">
       <div className="">
-        <h2 className="text-2xl font-serif bold text-gray-800">Personalized Money-Saving Challenges</h2>
+        <h2 className="text-2xl font-serif bold text-gray-800 text-center pr-6">Personalized Money-Saving Challenges</h2>
         <p className="text-sm text-gray-600 pr-5">
           Custom recommendations based on your spending patterns
         </p>

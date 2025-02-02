@@ -30,7 +30,7 @@ const Stats1 = () => {
     return(
       <div className="flex flex-col bg-white rounded-lg pr-2">
         <div className="pr-3">
-        <h2 className="text-xl font-serif bold text-gray-850">Investment Account Performance</h2>
+        <h2 className="text-2xl font-serif bold text-gray-800 text-center">Investment Account Performance</h2>
         <p className="text-sm text-gray-600 mt-1 pr-5">Annual overview of {selectedUser.name}'s TFSA and RRSP accounts</p>
       </div>
       <div className="grid grid-cols-2 gap-2">
