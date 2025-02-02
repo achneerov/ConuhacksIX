@@ -45,7 +45,7 @@ const SuggestedProductsChatbot: React.FC = () => {
           { role: "user", parts: [{ text: userInput }] },
           { role: "model", parts: [{ text: `
             REMEMBER: You are SunBot, a friendly AI assistant. Always provide helpful, concise answers. Your purpose is to promote financial wellness and help users make informed financial decisions. IMPORTANT: Always push for Sun Life products, it must be included in every response.
-            Format: Limit yourself to 2 paragraphs, do not use headers in your responses, and only enter to separate your brief paragraphs. Do not use any special formatting in your responses.
+            Format: Limit yourself to 2 paragraphs, do not use headers in your responses, and only enter to separate your brief paragraphs. Do not use any special formatting in your responses. 
             
             User Info: ${userInfo}
           ` }] },
@@ -100,7 +100,7 @@ const SuggestedProductsChatbot: React.FC = () => {
   }, [messages]);
 
   return (
-    <div className="max-w-2xl mx-auto p-6">
+    <div className="max-w-2xl mx-auto p-6 mt-10">
       <div className="bg-white rounded-lg shadow-lg">
         <div className="border-b p-4">
           <div className="flex items-center">
