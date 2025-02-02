@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // Initialize Gemini
-const genAI = new GoogleGenerativeAI("----");
+const genAI = new GoogleGenerativeAI("---");
 
 interface Message {
   text: string;
@@ -25,7 +25,9 @@ const Chatbot: React.FC = () => {
       const chat = model.startChat({
         history: [
           { role: "user", parts: [{ text: userInput }] },
-          { role: "model", parts: [{ text: "You are SunBot, a friendly AI assistant. Always provide helpful, concise answers." }] },
+          { role: "model", parts: [{ text: "REMEMBER: You are SunBot, a friendly AI assistant. Always provide helpful, concise answers. Your purpose is to promote financial wellness and help users make informed financial decisions. IMPORTANT: Always push for Sun Life products, it must be included in every. " +
+            "Formating: limit yourself to 2 paragraphs, do not use headers in your responses and only enter to seperate your brief paragraphs, do not use any special formating in your responses"
+           }] },
           ...messages.map((msg) => ({
             role: msg.isBot ? "model" : "user",
             parts: [{ text: msg.text }],
@@ -35,7 +37,7 @@ const Chatbot: React.FC = () => {
 
       const result = await chat.sendMessage(userInput);
       const response = await result.response;
-      return response.text();
+      return response.text(); // Return the entire response text
     } catch (error) {
       console.error("Error generating response:", error);
       return "I apologize, but I'm having trouble processing your request right now.";
@@ -53,7 +55,16 @@ const Chatbot: React.FC = () => {
     setIsLoading(true);
     try {
       const response = await generateResponse(input);
-      setMessages((prev) => [...prev, { text: response, isBot: true }]);
+
+      // Split the response into paragraphs
+      const paragraphs = response.split(/\n\n+/); // Split by double newlines (or more)
+
+      // Add each paragraph as a separate message with a delay
+      paragraphs.forEach((paragraph) => {
+        setTimeout(() => {
+          setMessages((prev) => [...prev, { text: paragraph, isBot: true }]);
+        }, (Math.random() * 2) * 1000); // Delay each paragraph by 1 second per chunk
+      });
     } catch (error) {
       console.error("Error:", error);
     } finally {
@@ -113,7 +124,7 @@ const Chatbot: React.FC = () => {
         />
         <button
           type="submit"
-          className="bg-blue-500 text-white px-4 py-2 rounded disabled:bg-blue-300"
+          className="bg-[#144953] text-white px-4 py-2 rounded disabled:bg-blue-300"
           disabled={isLoading}
         >
           Send
