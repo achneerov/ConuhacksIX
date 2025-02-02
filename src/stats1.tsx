@@ -27,11 +27,11 @@ const Stats1 = () => {
 
   return (
     <div className="flex flex-col h-full bg-white rounded-lg overflow-hidden">
-      <div className="mb-4">
+      <div className="px-6 pt-6 pb-4">
         <h2 className="text-xl font-serif bold text-gray-850">Investment Account Performance</h2>
-        <p className="text-sm text-gray-600">Annual overview of {selectedUser.name}'s TFSA and RRSP accounts</p>
+        <p className="text-sm text-gray-600 mt-1">Annual overview of {selectedUser.name}'s TFSA and RRSP accounts</p>
       </div>
-      <div className="grid grid-cols-2 gap-4 mb-4">
+      <div className="grid grid-cols-2 gap-4 mb-4 px-6">
         <div className="p-3 bg-blue-50 rounded-lg">
           <h3 className="text-base font-semibold mb-1">TFSA Performance</h3>
           <p className="text-2xl font-bold" style={{ color: '#144953' }}>
@@ -53,7 +53,7 @@ const Stats1 = () => {
           </p>
         </div>
       </div>
-      <div className="flex-1 min-h-0">
+      <div className="flex-1 min-h-0 px-6">
         <h3 className="text-base font-semibold mb-2">Account Balance History</h3>
         <div className="h-full">
           <ResponsiveContainer width="100%" height="100%">
