@@ -1,6 +1,7 @@
 import React from 'react';
 import { Coffee, ShoppingCart, Utensils, Car, Bolt, Tv, Clock, Gamepad, CreditCard, Baby, Stethoscope } from 'lucide-react';
 import { useUser } from './UserContext';
+import { isMobile } from 'react-device-detect';
 
 interface BaseRecommendation {
   category?: string;
@@ -144,6 +145,42 @@ const Stats2 = () => {
   };
 
   const challenges = generateChallenges();
+
+  if(isMobile){
+    return(
+        <div className="flex flex-col h-full bg-white rounded-lg p-6">
+      <div className="">
+        <h2 className="text-2xl font-serif bold text-gray-800">Personalized Money-Saving Challenges</h2>
+        <p className="text-sm text-gray-600">
+          Custom recommendations based on your spending patterns
+        </p>
+      </div>
+      <div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {challenges.map((challenge, index) => (
+            <div key={index} className="p-4 bg-gray-50 rounded-lg hover:shadow-md transition-shadow">
+              <div className="flex items-center justify-between mb-2">
+                {challenge.icon}
+                <div className="flex items-center">
+                  <span className={`text-xs font-medium px-2 py-1 rounded ${
+                    challenge.difficulty === 'Easy' ? 'bg-green-100 text-green-700' :
+                    challenge.difficulty === 'Medium' ? 'bg-yellow-100 text-yellow-700' :
+                    'bg-red-100 text-red-700'
+                  }`}>
+                    {challenge.difficulty}
+                  </span>
+                  <span className="ml-2 text-xs font-medium text-gray-500">{challenge.category}</span>
+                </div>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-800 mb-2">{challenge.title}</h3>
+              <p className="text-sm text-gray-600">{challenge.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+    );
+  }
 
   return (
     <div className="flex flex-col h-full bg-white rounded-lg p-6">
