@@ -12,7 +12,7 @@ import { useUser } from "./UserContext";
 import { Volume2, Mic, VolumeX } from "lucide-react";
 
 // Initialize Gemini
-const genAI = new GoogleGenerativeAI("---");
+const genAI = new GoogleGenerativeAI("AIzaSyDZS2xaQvtXQzLaXXTSYasKc-lrwTc8KEs");
 
 // Initialize speech recognition with proper type handling
 const createSpeechRecognition = () => {
