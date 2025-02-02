@@ -153,7 +153,7 @@ const Stats2 = () => {
           Custom recommendations based on your spending patterns
         </p>
       </div>
-      <div className="flex-1 overflow-y-auto">
+      <div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {challenges.map((challenge, index) => (
             <div key={index} className="p-4 bg-gray-50 rounded-lg hover:shadow-md transition-shadow">
@@ -174,14 +174,6 @@ const Stats2 = () => {
               <p className="text-sm text-gray-600">{challenge.description}</p>
             </div>
           ))}
-        </div>
-        <div className="mt-6 p-4 bg-blue-50 rounded-lg">
-          <h3 className="text-base font-semibold text-gray-800 mb-2">Challenge Tips</h3>
-          <p className="text-sm text-gray-600">
-            These challenges are personalized based on your spending patterns. Start with categories 
-            marked as "Easy" and work your way up. Each recommendation shows your potential monthly 
-            savings to help you track your progress.
-          </p>
         </div>
       </div>
     </div>
