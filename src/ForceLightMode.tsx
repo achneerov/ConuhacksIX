@@ -32,43 +32,51 @@ const ForceLightMode: React.FC<ForceLightModeProps> = ({ children }) => {
             background-color: inherit;
             color: inherit;
           }
-          /* Button specific overrides - exclude yellow-button and blue-submit class */
-          button:not(.yellow-button):not([class*="bg-[#144953]"]),
-          [type='button']:not(.yellow-button):not([class*="bg-[#144953]"]),
-          [type='reset']:not(.yellow-button):not([class*="bg-[#144953]"]),
-          [type='submit']:not(.yellow-button):not([class*="bg-[#144953]"]) {
-            background-color: #e5e7eb !important; /* gray-200 equivalent */
-            color: black !important;
-            border-color: #d1d5db !important; /* gray-300 equivalent */
+          
+          /* Preserve header button styles */
+          [class*="bg-[#ffcb4d]"] {
+            background-color: #ffcb4d !important;
           }
-          button:not(.yellow-button):not([class*="bg-[#144953]"]):hover,
-          [type='button']:not(.yellow-button):not([class*="bg-[#144953]"]):hover,
-          [type='reset']:not(.yellow-button):not([class*="bg-[#144953]"]):hover,
-          [type='submit']:not(.yellow-button):not([class*="bg-[#144953]"]):hover {
-            background-color: #d1d5db !important; /* gray-300 equivalent */
+          [class*="bg-[#ffcb4d]"]:hover {
+            background-color: #e6b745 !important;
           }
-          button:not(.yellow-button):not([class*="bg-[#144953]"]):active,
-          [type='button']:not(.yellow-button):not([class*="bg-[#144953]"]):active,
-          [type='reset']:not(.yellow-button):not([class*="bg-[#144953]"]):active,
-          [type='submit']:not(.yellow-button):not([class*="bg-[#144953]"]):active {
-            background-color: #9ca3af !important; /* gray-400 equivalent */
-          }
-          /* Override any dark mode specific button classes - exclude yellow-button and blue submit */
-          button:not(.yellow-button):not([class*="bg-[#144953]"])[class*="dark:"],
-          [type='button']:not(.yellow-button):not([class*="bg-[#144953]"])[class*="dark:"],
-          [type='reset']:not(.yellow-button):not([class*="bg-[#144953]"])[class*="dark:"],
-          [type='submit']:not(.yellow-button):not([class*="bg-[#144953]"])[class*="dark:"] {
+          
+          /* Button specific overrides - exclude header buttons */
+          button:not([class*="bg-[#ffcb4d]"]):not([class*="bg-[#144953]"]),
+          [type='button']:not([class*="bg-[#ffcb4d]"]):not([class*="bg-[#144953]"]),
+          [type='reset']:not([class*="bg-[#ffcb4d]"]):not([class*="bg-[#144953]"]),
+          [type='submit']:not([class*="bg-[#ffcb4d]"]):not([class*="bg-[#144953]"]) {
             background-color: #e5e7eb !important;
             color: black !important;
             border-color: #d1d5db !important;
           }
-          /* Preserve yellow button styles */
-          .yellow-button {
-            background-color: #ffcb4d !important;
+          
+          /* Hover states for non-header buttons */
+          button:not([class*="bg-[#ffcb4d]"]):not([class*="bg-[#144953]"]):hover,
+          [type='button']:not([class*="bg-[#ffcb4d]"]):not([class*="bg-[#144953]"]):hover,
+          [type='reset']:not([class*="bg-[#ffcb4d]"]):not([class*="bg-[#144953]"]):hover,
+          [type='submit']:not([class*="bg-[#ffcb4d]"]):not([class*="bg-[#144953]"]):hover {
+            background-color: #d1d5db !important;
           }
-          .yellow-button:hover {
-            background-color: #e6b745 !important;
+          
+          /* Active states for non-header buttons */
+          button:not([class*="bg-[#ffcb4d]"]):not([class*="bg-[#144953]"]):active,
+          [type='button']:not([class*="bg-[#ffcb4d]"]):not([class*="bg-[#144953]"]):active,
+          [type='reset']:not([class*="bg-[#ffcb4d]"]):not([class*="bg-[#144953]"]):active,
+          [type='submit']:not([class*="bg-[#ffcb4d]"]):not([class*="bg-[#144953]"]):active {
+            background-color: #9ca3af !important;
           }
+          
+          /* Override dark mode specific button classes - exclude header buttons */
+          button:not([class*="bg-[#ffcb4d]"]):not([class*="bg-[#144953]"])[class*="dark:"],
+          [type='button']:not([class*="bg-[#ffcb4d]"]):not([class*="bg-[#144953]"])[class*="dark:"],
+          [type='reset']:not([class*="bg-[#ffcb4d]"]):not([class*="bg-[#144953]"])[class*="dark:"],
+          [type='submit']:not([class*="bg-[#ffcb4d]"]):not([class*="bg-[#144953]"])[class*="dark:"] {
+            background-color: #e5e7eb !important;
+            color: black !important;
+            border-color: #d1d5db !important;
+          }
+          
           /* Preserve blue submit button styles */
           [class*="bg-[#144953]"] {
             background-color: #144953 !important;
