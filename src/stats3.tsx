@@ -35,12 +35,12 @@ const Stats3 = () => {
       <div className="">
       <div className="mb-6">
         <h2 className="text-2xl font-serif bold text-gray-800">Sun Life Resources</h2>
-        <p className="text-sm text-gray-600">
+        <p className="text-sm text-gray-600 pr-5">
           Recommended financial resources tailored for you
         </p>
       </div>
       <div className="flex-1">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pr-4">
           {sunLifeTips.map((tip, index) => (
             <div key={index} className="p-4 bg-gray-50 rounded-lg hover:shadow-md transition-shadow">
               <div className="flex items-center justify-between mb-2">

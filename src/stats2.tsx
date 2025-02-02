@@ -151,12 +151,12 @@ const Stats2 = () => {
         <div className="flex flex-col h-full bg-white rounded-lg">
       <div className="">
         <h2 className="text-2xl font-serif bold text-gray-800">Personalized Money-Saving Challenges</h2>
-        <p className="text-sm text-gray-600">
+        <p className="text-sm text-gray-600 pr-5">
           Custom recommendations based on your spending patterns
         </p>
       </div>
       <div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pr-5">
           {challenges.map((challenge, index) => (
             <div key={index} className="p-4 bg-gray-50 rounded-lg hover:shadow-md transition-shadow">
               <div className="flex items-center justify-between mb-2">

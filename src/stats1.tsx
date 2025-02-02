@@ -28,13 +28,13 @@ const Stats1 = () => {
 
   if (isMobile){
     return(
-      <div className="flex flex-col bg-white rounded-lg ">
-        <div className="">
+      <div className="flex flex-col bg-white rounded-lg pr-2">
+        <div className="pr-3">
         <h2 className="text-xl font-serif bold text-gray-850">Investment Account Performance</h2>
-        <p className="text-sm text-gray-600 mt-1">Annual overview of {selectedUser.name}'s TFSA and RRSP accounts</p>
+        <p className="text-sm text-gray-600 mt-1 pr-5">Annual overview of {selectedUser.name}'s TFSA and RRSP accounts</p>
       </div>
-      <div className="grid grid-cols-2 gap-4">
-        <div className="p-3 bg-blue-50 rounded-lg">
+      <div className="grid grid-cols-2 gap-2">
+        <div className="p-1 bg-blue-50 rounded-lg">
           <h3 className="text-base font-semibold mb-1">TFSA Performance</h3>
           <p className="text-2xl font-bold" style={{ color: '#144953' }}>
             ${selectedUser.TFSA_total.toLocaleString()}
@@ -44,7 +44,7 @@ const Stats1 = () => {
             Contributing: ${selectedUser.TFSA_contribution.toLocaleString()}/year
           </p>
         </div>
-        <div className="p-3 bg-green-50 rounded-lg">
+        <div className="p-1 bg-green-50 rounded-lg">
           <h3 className="text-base font-semibold mb-1">RRSP Performance</h3>
           <p className="text-2xl font-bold text-green-600">
             ${selectedUser.RRSP_total.toLocaleString()}
