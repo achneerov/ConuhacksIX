@@ -146,15 +146,14 @@ const Stats2 = () => {
   const challenges = generateChallenges();
 
   return (
-    <div className="flex flex-col h-full bg-white rounded-lg p-6">
-      <div className="mb-6">
-        <h2 className="text-2xl font-serif bold text-gray-800">Personalized Money-Saving Challenges</h2>
-        <p className="text-sm text-gray-600">
+    <div className="bg-white rounded-lg">
+      <div className="p-6">
+        <h2 className="text-xl font-serif bold text-gray-800">Personalized Money-Saving Challenges</h2>
+        <p className="text-sm text-gray-600 mb-6">
           Custom recommendations based on your spending patterns
         </p>
-      </div>
-      <div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        
+        <div className="grid grid-cols-1 gap-4">
           {challenges.map((challenge, index) => (
             <div key={index} className="p-4 bg-gray-50 rounded-lg hover:shadow-md transition-shadow">
               <div className="flex items-center justify-between mb-2">
