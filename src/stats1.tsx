@@ -4,7 +4,7 @@ import { useUser } from './UserContext';
 
 const Stats1 = () => {
   const { selectedUser } = useUser();
-
+  
   const tfsaData = useMemo(() => {
     if (!selectedUser) return [];
     return Object.entries(selectedUser.TFSA_prices).map(([month, value]) => ({
@@ -31,11 +31,10 @@ const Stats1 = () => {
         <h2 className="text-xl font-serif bold text-gray-850">Investment Account Performance</h2>
         <p className="text-sm text-gray-600">Annual overview of {selectedUser.name}'s TFSA and RRSP accounts</p>
       </div>
-      
       <div className="grid grid-cols-2 gap-4 mb-4">
         <div className="p-3 bg-blue-50 rounded-lg">
           <h3 className="text-base font-semibold mb-1">TFSA Performance</h3>
-          <p className="text-2xl font-bold text-blue-600">
+          <p className="text-2xl font-bold" style={{ color: '#144953' }}>
             ${selectedUser.TFSA_total.toLocaleString()}
           </p>
           <p className="text-xs text-gray-600">Current Balance</p>
@@ -43,7 +42,6 @@ const Stats1 = () => {
             Contributing: ${selectedUser.TFSA_contribution.toLocaleString()}/year
           </p>
         </div>
-        
         <div className="p-3 bg-green-50 rounded-lg">
           <h3 className="text-base font-semibold mb-1">RRSP Performance</h3>
           <p className="text-2xl font-bold text-green-600">
@@ -55,7 +53,6 @@ const Stats1 = () => {
           </p>
         </div>
       </div>
-
       <div className="flex-1 min-h-0">
         <h3 className="text-base font-semibold mb-2">Account Balance History</h3>
         <div className="h-full">
@@ -71,7 +68,7 @@ const Stats1 = () => {
                 type="monotone"
                 dataKey="value"
                 name="TFSA"
-                stroke="#3B82F6"
+                stroke="#144953"
                 strokeWidth={2}
               />
               <Line
