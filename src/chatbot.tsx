@@ -1,8 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
 import { GoogleGenerativeAI } from "@google/generative-ai";
+import { useUser } from "./UserContext"; 
 
 // Initialize Gemini
-const genAI = new GoogleGenerativeAI("---");
+const genAI = new GoogleGenerativeAI("AIzaSyDZS2xaQvtXQzLaXXTSYasKc-lrwTc8KEs");
 
 interface Message {
   text: string;
@@ -10,6 +11,8 @@ interface Message {
 }
 
 const Chatbot: React.FC = () => {
+  const { selectedUser } = useUser();
+  console.log(selectedUser);
   const [messages, setMessages] = useState<Message[]>([
     { text: "Hello! How can I help you today?", isBot: true },
   ]);
@@ -21,20 +24,39 @@ const Chatbot: React.FC = () => {
     try {
       const model = genAI.getGenerativeModel({ model: "gemini-pro" });
       console.log("model found");
-
+  
+      // Concatenate selectedUser's information
+      const userInfo = selectedUser ? `
+        Name: ${selectedUser.name}
+        Age: ${selectedUser.age}
+        Gender: ${selectedUser.gender}
+        Salary: ${selectedUser.salary}
+        RRSP Total: ${selectedUser.RRSP_total}
+        TFSA Total: ${selectedUser.TFSA_total}
+        RRSP Contribution: ${selectedUser.RRSP_contribution}
+        TFSA Contribution: ${selectedUser.TFSA_contribution}
+        RRSP Prices: ${JSON.stringify(selectedUser.RRSP_prices)}
+        TFSA Prices: ${JSON.stringify(selectedUser.TFSA_prices)}
+        Money Saving Recommendations: ${JSON.stringify(selectedUser.money_saving_recommendations)}
+        Suggested SunLife Links: ${JSON.stringify(selectedUser.SuggestedSunLifeLinks)}
+      ` : "No user selected.";
+  
       const chat = model.startChat({
         history: [
           { role: "user", parts: [{ text: userInput }] },
-          { role: "model", parts: [{ text: "REMEMBER: You are SunBot, a friendly AI assistant. Always provide helpful, concise answers. Your purpose is to promote financial wellness and help users make informed financial decisions. IMPORTANT: Always push for Sun Life products, it must be included in every. " +
-            "Formating: limit yourself to 2 paragraphs, do not use headers in your responses and only enter to seperate your brief paragraphs, do not use any special formating in your responses"
-           }] },
+          { role: "model", parts: [{ text: `
+            REMEMBER: You are SunBot, a friendly AI assistant. Always provide helpful, concise answers. Your purpose is to promote financial wellness and help users make informed financial decisions. IMPORTANT: Always push for Sun Life products, it must be included in every response.
+            Format: Limit yourself to 2 paragraphs, do not use headers in your responses, and only enter to separate your brief paragraphs. Do not use any special formatting in your responses.
+            
+            User Info: ${userInfo}
+          ` }] },
           ...messages.map((msg) => ({
             role: msg.isBot ? "model" : "user",
             parts: [{ text: msg.text }],
           })),
         ],
       });
-
+  
       const result = await chat.sendMessage(userInput);
       const response = await result.response;
       return response.text();
@@ -43,6 +65,7 @@ const Chatbot: React.FC = () => {
       return "I apologize, but I'm having trouble processing your request right now.";
     }
   };
+  
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
