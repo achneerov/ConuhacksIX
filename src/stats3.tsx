@@ -30,14 +30,15 @@ const Stats3 = () => {
   })) || [];
 
   return (
-    <div className="bg-white rounded-lg">
-      <div className="p-6">
-        <h2 className="text-xl font-serif bold text-gray-800">Sun Life Resources</h2>
-        <p className="text-sm text-gray-600 mb-6">
+    <div className="flex flex-col h-full bg-white rounded-lg p-6">
+      <div className="mb-6">
+        <h2 className="text-2xl font-serif bold text-gray-800">Sun Life Resources</h2>
+        <p className="text-sm text-gray-600">
           Recommended financial resources tailored for you
         </p>
-        
-        <div className="grid grid-cols-1 gap-4">
+      </div>
+      <div className="flex-1">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {sunLifeTips.map((tip, index) => (
             <div key={index} className="p-4 bg-gray-50 rounded-lg hover:shadow-md transition-shadow">
               <div className="flex items-center justify-between mb-2">

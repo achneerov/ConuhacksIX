@@ -1,4 +1,3 @@
-// Dashboard.tsx
 import React from 'react';
 import Stats1 from './stats1';
 import Stats2 from './stats2';
@@ -7,29 +6,27 @@ import Chatbot from './chatbot';
 
 const Dashboard: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gray-50">
-      <div className="container mx-auto p-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {/* Investment Performance */}
-          <div className="bg-[#fff8e0] rounded-lg shadow">
+    <div className="flex flex-col w-full h-full gap-4">
+      {/* Grid container that switches from 1 column on mobile to 2 columns on md screens */}
+      <div className="grid md:grid-cols-2 gap-4 flex-1 min-h-0">
+        <div className="overflow-hidden rounded-lg p-4 bg-[#fff8e0]">
+          <div className="h-full overflow-auto">
             <Stats1 />
           </div>
-          
-          {/* Money-Saving Challenges */}
-          <div className="bg-[#fff8e0] rounded-lg shadow">
+        </div>
+        <div className="overflow-hidden rounded-lg p-4 bg-[#fff8e0]">
+          <div className="h-full overflow-auto">
             <Stats2 />
           </div>
-          
-          {/* Sun Life Resources */}
-          <div className="bg-[#fff8e0] rounded-lg shadow">
+        </div>
+        <div className="overflow-hidden rounded-lg p-4 bg-[#fff8e0]">
+          <div className="h-full overflow-auto">
             <Stats3 />
           </div>
-          
-          {/* Chatbot */}
-          <div className="bg-[#fff8e0] rounded-lg shadow">
-            <div className="h-full">
-              <Chatbot />
-            </div>
+        </div>
+        <div className="overflow-hidden rounded-lg p-4 bg-[#fff8e0]">
+          <div className="h-full overflow-auto">
+            <Chatbot />
           </div>
         </div>
       </div>

@@ -106,64 +106,62 @@ const Chatbot: React.FC = () => {
   }, [selectedUser]);
 
   return (
-    <div className="bg-white rounded-lg">
-      <div className="p-6">
-        <div className="flex items-center gap-2 mb-4">
-          <img
-            src="./images/sunlifeIcon.png"
-            alt=":("
-            className="w-8 h-8 rounded-full"
-          />
-          <h2 className="text-xl font-serif bold">SunBot</h2>
-        </div>
-
-        <div
-          ref={chatContainerRef}
-          className="h-64 space-y-4 overflow-y-auto mb-4"
-        >
-          {messages.map((msg, idx) => (
-            <div
-              key={idx}
-              className={`flex ${msg.isBot ? "justify-start" : "justify-end"}`}
-            >
-              <div
-                className={`relative p-3 max-w-[80%] ${
-                  msg.isBot
-                    ? "bg-[#ffcb4d] rounded-tl-2xl rounded-tr-2xl rounded-br-2xl"
-                    : "bg-blue-200 rounded-tl-2xl rounded-tr-2xl rounded-bl-2xl"
-                }`}
-              >
-                {msg.text}
-              </div>
-            </div>
-          ))}
-          {isLoading && (
-            <div className="flex justify-start">
-              <div className="relative p-3 bg-[#ffcb4d] rounded-tl-2xl rounded-tr-2xl rounded-br-2xl">
-                Thinking...
-              </div>
-            </div>
-          )}
-        </div>
-
-        <form onSubmit={handleSubmit} className="flex gap-2">
-          <input
-            type="text"
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
-            className="flex-grow p-2 rounded border"
-            placeholder="Type a message..."
-            disabled={isLoading}
-          />
-          <button
-            type="submit"
-            className="bg-[#144953] text-white px-4 py-2 rounded disabled:bg-blue-300"
-            disabled={isLoading}
-          >
-            Send
-          </button>
-        </form>
+    <div className="bg-gray-100 p-6 rounded-lg flex flex-col h-full max-h-[500px]">
+      <div className="flex items-center gap-2 mb-4">
+        <img
+          src="./images/sunlifeIcon.png"
+          alt=":("
+          className="w-8 h-8 rounded-full bg-gray-300"
+        />
+        <h2 className="text-xl font-serif bold">SunBot</h2>
       </div>
+
+      <div
+        ref={chatContainerRef}
+        className="h-64 space-y-4 overflow-y-auto mb-4"
+      >
+        {messages.map((msg, idx) => (
+          <div
+            key={idx}
+            className={`flex ${msg.isBot ? "justify-start" : "justify-end"}`}
+          >
+            <div
+              className={`relative p-3 max-w-[80%] ${
+                msg.isBot
+                  ? "bg-[#ffcb4d] rounded-tl-2xl rounded-tr-2xl rounded-br-2xl"
+                  : "bg-blue-200 rounded-tl-2xl rounded-tr-2xl rounded-bl-2xl"
+              }`}
+            >
+              {msg.text}
+            </div>
+          </div>
+        ))}
+        {isLoading && (
+          <div className="flex justify-start">
+            <div className="relative p-3 bg-[#ffcb4d] rounded-tl-2xl rounded-tr-2xl rounded-br-2xl">
+              Thinking...
+            </div>
+          </div>
+        )}
+      </div>
+
+      <form onSubmit={handleSubmit} className="flex gap-2">
+        <input
+          type="text"
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          className="flex-grow p-2 rounded border"
+          placeholder="Type a message..."
+          disabled={isLoading}
+        />
+        <button
+          type="submit"
+          className="bg-[#144953] text-white px-4 py-2 rounded disabled:bg-blue-300"
+          disabled={isLoading}
+        >
+          Send
+        </button>
+      </form>
     </div>
   );
 };
