@@ -43,7 +43,7 @@ const Stats3 = () => {
   return (
     <div className="flex flex-col h-full bg-white rounded-lg p-6">
       <div className="mb-6">
-        <h2 className="text-2xl font-bold text-gray-800">Smart Investment Tips</h2>
+        <h2 className="text-2xl font-serif bold text-gray-800">Smart Investment Tips</h2>
         <p className="text-sm text-gray-600">Essential strategies for long-term financial success</p>
       </div>
       <div className="flex-1 overflow-y-auto">

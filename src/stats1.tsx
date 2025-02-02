@@ -28,7 +28,7 @@ const Stats1 = () => {
   return (
     <div className="flex flex-col h-full bg-white rounded-lg overflow-hidden">
       <div className="mb-4">
-        <h2 className="text-xl font-bold text-gray-800">Investment Account Performance</h2>
+        <h2 className="text-xl font-serif bold text-gray-850">Investment Account Performance</h2>
         <p className="text-sm text-gray-600">Annual overview of {selectedUser.name}'s TFSA and RRSP accounts</p>
       </div>
       

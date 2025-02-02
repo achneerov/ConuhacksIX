@@ -79,7 +79,7 @@ const Chatbot: React.FC = () => {
           alt=":("
           className="w-8 h-8 rounded-full bg-gray-300"
         />
-        <h2 className="text-xl font-bold">SunBot</h2>
+        <h2 className="text-xl font-serif bold">SunBot</h2>
       </div>
 
       {/* Chat messages container */}
