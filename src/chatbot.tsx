@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import { useUser } from "./UserContext"; 
 
 // Initialize Gemini
-const genAI = new GoogleGenerativeAI("---");
+const genAI = new GoogleGenerativeAI("AIzaSyDZS2xaQvtXQzLaXXTSYasKc-lrwTc8KEs");
 
 interface Message {
   text: string;
@@ -45,8 +45,8 @@ const Chatbot: React.FC = () => {
         history: [
           { role: "user", parts: [{ text: userInput }] },
           { role: "model", parts: [{ text: `
-            REMEMBER: You are SunBot, a friendly AI assistant. Always provide helpful, concise answers. Your purpose is to promote financial wellness and help users make informed financial decisions. IMPORTANT: Always push for Sun Life products, it must be included in every response.
-            Format: Limit yourself to 2 paragraphs, do not use headers in your responses, and only enter to separate your brief paragraphs. Do not use any special formatting in your responses.
+            REMEMBER: You are SunBot, a friendly AI assistant. Always provide helpful, concise answers. Your are a Sun Life Insurance Product Advisor. IMPORTANT: Always push for Sun Life products, it must be included in every response.
+            Format: Limit yourself to 4 paragraphs, do not use headers in your responses, and only enter to separate your paragraphs. Do not use any special formatting in your responses.
             
             User Info: ${userInfo}
           ` }] },
@@ -83,7 +83,7 @@ const Chatbot: React.FC = () => {
       paragraphs.forEach((paragraph) => {
         setTimeout(() => {
           setMessages((prev) => [...prev, { text: paragraph, isBot: true }]);
-        }, (Math.random() * 2) * 1000);
+        }, 1000);
       });
     } catch (error) {
       console.error("Error:", error);
@@ -100,6 +100,10 @@ const Chatbot: React.FC = () => {
       });
     }
   }, [messages]);
+  useEffect(() => {
+    // Reset chat history when the selected user changes
+    setMessages([{ text: "Hello! How can I help you today?", isBot: true }]);
+  }, [selectedUser]);
 
   return (
     <div className="bg-gray-100 p-6 rounded-lg flex flex-col h-full max-h-[500px]">
