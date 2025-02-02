@@ -1,5 +1,17 @@
-// UserContext.tsx
 import React, { createContext, useState, useContext, useEffect } from 'react';
+
+interface MoneyRecommendation {
+  category?: string;
+  type?: string;
+  action: string;
+  current_spending?: number;
+  recommended_spending?: number;
+  potential_savings?: number;
+  urgency?: string;
+  peak_spending_time?: string;
+  peak_spending_day?: string;
+  suggestion?: string;
+}
 
 interface User {
   name: string;
@@ -16,6 +28,7 @@ interface User {
   TFSA_prices: {
     [key: string]: number;
   };
+  money_saving_recommendations: MoneyRecommendation[];
 }
 
 interface UserContextType {
@@ -41,7 +54,6 @@ export const UserProvider = ({ children }: { children: React.ReactNode }) => {
         console.error('Error loading users:', error);
       }
     };
-
     loadUsers();
   }, []);
 
