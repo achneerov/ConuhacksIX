@@ -81,6 +81,7 @@ const Resources: React.FC = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
+      <h1 className="text-3xl font-bold text-gray-900 mb-8 text-center">Directory</h1>
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {resources.map((resource, index) => (
           <a
