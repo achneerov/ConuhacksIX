@@ -1,4 +1,3 @@
-// Stats1.tsx
 import { useMemo } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { useUser } from './UserContext';
@@ -28,13 +27,11 @@ const Stats1 = () => {
 
   return (
     <div className="flex flex-col h-full bg-white rounded-lg overflow-hidden">
-      <div className="px-4 sm:px-6 pt-6 pb-4">
+      <div className="px-6 pt-6 pb-4">
         <h2 className="text-xl font-serif bold text-gray-850">Investment Account Performance</h2>
         <p className="text-sm text-gray-600 mt-1">Annual overview of {selectedUser.name}'s TFSA and RRSP accounts</p>
       </div>
-      
-      {/* Stats cards - stack on mobile, grid on larger screens */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4 px-4 sm:px-6">
+      <div className="grid grid-cols-2 gap-4 mb-4 px-6">
         <div className="p-3 bg-blue-50 rounded-lg">
           <h3 className="text-base font-semibold mb-1">TFSA Performance</h3>
           <p className="text-2xl font-bold" style={{ color: '#144953' }}>
@@ -56,24 +53,14 @@ const Stats1 = () => {
           </p>
         </div>
       </div>
-
-      {/* Chart section with responsive height */}
-      <div className="flex-1 min-h-0 px-4 sm:px-6">
+      <div className="flex-1 min-h-0 px-6">
         <h3 className="text-base font-semibold mb-2">Account Balance History</h3>
-        <div className="h-64 sm:h-full">
+        <div className="h-full">
           <ResponsiveContainer width="100%" height="100%">
-            <LineChart margin={{ top: 5, right: 10, left: 0, bottom: 5 }}>
+            <LineChart margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
               <CartesianGrid strokeDasharray="3 3" />
-              <XAxis 
-                dataKey="month" 
-                allowDuplicatedCategory={false}
-                tick={{ fontSize: 12 }}
-                interval="preserveStartEnd"
-              />
-              <YAxis 
-                tick={{ fontSize: 12 }}
-                width={60}
-              />
+              <XAxis dataKey="month" allowDuplicatedCategory={false} />
+              <YAxis />
               <Tooltip formatter={(value) => `$${value.toLocaleString()}`} />
               <Legend />
               <Line
