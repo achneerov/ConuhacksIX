@@ -28,12 +28,12 @@ const Stats1 = () => {
 
   if (isMobile){
     return(
-      <div className="flex flex-col bg-white rounded-lg pr-2">
+      <div className="flex flex-col bg-white rounded-lg pr-2 ">
         <div className="pr-3">
-        <h2 className="text-2xl font-serif bold text-gray-800 text-center">Investment Account Performance</h2>
+        <h2 className="text-2xl font-serif bold text-gray-800 text-center pr-5">Investment Account Performance</h2>
         <p className="text-sm text-gray-600 mt-1 pr-5">Annual overview of {selectedUser.name}'s TFSA and RRSP accounts</p>
       </div>
-      <div className="grid grid-cols-2 gap-2">
+      <div className="grid grid-cols-2 gap-2 mt-3">
         <div className="p-1 bg-blue-50 rounded-lg">
           <h3 className="text-base font-semibold mb-1">TFSA Performance</h3>
           <p className="text-2xl font-bold" style={{ color: '#144953' }}>

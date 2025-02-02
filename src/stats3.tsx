@@ -34,7 +34,7 @@ const Stats3 = () => {
     return(
       <div className="">
       <div className="mb-6">
-        <h2 className="text-2xl font-serif bold text-gray-800">Sun Life Resources</h2>
+        <h2 className="text-2xl font-serif bold text-gray-800 text-center pr-5">Sun Life Resources</h2>
         <p className="text-sm text-gray-600 pr-5">
           Recommended financial resources tailored for you
         </p>
