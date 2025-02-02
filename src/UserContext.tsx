@@ -13,6 +13,13 @@ interface MoneyRecommendation {
   suggestion?: string;
 }
 
+// New type for SunLife links
+interface SunLifeLink {
+  title: string;
+  description: string;
+  url: string;
+}
+
 interface User {
   name: string;
   age: number;
@@ -29,6 +36,7 @@ interface User {
     [key: string]: number;
   };
   money_saving_recommendations: MoneyRecommendation[];
+  SuggestedSunLifeLinks: [string, string, string][]; // Array of tuples containing [title, description, url]
 }
 
 interface UserContextType {

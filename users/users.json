@@ -1,130 +1,486 @@
 [
-    { 
-        "name": "John - the student",
-        "age": 21,
-        "gender": "Male",
-        "salary": 20000,
-        "RRSP_total": 1695,
-        "TFSA_total": 3390,
-        "TFSA_contribution": 1000,
-        "RRSP_contribution": 500,
-        "RRSP_prices": {
-            "2022": 409,
-            "2023": 1130,
-            "2024": 1695
+    {
+      "name": "John - the student",
+      "age": 21,
+      "gender": "Male",
+      "salary": 20000,
+      "RRSP_total": 1695,
+      "TFSA_total": 3390,
+      "TFSA_contribution": 1000,
+      "RRSP_contribution": 500,
+      "RRSP_prices": {
+        "2022": 409,
+        "2023": 1130,
+        "2024": 1695
+      },
+      "TFSA_prices": {
+        "2022": 819,
+        "2023": 2260,
+        "2024": 3390
+      },
+      "money_saving_recommendations": [
+        {
+          "category": "Coffee",
+          "action": "reduce",
+          "current_spending": 94.59,
+          "recommended_spending": 68.02136873444442,
+          "potential_savings": 26.56863126555558,
+          "urgency": "low"
         },
-        "TFSA_prices": {
-            "2022": 819,
-            "2023": 2260,
-            "2024": 3390
+        {
+          "category": "Dining Out",
+          "action": "reduce",
+          "current_spending": 4302.72,
+          "recommended_spending": 3094.1632697015407,
+          "potential_savings": 1208.5567302984596,
+          "urgency": "high"
         },
-        "money_saving_recommendations":[
-            {"category": "Coffee", "action": "reduce", "current_spending": 94.59,
-             "recommended_spending": 68.02136873444442, "potential_savings": 26.56863126555558, 
-             "urgency": "low"}, 
-            {"category": "Dining Out", "action": "reduce", 
-             "current_spending": 4302.72, "recommended_spending": 3094.1632697015407, 
-              "potential_savings": 1208.5567302984596, "urgency": "high"}, 
-            {"category": "Groceries", "action": "reduce", "current_spending": 8128.14, 
-              "recommended_spending": 5845.09153256356, "potential_savings": 2283.0484674364407, 
-              "urgency": "medium"}, 
-            {"category": "Online Subscription", "action": "reduce", "current_spending": 2477.64, 
-            "recommended_spending": 1781.7154459372964, "potential_savings": 695.9245540627035, 
-            "urgency": "high"}, 
-            {"category": "Transportation", "action": "reduce", "current_spending": 3070.27, 
-            "recommended_spending": 2207.886328198569, "potential_savings": 862.3836718014309, 
-            "urgency": "low"}, 
-            {"category": "Utilities", "action": "reduce", "current_spending": 9223.78, 
-            "recommended_spending": 6632.985944660047, "potential_savings": 2590.794055339954, 
-            "urgency": "medium"}, 
-            {"type": "timing", "action": "optimize_timing", "peak_spending_time": "11:00", 
-            "peak_spending_day": "Monday", 
-            "suggestion": "Consider rescheduling non-essential purchases to off-peak times"}]
+        {
+          "category": "Groceries",
+          "action": "reduce",
+          "current_spending": 8128.14,
+          "recommended_spending": 5845.09153256356,
+          "potential_savings": 2283.0484674364407,
+          "urgency": "medium"
+        },
+        {
+          "category": "Online Subscription",
+          "action": "reduce",
+          "current_spending": 2477.64,
+          "recommended_spending": 1781.7154459372964,
+          "potential_savings": 695.9245540627035,
+          "urgency": "high"
+        },
+        {
+          "category": "Transportation",
+          "action": "reduce",
+          "current_spending": 3070.27,
+          "recommended_spending": 2207.886328198569,
+          "potential_savings": 862.3836718014309,
+          "urgency": "low"
+        },
+        {
+          "category": "Utilities",
+          "action": "reduce",
+          "current_spending": 9223.78,
+          "recommended_spending": 6632.985944660047,
+          "potential_savings": 2590.794055339954,
+          "urgency": "medium"
+        },
+        {
+          "type": "timing",
+          "action": "optimize_timing",
+          "peak_spending_time": "11:00",
+          "peak_spending_day": "Monday",
+          "suggestion": "Consider rescheduling non-essential purchases to off-peak times"
+        }
+      ],
+      "SuggestedSunLifeLinks": [
+        [
+          "Managing Your Money Blog",
+          "Expert insights and practical tips on budgeting, saving, investing, and making smart financial decisions for your future",
+          "https://www.sunlife.ca/en/tools-and-resources/money-and-finances/managing-your-money/"
+        ],
+        [
+          "Registered Investment & Retirement Plans",
+          "Detailed information about various investment and retirement planning options to help secure your financial future",
+          "https://www.sunlife.ca/en/investments/"
+        ],
+        [
+          "Life Insurance Calculator",
+          "An interactive tool to help determine the right amount of life insurance coverage based on your personal circumstances and financial goals",
+          "https://www.sunlife.ca/en/tools-and-resources/tools-and-calculators/life-insurance-calculator/"
+        ]
+      ]
     },
     {
-        "name": "Yulia - the gambler",
-        "age": 45,
-        "gender": "Female",
-        "salary": 35000,
-        "RRSP_total": 97740,
-        "TFSA_total": 146611,
-        "TFSA_contribution": 3000,
-        "RRSP_contribution": 2000,
-        "RRSP_prices": {
-            "2009": 2529,
-            "2010": 5211,
-            "2011": 7363,
-            "2012": 10862,
-            "2013": 17027,
-            "2014": 21632,
-            "2015": 23958,
-            "2016": 29063,
-            "2017": 37844,
-            "2018": 38099,
-            "2019": 52726,
-            "2020": 64796,
-            "2021": 85973,
-            "2022": 72041,
-            "2023": 91981,
-            "2024": 97740
+      "name": "Yulia - the gambler",
+      "age": 45,
+      "gender": "Female",
+      "salary": 35000,
+      "RRSP_total": 97740,
+      "TFSA_total": 146611,
+      "TFSA_contribution": 3000,
+      "RRSP_contribution": 2000,
+      "RRSP_prices": {
+        "2009": 2529,
+        "2010": 5211,
+        "2011": 7363,
+        "2012": 10862,
+        "2013": 17027,
+        "2014": 21632,
+        "2015": 23958,
+        "2016": 29063,
+        "2017": 37844,
+        "2018": 38099,
+        "2019": 52726,
+        "2020": 64796,
+        "2021": 85973,
+        "2022": 72041,
+        "2023": 91981,
+        "2024": 97740
+      },
+      "TFSA_prices": {
+        "2009": 3794,
+        "2010": 7817,
+        "2011": 11045,
+        "2012": 16292,
+        "2013": 25541,
+        "2014": 32449,
+        "2015": 35938,
+        "2016": 43595,
+        "2017": 56766,
+        "2018": 57149,
+        "2019": 79089,
+        "2020": 97194,
+        "2021": 128959,
+        "2022": 108061,
+        "2023": 137972,
+        "2024": 146611
+      },
+      "money_saving_recommendations": [
+        {
+          "type": "spending_alert",
+          "category": "Coffee",
+          "message": "Your spending in Transportation is 1625.76 above recommended budget",
+          "action": "Consider reducing spending in this category",
+          "current_spending": "2981.45",
+          "recommended_spending": "1355.69",
+          "potential_savings": "1625.76",
+          "urgency": "high"
         },
-        "TFSA_prices": {
-            "2009": 3794,
-            "2010": 7817,
-            "2011": 11045,
-            "2012": 16292,
-            "2013": 25541,
-            "2014": 32449,
-            "2015": 35938,
-            "2016": 43595,
-            "2017": 56766,
-            "2018": 57149,
-            "2019": 79089,
-            "2020": 97194,
-            "2021": 128959,
-            "2022": 108061,
-            "2023": 137972,
-            "2024": 146611
+        {
+          "type": "spending_alert",
+          "category": "Utilities",
+          "message": "Your spending in Utilities is 4261.11 above recommended budget",
+          "action": "Consider reducing spending in this category",
+          "current_spending": "7814.37",
+          "recommended_spending": "3553.26",
+          "potential_savings": "4261.11",
+          "urgency": "high"
         },
-        "money_saving_recommendations": [{"type": "spending_alert", "category": "Coffee", 
-        "message": "Your spending in Coffee is 50.19 above recommendeds budget", 
-        "action": "Consider reducing spending in this category", "current_spending": "93.21", 
-        "recommended_spending": "43.02", "potential_savings": "50.19", "urgency": "low"}, 
-        {"type": "spending_alert", "category": "Dining Out", 
-        "message": "Your spending in Dining Out is 2406.23 above recommended budget", 
-        "action": "Consider reducing spending in this category", "current_spending": "4468.38", 
-        "recommended_spending": "2062.15", "potential_savings": "2406.23", "urgency": "high"}, 
-        {"type": "spending_alert", "category": "Gambling Loss", 
-        "message": "Your spending in Gambling Loss is 11713.32 above recommended budget", 
-        "action": "Consider reducing spending in this category", "current_spending": "21751.64", 
-        "recommended_spending": "10038.32", "potential_savings": "11713.32", "urgency": "high"}, 
-        {"type": "spending_alert", "category": "Groceries", 
-        "message": "Your spending in Groceries is 6246.60 above recommended budget", 
-        "action": "Consider reducing spending in this category", "current_spending": "11599.95", 
-        "recommended_spending": "5353.35", "potential_savings": "6246.60", "urgency": "high"}, 
-        {"type": "spending_alert", "category": "Transportation", 
-        "message": "Your spending in Transportation is 1883.20 above recommended budget", 
-        "action": "Consider reducing spending in this category", "current_spending": "3497.10", 
-        "recommended_spending": "1613.90", "potential_savings": "1883.20", "urgency": "high"}, 
-        {"type": "spending_alert", "category": "Utilities", 
-        "message": "Your spending in Utilities is 5140.56 above recommended budget", 
-        "action": "Consider reducing spending in this category", "current_spending": "9546.02", 
-        "recommended_spending": "4405.46", "potential_savings": "5140.56", "urgency": "high"}, 
-        {"type": "timing_optimization", "category": "spending_pattern", 
-        "message": "Peak spending detected on Monday at 8:00", 
-        "action": "Consider rescheduling non-essential purchases to off-peak times", "peak_hour": "8", 
-        "peak_day": "Monday", "suggestion": "Spreading purchases across the week may help with budgeting"}]
+        {
+          "type": "timing_optimization",
+          "category": "spending_pattern",
+          "message": "Peak spending detected on Monday at 14:00",
+          "action": "Consider rescheduling non-essential purchases to off-peak times",
+          "peak_hour": "14",
+          "peak_day": "Monday",
+          "suggestion": "Spreading purchases across the week may help with budgeting"
+        }
+      ],
+      "SuggestedSunLifeLinks": [
+        [
+          "Life Insurance Calculator",
+          "An interactive tool to help determine the right amount of life insurance coverage based on your personal circumstances and financial goals",
+          "https://www.sunlife.ca/en/tools-and-resources/tools-and-calculators/life-insurance-calculator/"
+        ],
+        [
+          "Insurance Solutions",
+          "Comprehensive overview of insurance products and services to protect you and your loved ones financially",
+          "https://www.sunlife.ca/en/insurance/"
+        ],
+        [
+          "About Sun Life",
+          "Learn about Sun Life's history, values, and commitment to helping people achieve lifetime financial security and live healthier lives",
+          "https://www.sunlife.ca/en/about-us/who-we-are/"
+        ]
+      ]
     },
     {
-        "name": "Sarah - the parent",
-        "age": 28,
-        "gender": "Female",
-        "salary": 50000,
-        "RRSP_total": 92747,
-        "TFSA_total": 111297,
-        "TFSA_contribution": 6000,
-        "RRSP_contribution": 5000,
-        "RRSP_prices": {
+      "name": "Hervé - the retired professional",
+      "age": 66,
+      "gender": "Male",
+      "salary": 30000,
+      "RRSP_total": 817096,
+      "TFSA_total": 293221,
+      "TFSA_contribution": 6000,
+      "RRSP_contribution": 8000,
+      "RRSP_prices": {
+        "2009": 84223,
+        "2010": 106111,
+        "2011": 116519,
+        "2012": 144442,
+        "2013": 201818,
+        "2014": 238542,
+        "2015": 249945,
+        "2016": 288795,
+        "2017": 361585,
+        "2018": 353397,
+        "2019": 475201,
+        "2020": 572111,
+        "2021": 746660,
+        "2022": 617991,
+        "2023": 777669,
+        "2024": 817096
+      },
+      "TFSA_prices": {
+        "2009": 7588,
+        "2010": 15634,
+        "2011": 22090,
+        "2012": 32585,
+        "2013": 51082,
+        "2014": 64897,
+        "2015": 71875,
+        "2016": 87189,
+        "2017": 113533,
+        "2018": 114297,
+        "2019": 158179,
+        "2020": 194387,
+        "2021": 257919,
+        "2022": 216123,
+        "2023": 275943,
+        "2024": 293221
+      },
+      "money_saving_recommendations": [
+        {
+          "type": "spending_alert",
+          "category": "Coffee",
+          "message": "Your spending in Coffee is 43.50 above recommended budget",
+          "action": "Consider reducing spending in this category",
+          "current_spending": "98.54",
+          "recommended_spending": "55.04",
+          "potential_savings": "43.50",
+          "urgency": "high"
+        },
+        {
+          "type": "spending_alert",
+          "category": "Dining Out",
+          "message": "Your spending in Dining Out is 1960.46 above recommended budget",
+          "action": "Consider reducing spending in this category",
+          "current_spending": "4440.49",
+          "recommended_spending": "2480.03",
+          "potential_savings": "1960.46",
+          "urgency": "high"
+        },
+        {
+          "type": "spending_alert",
+          "category": "Groceries",
+          "message": "Your spending in Groceries is 5015.39 above recommended budget",
+          "action": "Consider reducing spending in this category",
+          "current_spending": "11360.01",
+          "recommended_spending": "6344.62",
+          "potential_savings": "5015.39",
+          "urgency": "high"
+        },
+        {
+          "type": "spending_alert",
+          "category": "Medical",
+          "message": "Your spending in Medical is 5859.52 above recommended budget",
+          "action": "Consider reducing spending in this category",
+          "current_spending": "13272.00",
+          "recommended_spending": "7412.48",
+          "potential_savings": "5859.52",
+          "urgency": "high"
+        },
+        {
+          "type": "spending_alert",
+          "category": "Online Subscription",
+          "message": "Your spending in Online Subscription is 1046.30 above recommended budget",
+          "action": "Consider reducing spending in this category",
+          "current_spending": "2369.91",
+          "recommended_spending": "1323.61",
+          "potential_savings": "1046.30",
+          "urgency": "high"
+        },
+        {
+          "type": "spending_alert",
+          "category": "Transportation",
+          "message": "Your spending in Transportation is 1147.16 above recommended budget",
+          "action": "Consider reducing spending in this category",
+          "current_spending": "2598.36",
+          "recommended_spending": "1451.20",
+          "potential_savings": "1147.16",
+          "urgency": "high"
+        },
+        {
+          "type": "spending_alert",
+          "category": "Utilities",
+          "message": "Your spending in Utilities is 3232.09 above recommended budget",
+          "action": "Consider reducing spending in this category",
+          "current_spending": "7320.79",
+          "recommended_spending": "4088.70",
+          "potential_savings": "3232.09",
+          "urgency": "high"
+        },
+        {
+          "type": "timing_optimization",
+          "category": "spending_pattern",
+          "message": "Peak spending detected on Friday at 10:00",
+          "action": "Consider rescheduling non-essential purchases to off-peak times",
+          "peak_hour": "10",
+          "peak_day": "Friday",
+          "suggestion": "Spreading purchases across the week may help with budgeting"
+        }
+      ],
+      "SuggestedSunLifeLinks": [
+        [
+          "20 Must-Know Financial Terms",
+          "A comprehensive guide explaining essential financial terminology to help improve your understanding of money management and investment concepts",
+          "https://www.sunlife.ca/en/tools-and-resources/money-and-finances/investing-basics/must-know-terms-to-boost-your-financial-literacy/"
+        ],
+        [
+          "Insurance Solutions",
+          "Comprehensive overview of insurance products and services to protect you and your loved ones financially",
+          "https://www.sunlife.ca/en/insurance/"
+        ],
+        [
+          "About Sun Life",
+          "Learn about Sun Life's history, values, and commitment to helping people achieve lifetime financial security and live healthier lives",
+          "https://www.sunlife.ca/en/about-us/who-we-are/"
+        ]
+      ]
+    },
+    {
+      "name": "George - the freelancer",
+      "age": 32,
+      "gender": "Male",
+      "salary": 60000,
+      "RRSP_total": 215088,
+      "TFSA_total": 215088,
+      "TFSA_contribution": 6000,
+      "RRSP_contribution": 6000,
+      "RRSP_prices": {
+        "2011": 6127,
+        "2012": 14067,
+        "2013": 26567,
+        "2014": 37025,
+        "2015": 43619,
+        "2016": 55553,
+        "2017": 74990,
+        "2018": 77443,
+        "2019": 109719,
+        "2020": 137011,
+        "2021": 184069,
+        "2022": 155648,
+        "2023": 200815,
+        "2024": 215088
+      },
+      "TFSA_prices": {
+        "2011": 6127,
+        "2012": 14067,
+        "2013": 26567,
+        "2014": 37025,
+        "2015": 43619,
+        "2016": 55553,
+        "2017": 74990,
+        "2018": 77443,
+        "2019": 109719,
+        "2020": 137011,
+        "2021": 184069,
+        "2022": 155648,
+        "2023": 200815,
+        "2024": 215088
+      },
+      "money_saving_recommendations": [
+        {
+          "type": "spending_alert",
+          "category": "Coffee",
+          "message": "Your spending in Coffee is 23.10 above recommended budget",
+          "action": "Consider reducing spending in this category",
+          "current_spending": "93.83",
+          "recommended_spending": "70.73",
+          "potential_savings": "23.10",
+          "urgency": "high"
+        },
+        {
+          "type": "spending_alert",
+          "category": "Dining Out",
+          "message": "Your spending in Dining Out is 1022.08 above recommended budget",
+          "action": "Consider reducing spending in this category",
+          "current_spending": "4151.47",
+          "recommended_spending": "3129.39",
+          "potential_savings": "1022.08",
+          "urgency": "high"
+        },
+        {
+          "type": "spending_alert",
+          "category": "Entertainment",
+          "message": "Your spending in Entertainment is 1365.76 above recommended budget",
+          "action": "Consider reducing spending in this category",
+          "current_spending": "5547.40",
+          "recommended_spending": "4181.64",
+          "potential_savings": "1365.76",
+          "urgency": "high"
+        },
+        {
+          "type": "spending_alert",
+          "category": "Groceries",
+          "message": "Your spending in Groceries is 2444.70 above recommended budget",
+          "action": "Consider reducing spending in this category",
+          "current_spending": "9929.79",
+          "recommended_spending": "7485.09",
+          "potential_savings": "2444.70",
+          "urgency": "high"
+        },
+        {
+          "type": "spending_alert",
+          "category": "Online Subscription",
+          "message": "Your spending in Online Subscription is 533.03 above recommended budget",
+          "action": "Consider reducing spending in this category",
+          "current_spending": "2165.06",
+          "recommended_spending": "1632.03",
+          "potential_savings": "533.03",
+          "urgency": "high"
+        },
+        {
+          "type": "spending_alert",
+          "category": "Transportation",
+          "message": "Your spending in Transportation is 669.20 above recommended budget",
+          "action": "Consider reducing spending in this category",
+          "current_spending": "2718.15",
+          "recommended_spending": "2048.95",
+          "potential_savings": "669.20",
+          "urgency": "high"
+        },
+        {
+          "type": "spending_alert",
+          "category": "Utilities",
+          "message": "Your spending in Utilities is 1662.75 above recommended budget",
+          "action": "Consider reducing spending in this category",
+          "current_spending": "6753.70",
+          "recommended_spending": "5090.95",
+          "potential_savings": "1662.75",
+          "urgency": "high"
+        },
+        {
+          "type": "timing_optimization",
+          "category": "spending_pattern",
+          "message": "Peak spending detected on Saturday at 9:00",
+          "action": "Consider rescheduling non-essential purchases to off-peak times",
+          "peak_hour": "9",
+          "peak_day": "Saturday",
+          "suggestion": "Spreading purchases across the week may help with budgeting"
+        }
+      ],
+      "SuggestedSunLifeLinks": [
+        [
+          "Insurance Solutions",
+          "Comprehensive overview of insurance products and services to protect you and your loved ones financially",
+          "https://www.sunlife.ca/en/insurance/"
+        ],
+        [
+          "Managing Your Money Blog",
+          "Expert insights and practical tips on budgeting, saving, investing, and making smart financial decisions for your future",
+          "https://www.sunlife.ca/en/tools-and-resources/money-and-finances/managing-your-money/"
+        ],
+        [
+          "Registered Investment & Retirement Plans",
+          "Detailed information about various investment and retirement planning options to help secure your financial future",
+          "https://www.sunlife.ca/en/investments/"
+        ]
+      ]
+    },
+        {
+          "name": "Sarah - the parent",
+          "age": 28,
+          "gender": "Female",
+          "salary": 50000,
+          "RRSP_total": 92747,
+          "TFSA_total": 111297,
+          "TFSA_contribution": 6000,
+          "RRSP_contribution": 5000,
+          "RRSP_prices": {
             "2015": 5069,
             "2016": 11273,
             "2017": 19826,
@@ -135,8 +491,8 @@
             "2022": 62762,
             "2023": 84180,
             "2024": 92747
-        },
-        "TFSA_prices": {
+          },
+          "TFSA_prices": {
             "2015": 6083,
             "2016": 13528,
             "2017": 23791,
@@ -147,193 +503,103 @@
             "2022": 75314,
             "2023": 101016,
             "2024": 111297
-        },
-        "money_saving_recommendations": [{"type": "spending_alert", "category": "Child Expenses", 
-        "message": "Your spending in Child Expenses is 13551.70 above recommended budget", 
-        "action": "Consider reducing spending in this category", "current_spending": "24852.19", 
-        "recommended_spending": "11300.49", "potential_savings": "13551.70", "urgency": "high"}, 
-        {"type": "spending_alert", "category": "Coffee", 
-        "message": "Your spending in Coffee is 51.60 above recommended budget", 
-        "action": "Consider reducing spending in this category", "current_spending": "94.62", 
-        "recommended_spending": "43.02", "potential_savings": "51.60", "urgency": "high"}, 
-        {"type": "spending_alert", "category": "Dining Out", 
-        "message": "Your spending in Dining Out is 2166.46 above recommended budget", 
-        "action": "Consider reducing spending in this category", "current_spending": "3973.03", 
-        "recommended_spending": "1806.57", "potential_savings": "2166.46", "urgency": "high"}, 
-        {"type": "spending_alert", "category": "Groceries", 
-        "message": "Your spending in Groceries is 5712.79 above recommended budget", 
-        "action": "Consider reducing spending in this category", "current_spending": "10476.57", 
-        "recommended_spending": "4763.78", "potential_savings": "5712.79", "urgency": "high"}, 
-        {"type": "spending_alert", "category": "Online Subscription", 
-        "message": "Your spending in Online Subscription is 1165.92 above recommended budget", 
-        "action": "Consider reducing spending in this category", "current_spending": "2138.16", 
-        "recommended_spending": "972.24", "potential_savings": "1165.92", "urgency": "high"}, 
-        {"type": "spending_alert", "category": "Transportation", 
-        "message": "Your spending in Transportation is 1625.76 above recommended budget", 
-        "action": "Consider reducing spending in this category", "current_spending": "2981.45", 
-        "recommended_spending": "1355.69", "potential_savings": "1625.76", "urgency": "high"}, 
-        {"type": "spending_alert", "category": "Utilities", 
-        "message": "Your spending in Utilities is 4261.11 above recommended budget", 
-        "action": "Consider reducing spending in this category", "current_spending": "7814.37", 
-        "recommended_spending": "3553.26", "potential_savings": "4261.11", "urgency": "high"}, 
-        {"type": "timing_optimization", "category": "spending_pattern", 
-        "message": "Peak spending detected on Monday at 14:00", 
-        "action": "Consider rescheduling non-essential purchases to off-peak times", "peak_hour": "14", 
-        "peak_day": "Monday", "suggestion": "Spreading purchases across the week may help with budgeting"}]
-
-    },
-    {
-        "name": "Hervé - the retired professional",
-        "age": 66,
-        "gender": "Male",
-        "salary": 30000,
-        "RRSP_total": 817096,
-        "TFSA_total": 293221,
-        "TFSA_contribution": 6000,
-        "RRSP_contribution": 8000,
-        "RRSP_prices": {
-            "2009": 84223,
-            "2010": 106111,
-            "2011": 116519,
-            "2012": 144442,
-            "2013": 201818,
-            "2014": 238542,
-            "2015": 249945,
-            "2016": 288795,
-            "2017": 361585,
-            "2018": 353397,
-            "2019": 475201,
-            "2020": 572111,
-            "2021": 746660,
-            "2022": 617991,
-            "2023": 777669,
-            "2024": 817096
-        },
-        "TFSA_prices": {
-            "2009": 7588,
-            "2010": 15634,
-            "2011": 22090,
-            "2012": 32585,
-            "2013": 51082,
-            "2014": 64897,
-            "2015": 71875,
-            "2016": 87189,
-            "2017": 113533,
-            "2018": 114297,
-            "2019": 158179,
-            "2020": 194387,
-            "2021": 257919,
-            "2022": 216123,
-            "2023": 275943,
-            "2024": 293221
-        },
-        "money_saving_recommendations": [{"type": "spending_alert", "category": "Coffee", 
-        "message": "Your spending in Coffee is 43.50 above recommended budget", 
-        "action": "Consider reducing spending in this category", "current_spending": "98.54", 
-        "recommended_spending": "55.04", "potential_savings": "43.50", "urgency": "high"}, 
-        {"type": "spending_alert", "category": "Dining Out", 
-        "message": "Your spending in Dining Out is 1960.46 above recommended budget", 
-        "action": "Consider reducing spending in this category", "current_spending": "4440.49", 
-        "recommended_spending": "2480.03", "potential_savings": "1960.46", "urgency": "high"}, 
-        {"type": "spending_alert", "category": "Groceries", 
-        "message": "Your spending in Groceries is 5015.39 above recommended budget", 
-        "action": "Consider reducing spending in this category", "current_spending": "11360.01", 
-        "recommended_spending": "6344.62", "potential_savings": "5015.39", "urgency": "high"}, 
-        {"type": "spending_alert", "category": "Medical", 
-        "message": "Your spending in Medical is 5859.52 above recommended budget", 
-        "action": "Consider reducing spending in this category", "current_spending": "13272.00", 
-        "recommended_spending": "7412.48", "potential_savings": "5859.52", "urgency": "high"}, 
-        {"type": "spending_alert", "category": "Online Subscription", 
-        "message": "Your spending in Online Subscription is 1046.30 above recommended budget", 
-        "action": "Consider reducing spending in this category", "current_spending": "2369.91", 
-        "recommended_spending": "1323.61", "potential_savings": "1046.30", "urgency": "high"},
-        {"type": "spending_alert", "category": "Transportation", 
-        "message": "Your spending in Transportation is 1147.16 above recommended budget", 
-        "action": "Consider reducing spending in this category", "current_spending": "2598.36", 
-        "recommended_spending": "1451.20", "potential_savings": "1147.16", "urgency": "high"}, 
-        {"type": "spending_alert", "category": "Utilities", 
-        "message": "Your spending in Utilities is 3232.09 above recommended budget", 
-        "action": "Consider reducing spending in this category", "current_spending": "7320.79", 
-        "recommended_spending": "4088.70", "potential_savings": "3232.09", "urgency": "high"}, 
-        {"type": "timing_optimization", "category": "spending_pattern", 
-        "message": "Peak spending detected on Friday at 10:00", 
-        "action": "Consider rescheduling non-essential purchases to off-peak times", "peak_hour": "10", 
-        "peak_day": "Friday", "suggestion": "Spreading purchases across the week may help with budgeting"}]
-
-    },
-    {
-        "name": "George - the freelancer",
-        "age": 32,
-        "gender": "Male",
-        "salary": 60000,
-        "RRSP_total": 215088,
-        "TFSA_total": 215088,
-        "TFSA_contribution": 6000,
-        "RRSP_contribution": 6000,
-        "RRSP_prices": {
-            "2011": 6127,
-            "2012": 14067,
-            "2013": 26567,
-            "2014": 37025,
-            "2015": 43619,
-            "2016": 55553,
-            "2017": 74990,
-            "2018": 77443,
-            "2019": 109719,
-            "2020": 137011,
-            "2021": 184069,
-            "2022": 155648,
-            "2023": 200815,
-            "2024": 215088
-        },
-        "TFSA_prices": {
-            "2011": 6127,
-            "2012": 14067,
-            "2013": 26567,
-            "2014": 37025,
-            "2015": 43619,
-            "2016": 55553,
-            "2017": 74990,
-            "2018": 77443,
-            "2019": 109719,
-            "2020": 137011,
-            "2021": 184069,
-            "2022": 155648,
-            "2023": 200815,
-            "2024": 215088
-        },
-        "money_saving_recommendations": [{"type": "spending_alert", "category": "Coffee", 
-        "message": "Your spending in Coffee is 23.10 above recommended budget", 
-        "action": "Consider reducing spending in this category", "current_spending": "93.83", 
-        "recommended_spending": "70.73", "potential_savings": "23.10", "urgency": "high"}, 
-        {"type": "spending_alert", "category": "Dining Out", 
-        "message": "Your spending in Dining Out is 1022.08 above recommended budget", 
-        "action": "Consider reducing spending in this category", "current_spending": "4151.47", 
-        "recommended_spending": "3129.39", "potential_savings": "1022.08", "urgency": "high"}, 
-        {"type": "spending_alert", "category": "Entertainment", 
-        "message": "Your spending in Entertainment is 1365.76 above recommended budget", 
-        "action": "Consider reducing spending in this category", "current_spending": "5547.40", 
-        "recommended_spending": "4181.64", "potential_savings": "1365.76", "urgency": "high"}, 
-        {"type": "spending_alert", "category": "Groceries", 
-        "message": "Your spending in Groceries is 2444.70 above recommended budget", 
-        "action": "Consider reducing spending in this category", "current_spending": "9929.79", 
-        "recommended_spending": "7485.09", "potential_savings": "2444.70", "urgency": "high"}, 
-        {"type": "spending_alert", "category": "Online Subscription", 
-        "message": "Your spending in Online Subscription is 533.03 above recommended budget", 
-        "action": "Consider reducing spending in this category", "current_spending": "2165.06", 
-        "recommended_spending": "1632.03", "potential_savings": "533.03", "urgency": "high"}, 
-        {"type": "spending_alert", "category": "Transportation", 
-        "message": "Your spending in Transportation is 669.20 above recommended budget", 
-        "action": "Consider reducing spending in this category", "current_spending": "2718.15", 
-        "recommended_spending": "2048.95", "potential_savings": "669.20", "urgency": "high"}, 
-        {"type": "spending_alert", "category": "Utilities", 
-        "message": "Your spending in Utilities is 1662.75 above recommended budget",
-         "action": "Consider reducing spending in this category", "current_spending": "6753.70",
-          "recommended_spending": "5090.95", "potential_savings": "1662.75", "urgency": "high"}, 
-          {"type": "timing_optimization", "category": "spending_pattern",
-           "message": "Peak spending detected on Saturday at 9:00", 
-           "action": "Consider rescheduling non-essential purchases to off-peak times", "peak_hour": "9", 
-           "peak_day": "Saturday", "suggestion": "Spreading purchases across the week may help with budgeting"}]
-
-    }
-]
+          },
+          "money_saving_recommendations": [
+            {
+              "type": "spending_alert",
+              "category": "Child Expenses",
+              "message": "Your spending in Child Expenses is 13551.70 above recommended budget",
+              "action": "Consider reducing spending in this category",
+              "current_spending": "24852.19",
+              "recommended_spending": "11300.49",
+              "potential_savings": "13551.70",
+              "urgency": "high"
+            },
+            {
+              "type": "spending_alert",
+              "category": "Coffee",
+              "message": "Your spending in Coffee is 51.60 above recommended budget",
+              "action": "Consider reducing spending in this category",
+              "current_spending": "94.62",
+              "recommended_spending": "43.02",
+              "potential_savings": "51.60",
+              "urgency": "high"
+            },
+            {
+              "type": "spending_alert",
+              "category": "Dining Out",
+              "message": "Your spending in Dining Out is 2166.46 above recommended budget",
+              "action": "Consider reducing spending in this category",
+              "current_spending": "3973.03",
+              "recommended_spending": "1806.57",
+              "potential_savings": "2166.46",
+              "urgency": "high"
+            },
+            {
+              "type": "spending_alert",
+              "category": "Groceries",
+              "message": "Your spending in Groceries is 5712.79 above recommended budget",
+              "action": "Consider reducing spending in this category",
+              "current_spending": "10476.57",
+              "recommended_spending": "4763.78",
+              "potential_savings": "5712.79",
+              "urgency": "high"
+            },
+            {
+              "type": "spending_alert",
+              "category": "Online Subscription",
+              "message": "Your spending in Online Subscription is 1165.92 above recommended budget",
+              "action": "Consider reducing spending in this category",
+              "current_spending": "2138.16",
+              "recommended_spending": "972.24",
+              "potential_savings": "1165.92",
+              "urgency": "high"
+            },
+            {
+              "type": "spending_alert",
+              "category": "Transportation",
+              "message": "Your spending in Transportation is 1625.76 above recommended budget",
+              "action": "Consider reducing spending in this category",
+              "current_spending": "2981.45",
+              "recommended_spending": "1355.69",
+              "potential_savings": "1625.76",
+              "urgency": "high"
+            },
+            {
+              "type": "spending_alert",
+              "category": "Utilities",
+              "message": "Your spending in Utilities is 4261.11 above recommended budget",
+              "action": "Consider reducing spending in this category",
+              "current_spending": "7814.37",
+              "recommended_spending": "3553.26",
+              "potential_savings": "4261.11",
+              "urgency": "high"
+            },
+            {
+              "type": "timing_optimization",
+              "category": "spending_pattern",
+              "message": "Peak spending detected on Monday at 14:00",
+              "action": "Consider rescheduling non-essential purchases to off-peak times",
+              "peak_hour": "14",
+              "peak_day": "Monday",
+              "suggestion": "Spreading purchases across the week may help with budgeting"
+            }
+          ],
+          "SuggestedSunLifeLinks": [
+            [
+              "Insurance Solutions",
+              "Comprehensive overview of insurance products and services to protect you and your loved ones financially",
+              "https://www.sunlife.ca/en/insurance/"
+            ],
+            [
+              "About Sun Life",
+              "Learn about Sun Life's history, values, and commitment to helping people achieve lifetime financial security and live healthier lives",
+              "https://www.sunlife.ca/en/about-us/who-we-are/"
+            ],
+            [
+              "Managing Your Money Blog",
+              "Expert insights and practical tips on budgeting, saving, investing, and making smart financial decisions for your future",
+              "https://www.sunlife.ca/en/tools-and-resources/money-and-finances/managing-your-money/"
+            ]
+          ]
+        }]

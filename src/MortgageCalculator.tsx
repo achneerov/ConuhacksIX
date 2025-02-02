@@ -26,7 +26,7 @@ const MortgageCalculator = () => {
       <div className="bg-white rounded-lg shadow-lg p-6">
         <div className="flex items-center mb-6">
           <Calculator className="h-6 w-6 text-blue-600 mr-2" />
-          <h2 className="text-2xl font-bold text-gray-800">Mortgage Calculator</h2>
+          <h2 className="text-2xl font-serif bold text-gray-800">Mortgage Calculator</h2>
         </div>
         
         <form onSubmit={calculateMortgage} className="space-y-4">
