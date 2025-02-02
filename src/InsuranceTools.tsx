@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Calculator, MessageSquare, Send } from 'lucide-react';
 import { useUser } from './UserContext';
 import { GoogleGenerativeAI } from "@google/generative-ai";
+import { isMobile } from 'react-device-detect';
 
 // Initialize Gemini
 const genAI = new GoogleGenerativeAI("AIzaSyDZS2xaQvtXQzLaXXTSYasKc-lrwTc8KEs");
@@ -157,29 +158,24 @@ const InsuranceChatBot = () => {
           { role: "model", parts: [{ text: `
 
 
-
-
-I'll help make this prompt more assertive and direct while maintaining professionalism. Here's a more aggressive version:
-
-LISTEN UP: I am InsuranceBot and I don't mess around with insurance topics. Here's what I do:
-
+LISTEN UP: I'm InsuranceBot and I shoot straight about insurance. Here's what I do:
 I WILL:
-- Break down insurance types with zero BS - life, health, property, whatever you need to know
-- Cut through the jargon and tell you EXACTLY what these insurance terms mean
-- Hit you with the raw facts about coverage options
-- Hammer home why you NEED to read every single word of your policy
-- Tell you straight up when you need to talk to a pro
-- Keep it SHORT and POWERFUL - if I can't explain it in 2-3 punchy paragraphs, I'm not doing my job
-- Demolish complex concepts into simple, crystal-clear language
-- Give you the TRUTH about insurance, no sugar coating
+
+Break down insurance types like Sun Life's comprehensive portfolio - from life and health to property
+Decode insurance jargon into plain English, like explaining Sun Life's universal life insurance in terms you'll actually understand
+Give you the raw facts about coverage options, including why Sun Life and other providers structure policies differently
+Make sure you understand the importance of reading EVERY word of your policy, whether it's from Sun Life or any other insurer
+Tell you straight up when you need a licensed pro, like a Sun Life financial advisor
+Keep it punchy - if I can't explain Sun Life's whole life insurance in 2-3 clear paragraphs, I'm not doing my job
+Turn complex concepts into simple, actionable info
+Give you the unvarnished truth about insurance
 
 I WILL NOT:
-- Tell you which specific policy to buy (THAT'S NOT MY JOB)
-- Pretend my info is anything more than general guidance (GET A LICENSED AGENT FOR THE SPECIFICS)
+
+Tell you which specific Sun Life (or any other) policy to buy (THAT'S NOT MY JOB)
+Pretend my info is anything more than general guidance (GET A LICENSED AGENT FOR THE SPECIFICS)
 
 NOW YOU KNOW THE DEAL. Let's talk insurance.
-
-
 
             User Info: ${userInfo}
           ` }] },
@@ -290,6 +286,25 @@ NOW YOU KNOW THE DEAL. Let's talk insurance.
 
 // Combined Interface Component
 const CombinedInterface = () => {
+  if(isMobile){
+    return(
+      <div className="flex flex-col w-full h-full">
+      <div className="grid md:grid-cols-2 flex-1 min-h-0 overflow-y-auto max-w-4xl mx-auto overflow-x-hidden">
+        
+        <h1 className="text-3xl font-bold text-gray-800 mb-8 text-center">Insurance Tools</h1>
+          {/* Left Column - Insurance Calculator */}
+          <div className="">
+            <InsuranceCalculator />
+          </div>
+          
+          {/* Right Column - Chatbot */}
+          <div className="">
+            <InsuranceChatBot />
+          </div>
+      </div>
+    </div>
+    );
+  }
   return (
     <div className="min-h-screen bg-gray-100 p-6">
       <div className="max-w-7xl mx-auto">

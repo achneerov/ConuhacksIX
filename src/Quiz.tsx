@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { isMobile } from 'react-device-detect';
 
 interface Question {
   id: number;
@@ -100,6 +101,59 @@ const Quiz: React.FC = () => {
     // Keep other buttons gold but disabled
     return `${baseStyles} bg-[#ffcb05] opacity-50`;
   };
+
+  if(isMobile){
+    return(
+      <div className="flex flex-col h-full bg-white rounded-lg">
+      <div className="">
+      <div className="grid md:grid-cols-2 flex-1 min-h-0 overflow-y-auto max-w-4xl mx-auto overflow-x-hidden">
+        <div className="mb-6">
+          <h1 className="text-2xl font-bold text-black">Insurance Knowledge Quiz</h1>
+        </div>
+        <div>
+          {showScore ? (
+            <div className="text-center py-8">
+              <h2 className="text-2xl font-bold mb-4 text-black">
+                You scored {score} out of {questions.length}!
+              </h2>
+              <button
+                onClick={() => {
+                  setCurrentQuestion(0);
+                  setScore(0);
+                  setShowScore(false);
+                  setAnswerState({ selectedAnswer: null, isCorrect: null });
+                }}
+                className="bg-[#144953] text-white px-6 py-2 rounded-lg hover:bg-[#1a5d69]"
+              >
+                Retry Quiz
+              </button>
+            </div>
+          ) : (
+            <div>
+              <p className="text-lg mb-6 text-black">{questions[currentQuestion].text}</p>
+              <div className="space-y-4">
+                {questions[currentQuestion].options.map((option, index) => (
+                  <button
+                    key={index}
+                    onClick={() => handleAnswerClick(index)}
+                    disabled={answerState.selectedAnswer !== null}
+                    className={getButtonStyles(index)}
+                  >
+                    {option}
+                  </button>
+                ))}
+              </div>
+              <div className="mt-4 text-gray-600">
+                Question {currentQuestion + 1} of {questions.length}
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+</div>
+    );
+  }
 
   return (
     <div className="min-h-screen w-full flex justify-center p-4">
