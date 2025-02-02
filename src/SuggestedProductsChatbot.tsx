@@ -171,7 +171,7 @@ const MortgageCalculator = () => {
 const SuggestedProductsChatbot = () => {
   const { selectedUser } = useUser();
   const [messages, setMessages] = useState<Message[]>([
-    { text: "Hello! How can I help you today?", isBot: true },
+    { text: "Hello! Do you have a mortgage question? How can I help you today?", isBot: true },
   ]);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
