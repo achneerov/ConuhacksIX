@@ -22,7 +22,7 @@
       {
         "type": "spending_alert",
         "category": "Groceries",
-        "message": "Your spending in Groceries is 42.00 above recommended budget",
+        "message": "Your budget is $238.00 and you've currently spent $280.00 this month. Try to reduce your spending by $42.00",
         "action": "Consider reducing spending in this category",
         "current_spending": "280.00",
         "recommended_spending": "238.00",
@@ -32,7 +32,7 @@
       {
         "type": "spending_alert",
         "category": "Transportation",
-        "message": "Your spending in Transportation is 15.75 above recommended budget",
+        "message": "Your budget is $89.25 and you've currently spent $105.00 this month. Try to reduce your spending by $15.75",
         "action": "Consider reducing spending in this category",
         "current_spending": "105.00",
         "recommended_spending": "89.25",
@@ -42,7 +42,7 @@
       {
         "type": "spending_alert",
         "category": "Online Subscription",
-        "message": "Your spending in Online Subscription is 5.25 above recommended budget",
+        "message": "Your budget is $29.75 and you've currently spent $35.00 this month. Try to reduce your spending by $5.25",
         "action": "Consider reducing spending in this category",
         "current_spending": "35.00",
         "recommended_spending": "29.75",
@@ -105,7 +105,7 @@
       {
         "type": "spending_alert",
         "category": "Entertainment",
-        "message": "Your spending in Entertainment is 20.80 above recommended budget",
+        "message": "Your budget is $122.20 and you've currently spent $143.00 this month. Try to reduce your spending by $20.80",
         "action": "Consider reducing spending in this category",
         "current_spending": "143.00",
         "recommended_spending": "122.20",
@@ -115,7 +115,7 @@
       {
         "type": "spending_alert",
         "category": "Dining Out",
-        "message": "Your spending in Dining Out is 32.50 above recommended budget",
+        "message": "Your budget is $182.00 and you've currently spent $214.50 this month. Try to reduce your spending by $32.50",
         "action": "Consider reducing spending in this category",
         "current_spending": "214.50",
         "recommended_spending": "182.00",
@@ -125,7 +125,7 @@
       {
         "type": "spending_alert",
         "category": "Utilities",
-        "message": "Your spending in Utilities is 42.90 above recommended budget",
+        "message": "Your budget is $243.10 and you've currently spent $286.00 this month. Try to reduce your spending by $42.90",
         "action": "Consider reducing spending in this category",
         "current_spending": "286.00",
         "recommended_spending": "243.10",
@@ -187,8 +187,18 @@
     "money_saving_recommendations": [
       {
         "type": "spending_alert",
+        "category": "Medical",
+        "message": "Your budget is $102.00 and you've currently spent $120.00 this month. Try to reduce your spending by $18.00",
+        "action": "Consider reducing spending in this category",
+        "current_spending": "120.00",
+        "recommended_spending": "102.00",
+        "potential_savings": "18.00",
+        "urgency": "medium"
+      },
+      {
+        "type": "spending_alert",
         "category": "Groceries",
-        "message": "Your spending in Groceries is 86.40 above recommended budget",
+        "message": "Your budget is $489.60 and you've currently spent $576.00 this month. Try to reduce your spending by $86.40",
         "action": "Consider reducing spending in this category",
         "current_spending": "576.00",
         "recommended_spending": "489.60",
@@ -198,21 +208,12 @@
       {
         "type": "spending_alert",
         "category": "Utilities",
-        "message": "Your spending in Utilities is 39.60 above recommended budget",
+        "message": "Your budget is $224.40 and you've currently spent $264.00 this month. Try to reduce your spending by $39.60",
         "action": "Consider reducing spending in this category",
         "current_spending": "264.00",
         "recommended_spending": "224.40",
         "potential_savings": "39.60",
         "urgency": "medium"
-      },
-      {
-        "type": "timing_optimization",
-        "category": "spending_pattern",
-        "message": "Peak spending detected on weekdays at typical hours",
-        "action": "Consider rescheduling non-essential purchases to off-peak times",
-        "peak_hour": "10",
-        "peak_day": "Friday",
-        "suggestion": "Spreading purchases across the week may help with budgeting"
       }
     ],
     "SuggestedSunLifeLinks": [
@@ -265,8 +266,18 @@
     "money_saving_recommendations": [
       {
         "type": "spending_alert",
+        "category": "Entertainment",
+        "message": "Your budget is $102.85 and you've currently spent $121.00 this month. Try to reduce your spending by $18.15",
+        "action": "Consider reducing spending in this category",
+        "current_spending": "121.00",
+        "recommended_spending": "102.85",
+        "potential_savings": "18.15",
+        "urgency": "medium"
+      },
+      {
+        "type": "spending_alert",
         "category": "Online Subscription",
-        "message": "Your spending in Online Subscription is 9.08 above recommended budget",
+        "message": "Your budget is $51.42 and you've currently spent $60.50 this month. Try to reduce your spending by $9.08",
         "action": "Consider reducing spending in this category",
         "current_spending": "60.50",
         "recommended_spending": "51.42",
@@ -276,21 +287,12 @@
       {
         "type": "spending_alert",
         "category": "Transportation",
-        "message": "Your spending in Transportation is 27.23 above recommended budget",
+        "message": "Your budget is $154.27 and you've currently spent $181.50 this month. Try to reduce your spending by $27.23",
         "action": "Consider reducing spending in this category",
         "current_spending": "181.50",
         "recommended_spending": "154.27",
         "potential_savings": "27.23",
         "urgency": "medium"
-      },
-      {
-        "type": "timing_optimization",
-        "category": "spending_pattern",
-        "message": "Peak spending detected on weekdays at typical hours",
-        "action": "Consider rescheduling non-essential purchases to off-peak times",
-        "peak_hour": "9",
-        "peak_day": "Saturday",
-        "suggestion": "Spreading purchases across the week may help with budgeting"
       }
     ],
     "SuggestedSunLifeLinks": [
@@ -320,54 +322,54 @@
       "2023": 89866,
       "2024": 102461
     },
-    "TFSA_prices": {
-      "2015": 6083,
-      "2016": 13528,
-      "2017": 23791,
-      "2018": 28486,
-      "2019": 45346,
-      "2020": 60793,
-      "2021": 85970,
-      "2022": 75314,
-      "2023": 101016,
-      "2024": 111297
-    },
-    "money_saving_recommendations": [
-      {
-        "type": "spending_alert",
-        "category": "Child Expenses",
-        "message": "Your spending in Child Expenses is 147.00 above recommended budget",
-        "action": "Consider reducing spending in this category",
-        "current_spending": "980.00",
-        "recommended_spending": "833.00",
-        "potential_savings": "147.00",
-        "urgency": "medium"
+      "TFSA_prices": {
+        "2015": 6083,
+        "2016": 13528,
+        "2017": 23791,
+        "2018": 28486,
+        "2019": 45346,
+        "2020": 60793,
+        "2021": 85970,
+        "2022": 75314,
+        "2023": 101016,
+        "2024": 111297
       },
-      {
-        "type": "spending_alert",
-        "category": "Groceries",
-        "message": "Your spending in Groceries is 117.60 above recommended budget",
-        "action": "Consider reducing spending in this category",
-        "current_spending": "784.00",
-        "recommended_spending": "666.40",
-        "potential_savings": "117.60",
-        "urgency": "medium"
-      },
-      {
-        "type": "spending_alert",
-        "category": "Transportation",
-        "message": "Your spending in Transportation is 44.10 above recommended budget",
-        "action": "Consider reducing spending in this category",
-        "current_spending": "294.00",
-        "recommended_spending": "249.90",
-        "potential_savings": "44.10",
-        "urgency": "medium"
-      }
-    ],
-    "SuggestedSunLifeLinks": [
-      ["Insurance Solutions", "Comprehensive overview of insurance products and services to protect you and your loved ones financially", "https://www.sunlife.ca/en/insurance/"],
-      ["About Sun Life", "Learn about Sun Life's history, values, and commitment to helping people achieve lifetime financial security and live healthier lives", "https://www.sunlife.ca/en/about-us/who-we-are/"],
-      ["Managing Your Money Blog", "Expert insights and practical tips on budgeting, saving, investing, and making smart financial decisions for your future", "https://www.sunlife.ca/en/tools-and-resources/money-and-finances/managing-your-money/"]
-    ]
-  }
-]
+      "money_saving_recommendations": [
+        {
+          "type": "spending_alert",
+          "category": "Child Expenses",
+          "message": "Your budget is $833.00 and you've currently spent $980.00 this month. Try to reduce your spending by $147.00",
+          "action": "Consider reducing spending in this category",
+          "current_spending": "980.00",
+          "recommended_spending": "833.00",
+          "potential_savings": "147.00",
+          "urgency": "medium"
+        },
+        {
+          "type": "spending_alert",
+          "category": "Groceries",
+          "message": "Your budget is $666.40 and you've currently spent $784.00 this month. Try to reduce your spending by $117.60",
+          "action": "Consider reducing spending in this category",
+          "current_spending": "784.00",
+          "recommended_spending": "666.40",
+          "potential_savings": "117.60",
+          "urgency": "medium"
+        },
+        {
+          "type": "spending_alert",
+          "category": "Transportation",
+          "message": "Your budget is $249.90 and you've currently spent $294.00 this month. Try to reduce your spending by $44.10",
+          "action": "Consider reducing spending in this category",
+          "current_spending": "294.00",
+          "recommended_spending": "249.90",
+          "potential_savings": "44.10",
+          "urgency": "medium"
+        }
+      ],
+      "SuggestedSunLifeLinks": [
+        ["Insurance Solutions", "Comprehensive overview of insurance products and services to protect you and your loved ones financially", "https://www.sunlife.ca/en/insurance/"],
+        ["About Sun Life", "Learn about Sun Life's history, values, and commitment to helping people achieve lifetime financial security and live healthier lives", "https://www.sunlife.ca/en/about-us/who-we-are/"],
+        ["Managing Your Money Blog", "Expert insights and practical tips on budgeting, saving, investing, and making smart financial decisions for your future", "https://www.sunlife.ca/en/tools-and-resources/money-and-finances/managing-your-money/"]
+      ]
+    }
+  ]
