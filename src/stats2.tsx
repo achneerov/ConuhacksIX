@@ -148,7 +148,7 @@ const Stats2 = () => {
 
   if(isMobile){
     return(
-        <div className="flex flex-col h-full bg-white rounded-lg p-6">
+        <div className="flex flex-col h-full bg-white rounded-lg">
       <div className="">
         <h2 className="text-2xl font-serif bold text-gray-800">Personalized Money-Saving Challenges</h2>
         <p className="text-sm text-gray-600">
@@ -169,7 +169,7 @@ const Stats2 = () => {
                   }`}>
                     {challenge.difficulty}
                   </span>
-                  <span className="ml-2 text-xs font-medium text-gray-500">{challenge.category}</span>
+                  <span className="text-xs font-medium text-gray-500">{challenge.category}</span>
                 </div>
               </div>
               <h3 className="text-lg font-semibold text-gray-800 mb-2">{challenge.title}</h3>
