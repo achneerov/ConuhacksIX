@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Calculator, MessageSquare, Send } from 'lucide-react';
 import { useUser } from './UserContext';
 import { GoogleGenerativeAI } from "@google/generative-ai";
+import { isMobile } from 'react-device-detect';
 
 // Initialize Gemini
 const genAI = new GoogleGenerativeAI("AIzaSyDZS2xaQvtXQzLaXXTSYasKc-lrwTc8KEs");
@@ -28,6 +29,75 @@ const MortgageCalculator = () => {
       (Math.pow(1 + monthlyRate, months) - 1);
     setMonthlyPayment(payment);
   };
+
+  if(isMobile){
+    return (
+      <div className="bg-white rounded-lg shadow-lg p-6">
+        <div className="flex items-center mb-6">
+          <Calculator className="h-6 w-6 text-blue-600 mr-2" />
+          <h2 className="text-2xl font-serif bold text-gray-800">Mortgage Calculator</h2>
+        </div>
+        <form onSubmit={calculateMortgage} className="space-y-4">
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1">
+              Loan Amount ($)
+            </label>
+            <input
+              type="number"
+              value={loanAmount}
+              onChange={(e) => setLoanAmount(e.target.value)}
+              className="w-full p-2 border border-gray-300 rounded-md"
+              placeholder="Enter loan amount"
+              required
+            />
+          </div>
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1">
+              Annual Interest Rate (%)
+            </label>
+            <input
+              type="number"
+              value={interestRate}
+              onChange={(e) => setInterestRate(e.target.value)}
+              className="w-full p-2 border border-gray-300 rounded-md"
+              placeholder="Enter interest rate"
+              step="0.1"
+              required
+            />
+          </div>
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1">
+              Loan Term (years)
+            </label>
+            <input
+              type="number"
+              value={loanTerm}
+              onChange={(e) => setLoanTerm(e.target.value)}
+              className="w-full p-2 border border-gray-300 rounded-md"
+              placeholder="Enter loan term"
+              required
+            />
+          </div>
+          <button
+            type="submit"
+            className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700"
+          >
+            Calculate
+          </button>
+        </form>
+        {monthlyPayment > 0 && (
+          <div className="mt-6 p-4 bg-gray-50 rounded-md">
+            <h3 className="text-lg font-semibold text-gray-800 mb-2">
+              Monthly Payment
+            </h3>
+            <p className="text-2xl font-bold text-blue-600">
+              ${monthlyPayment.toFixed(2)}
+            </p>
+          </div>
+        )}
+      </div>
+    );
+  }
 
   return (
     <div className="bg-white rounded-lg shadow-lg p-6">
@@ -210,6 +280,62 @@ The core purpose is maintaining laser focus on mortgages while making the topic 
     }
   }, [messages]);
 
+  if(isMobile){
+    return (
+    <div className="bg-white rounded-lg shadow-lg min-h-screen">
+      <div className="border-b p-4">
+        <div className="flex items-center">
+          <MessageSquare className="h-6 w-6 text-blue-600 mr-2" />
+          <h2 className="text-xl font-serif bold text-gray-800">Mortgage Product Advisor</h2>
+        </div>
+      </div>
+
+      <div ref={chatContainerRef} className="overflow-y-auto p-4 space-y-4">
+        {messages.map((msg, idx) => (
+          <div key={idx} className={`flex ${msg.isBot ? "justify-start" : "justify-end"}`}>
+            <div
+              className={`relative p-3 max-w-[80%] ${
+                msg.isBot
+                  ? "bg-[#ffcb4d] rounded-tl-2xl rounded-tr-2xl rounded-br-2xl"
+                  : "bg-blue-200 rounded-tl-2xl rounded-tr-2xl rounded-bl-2xl"
+              }`}
+            >
+              {msg.text}
+            </div>
+          </div>
+        ))}
+        {isLoading && (
+          <div className="flex justify-start">
+            <div className="relative p-3 bg-[#ffcb4d] rounded-tl-2xl rounded-tr-2xl rounded-br-2xl">
+              Thinking...
+            </div>
+          </div>
+        )}
+      </div>
+
+      <form onSubmit={handleSubmit} className="border-t p-4">
+        <div className="flex space-x-2">
+          <input
+            type="text"
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
+            placeholder="Type your message..."
+            className="flex-1 p-2 border border-gray-300 rounded-md"
+            disabled={isLoading}
+          />
+          <button
+            type="submit"
+            className="bg-blue-600 text-white p-2 rounded-md hover:bg-blue-700"
+            disabled={isLoading}
+          >
+            <Send className="h-5 w-5" />
+          </button>
+        </div>
+      </form>
+    </div>
+  );
+  }
+
   return (
     <div className="bg-white rounded-lg shadow-lg">
       <div className="border-b p-4">
@@ -267,8 +393,30 @@ The core purpose is maintaining laser focus on mortgages while making the topic 
 
 // Combined Interface Component
 const CombinedInterface = () => {
+  if (isMobile) {
+    return (
+      <div className="flex flex-col w-full h-full">
+  
+        <div className="grid md:grid-cols-2 flex-1 min-h-0 overflow-y-auto max-w-4xl mx-auto overflow-x-hidden">
+        <h1 className="text-3xl font-bold text-gray-800 mb-8 text-center">
+          Mortgage Tools
+        </h1>
+          {/* Left Column - Mortgage Calculator */}
+          <div className="">
+            <MortgageCalculator />
+          </div>
+  
+          {/* Right Column - Chatbot */}
+          <div className="">
+            <SuggestedProductsChatbot />
+          </div>
+        </div>
+      </div>
+    );
+  }
+  
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
+    <div className="min-h-screen bg-gray-100 p-6 ">
       <div className="max-w-7xl mx-auto">
         <h1 className="text-3xl font-bold text-gray-800 mb-8 text-center">Mortgage Tools</h1>
         
