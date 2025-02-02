@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import { useUser } from "./UserContext"; 
 
 // Initialize Gemini
-const genAI = new GoogleGenerativeAI("---");
+const genAI = new GoogleGenerativeAI("AIzaSyDZS2xaQvtXQzLaXXTSYasKc-lrwTc8KEs");
 
 interface Message {
   text: string;
