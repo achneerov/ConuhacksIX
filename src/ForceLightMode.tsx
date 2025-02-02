@@ -1,4 +1,3 @@
-// ForceLightMode.tsx
 import { useEffect, type ReactNode } from 'react';
 
 interface ForceLightModeProps {
@@ -33,38 +32,42 @@ const ForceLightMode: React.FC<ForceLightModeProps> = ({ children }) => {
             background-color: inherit;
             color: inherit;
           }
-          /* Button specific overrides */
-          button, 
-          [type='button'],
-          [type='reset'],
-          [type='submit'] {
+          /* Button specific overrides - exclude yellow-button class */
+          button:not(.yellow-button),
+          [type='button']:not(.yellow-button),
+          [type='reset']:not(.yellow-button),
+          [type='submit']:not(.yellow-button) {
             background-color: #e5e7eb !important; /* gray-200 equivalent */
             color: black !important;
             border-color: #d1d5db !important; /* gray-300 equivalent */
           }
-          
-          button:hover,
-          [type='button']:hover,
-          [type='reset']:hover,
-          [type='submit']:hover {
+          button:not(.yellow-button):hover,
+          [type='button']:not(.yellow-button):hover,
+          [type='reset']:not(.yellow-button):hover,
+          [type='submit']:not(.yellow-button):hover {
             background-color: #d1d5db !important; /* gray-300 equivalent */
           }
-          
-          button:active,
-          [type='button']:active,
-          [type='reset']:active,
-          [type='submit']:active {
+          button:not(.yellow-button):active,
+          [type='button']:not(.yellow-button):active,
+          [type='reset']:not(.yellow-button):active,
+          [type='submit']:not(.yellow-button):active {
             background-color: #9ca3af !important; /* gray-400 equivalent */
           }
-
-          /* Override any dark mode specific button classes */
-          button[class*="dark:"],
-          [type='button'][class*="dark:"],
-          [type='reset'][class*="dark:"],
-          [type='submit'][class*="dark:"] {
+          /* Override any dark mode specific button classes - exclude yellow-button */
+          button:not(.yellow-button)[class*="dark:"],
+          [type='button']:not(.yellow-button)[class*="dark:"],
+          [type='reset']:not(.yellow-button)[class*="dark:"],
+          [type='submit']:not(.yellow-button)[class*="dark:"] {
             background-color: #e5e7eb !important;
             color: black !important;
             border-color: #d1d5db !important;
+          }
+          /* Preserve yellow button styles */
+          .yellow-button {
+            background-color: #ffcb4d !important;
+          }
+          .yellow-button:hover {
+            background-color: #e6b745 !important;
           }
         }
       `;
