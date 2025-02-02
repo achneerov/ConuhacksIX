@@ -15,7 +15,7 @@ const Chatbot: React.FC = () => {
   ]);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
-  const chatContainerRef = useRef<HTMLDivElement>(null); // Ref for chat container
+  const chatContainerRef = useRef<HTMLDivElement>(null);
 
   const generateResponse = async (userInput: string) => {
     try {
@@ -37,7 +37,7 @@ const Chatbot: React.FC = () => {
 
       const result = await chat.sendMessage(userInput);
       const response = await result.response;
-      return response.text(); // Return the entire response text
+      return response.text();
     } catch (error) {
       console.error("Error generating response:", error);
       return "I apologize, but I'm having trouble processing your request right now.";
@@ -57,13 +57,13 @@ const Chatbot: React.FC = () => {
       const response = await generateResponse(input);
 
       // Split the response into paragraphs
-      const paragraphs = response.split(/\n\n+/); // Split by double newlines (or more)
+      const paragraphs = response.split(/\n\n+/);
 
       // Add each paragraph as a separate message with a delay
       paragraphs.forEach((paragraph) => {
         setTimeout(() => {
           setMessages((prev) => [...prev, { text: paragraph, isBot: true }]);
-        }, (Math.random() * 2) * 1000); // Delay each paragraph by 1 second per chunk
+        }, (Math.random() * 2) * 1000);
       });
     } catch (error) {
       console.error("Error:", error);
@@ -72,12 +72,11 @@ const Chatbot: React.FC = () => {
     }
   };
 
-  // Smooth auto-scroll to the bottom when messages update
   useEffect(() => {
     if (chatContainerRef.current) {
       chatContainerRef.current.scrollTo({
         top: chatContainerRef.current.scrollHeight,
-        behavior: "smooth", // Enables slow, smooth scrolling
+        behavior: "smooth",
       });
     }
   }, [messages]);
@@ -93,7 +92,6 @@ const Chatbot: React.FC = () => {
         <h2 className="text-xl font-serif bold">SunBot</h2>
       </div>
 
-      {/* Chat messages container */}
       <div
         ref={chatContainerRef}
         className="h-64 space-y-4 overflow-y-auto mb-4"
@@ -101,15 +99,31 @@ const Chatbot: React.FC = () => {
         {messages.map((msg, idx) => (
           <div
             key={idx}
-            className={`p-3 rounded-lg ${
-              msg.isBot ? "bg-[#ffcb4d] mr-8" : "bg-blue-200 ml-8"
-            }`}
+            className={`flex ${msg.isBot ? "justify-start" : "justify-end"}`}
           >
-            {msg.text}
+            <div
+              className={`relative p-3 max-w-[80%] ${
+                msg.isBot
+                  ? "bg-[#ffcb4d] rounded-2xl rounded-bl-none ml-2"
+                  : "bg-blue-200 rounded-2xl rounded-br-none mr-2"
+              }`}
+            >
+              <div className={`absolute bottom-0 ${
+                msg.isBot
+                  ? "-left-2 border-[8px] border-transparent border-r-[#ffcb4d]"
+                  : "-right-2 border-[8px] border-transparent border-l-blue-200"
+              }`} />
+              {msg.text}
+            </div>
           </div>
         ))}
         {isLoading && (
-          <div className="p-3 rounded-lg bg-[#ffcb4d] mr-8">Thinking...</div>
+          <div className="flex justify-start">
+            <div className="relative p-3 bg-[#ffcb4d] rounded-2xl rounded-bl-none ml-2">
+              <div className="absolute bottom-0 -left-2 border-[8px] border-transparent border-r-[#ffcb4d]" />
+              Thinking...
+            </div>
+          </div>
         )}
       </div>
 
