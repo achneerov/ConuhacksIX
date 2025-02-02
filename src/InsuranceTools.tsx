@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Calculator, MessageSquare, Send } from 'lucide-react';
 import { useUser } from './UserContext';
 import { GoogleGenerativeAI } from "@google/generative-ai";
+import { isMobile } from 'react-device-detect';
 
 // Initialize Gemini
 const genAI = new GoogleGenerativeAI("AIzaSyDZS2xaQvtXQzLaXXTSYasKc-lrwTc8KEs");
@@ -290,6 +291,25 @@ NOW YOU KNOW THE DEAL. Let's talk insurance.
 
 // Combined Interface Component
 const CombinedInterface = () => {
+  if(isMobile){
+    return(
+      <div className="flex flex-col w-full h-full">
+      <div className="grid md:grid-cols-2 flex-1 min-h-0 overflow-y-auto max-w-4xl mx-auto overflow-x-hidden">
+        
+        <h1 className="text-3xl font-bold text-gray-800 mb-8 text-center">Insurance Tools</h1>
+          {/* Left Column - Insurance Calculator */}
+          <div className="">
+            <InsuranceCalculator />
+          </div>
+          
+          {/* Right Column - Chatbot */}
+          <div className="">
+            <InsuranceChatBot />
+          </div>
+      </div>
+    </div>
+    );
+  }
   return (
     <div className="min-h-screen bg-gray-100 p-6">
       <div className="max-w-7xl mx-auto">
