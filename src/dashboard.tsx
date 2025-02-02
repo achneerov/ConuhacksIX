@@ -9,31 +9,31 @@ const Dashboard: React.FC = () => {
   if(isMobile){
     return(
       <div className="flex flex-col w-full h-full gap-4">
-  {/* Grid container that switches from 1 column on mobile to 2 columns on md screens */}
-  <div className="grid md:grid-cols-2 gap-4 flex-1 min-h-0 overflow-y-auto max-w-full overflow-x-hidden">
-    <div className="">
-      <div className="">
-        <Stats1 />
+      {/* Grid container that switches from 1 column on mobile to 2 columns on md screens */}
+      <div className="grid md:grid-cols-2 gap-4 flex-1 min-h-0 overflow-y-auto max-w-4xl mx-auto overflow-x-hidden">
+        <div className="">
+          <div className="">
+            <Stats1 />
+          </div>
+        </div>
+        <div className="">
+          <div className="">
+            <Stats2 />
+          </div>
+        </div>
+        <div className="">
+          <div className="">
+            <Stats3 />
+          </div>
+        </div>
+        <div className="">
+          <div className="">
+            <Chatbot />
+          </div>
+        </div>
       </div>
     </div>
-    <div className="">
-      <div className="">
-        <Stats2 />
-      </div>
-    </div>
-    <div className="">
-      <div className="">
-        <Stats3 />
-      </div>
-    </div>
-    <div className="">
-      <div className="">
-        <Chatbot />
-      </div>
-    </div>
-  </div>
-</div>
-
+    
     );
   }
   return (
