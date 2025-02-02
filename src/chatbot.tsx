@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import { useUser } from "./UserContext"; 
 
 // Initialize Gemini
-const genAI = new GoogleGenerativeAI("---");
+const genAI = new GoogleGenerativeAI("AIzaSyDZS2xaQvtXQzLaXXTSYasKc-lrwTc8KEs");
 
 interface Message {
   text: string;
@@ -100,6 +100,10 @@ const Chatbot: React.FC = () => {
       });
     }
   }, [messages]);
+  useEffect(() => {
+    // Reset chat history when the selected user changes
+    setMessages([{ text: "Hello! How can I help you today?", isBot: true }]);
+  }, [selectedUser]);
 
   return (
     <div className="bg-gray-100 p-6 rounded-lg flex flex-col h-full max-h-[500px]">
