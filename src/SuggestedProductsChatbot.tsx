@@ -4,7 +4,7 @@ import { useUser } from "./UserContext";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // Initialize Gemini
-const genAI = new GoogleGenerativeAI("AIzaSyDZS2xaQvtXQzLaXXTSYasKc-lrwTc8KEs");
+const genAI = new GoogleGenerativeAI("---");
 
 interface Message {
   text: string;
