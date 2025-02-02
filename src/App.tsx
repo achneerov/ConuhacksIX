@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Dashboard from './dashboard';
 import Header from './header';
 import ForceLightMode from './ForceLightMode';
-import MortgageCalculator from './MortgageCalculator';
 import SuggestedProductsChatbot from './SuggestedProductsChatbot';
 import { UserProvider } from './UserContext';
 
@@ -18,7 +17,6 @@ const App: React.FC = () => {
           <div className="flex-1 p-4 overflow-hidden">
             <Routes>
               <Route path="/" element={<Dashboard />} />
-              <Route path="/mortgage-calculator" element={<MortgageCalculator />} />
               <Route path="/suggested-products" element={<SuggestedProductsChatbot />} />
             </Routes>
           </div>

@@ -26,8 +26,7 @@ const Header = () => {
   }, []);
 
   const tools = [
-    { name: 'Mortgage Calculator', href: '/mortgage-calculator' },
-    { name: 'Suggested Products Chatbot', href: '/suggested-products' },
+    { name: 'Mortgage Tools', href: '/suggested-products' },
   ];
 
   return (
